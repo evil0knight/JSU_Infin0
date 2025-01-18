@@ -15,7 +15,7 @@
  **车模买了，问客服要资料没有，车模不包含主板驱动板，除了车模还要有学习主板，驱动板我的建议是直接买学习套件1537元，可是这个学习套件里没有驱动板，**  
  **刚刚看了一下，学习板改了，还是重新买学习板吧，不要学长的了。（排针都歪了，资料也好乱，太难受了）明天9点问一下客服买学习板给不给资料，买驱动板给不给资料，买4路舵机电源模块给不给资料**   
  **总的就是告诉客服，我有核心板，车模，英飞凌下载器，那要一辆完整的车还差什么，管他要核心版，驱动板，电源舵机模块的引脚，以及各种资料。（1月21停止发货，在这之前必须搞定）**  
- **主板资料：[https://gitee.com/seekfree/TC264_Library](https://gitee.com/seekfree/TC264_Library/tree/master/Seekfree_TC264_Opensource_Library)，驱动板资料：https://gitee.com/seekfree/CYT2BL3_Brushless_Driver_Project**  
+ **主板资料：[https://gitee.com/seekfree/TC264_Library](https://gitee.com/seekfree/TC264_Library/tree/master/Seekfree_TC264_Opensource_Library)，驱动板资料：[https://gitee.com/seekfree/CYT2BL3_Brushless_Driver_Project](https://gitee.com/seekfree/CYT2BL3_Brushless_Driver_Project)**  
  我的队友好高冷，要感冒了，😢😢，能不能理我一下。抓狂！！！  
   ## **2025.1.17**： 
   牛魔的，轮腿组小群连发21条消息，21小时过去，0个人回复，失踪了？想报警。  
