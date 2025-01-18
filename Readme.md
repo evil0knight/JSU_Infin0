@@ -17,11 +17,11 @@
  **总的就是告诉客服，我有核心板，车模，英飞凌下载器，那要一辆完整的车还差什么，管他要核心版，驱动板，电源舵机模块的引脚，以及各种资料。（1月21停止发货，在这之前必须搞定）**  
  **主板资料：[https://gitee.com/seekfree/TC264_Library](https://gitee.com/seekfree/TC264_Library/tree/master/Seekfree_TC264_Opensource_Library)，驱动板资料：[https://gitee.com/seekfree/CYT2BL3_Brushless_Driver_Project](https://gitee.com/seekfree/CYT2BL3_Brushless_Driver_Project)**  
  我的队友好高冷，要感冒了，😢😢，能不能理我一下。抓狂！！！  
-  ## **2025.1.17**： 
+  ## **2025.1.18**： 
   牛魔的，轮腿组小群连发21条消息，21小时过去，0个人回复，失踪了？想报警。  
   回复了，but it's too late to apologize,it's too late(🎶);  
   **微信公众号逐飞科技，车模浅析,轮腿组准备流程**  
-  上午看whx玩游戏，5把赢了1把，乐，农p的丑态。 
+  上午看whx玩游戏，5把赢了1把，乐，农p的丑态。  
   **学习套件买了，冲，如果像我一样，有核心板和英飞凌下载器，直接跟客服说，他会帮你改价，直接下单学习套件，提交订单，等他改价，再付款，到货之后如果不退货，他才会发学习资料，许多学习资料是要等车模来了之后才能有的。**  
   
   
