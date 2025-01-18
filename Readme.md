@@ -18,5 +18,7 @@
  **主板资料：https://gitee.com/seekfree/TC264_Library，驱动板资料：https://gitee.com/seekfree/CYT2BL3_Brushless_Driver_Project**  
  我的队友好高冷，要感冒了，😢😢，能不能理我一下。抓狂！！！  
   ## **2025.1.17**： 
-  牛魔的，轮腿组小群连发21条消息，21小时过去，0个人回复，失踪了？想报警。我操啊好烦好烦好烦好烦好烦好烦好烦好烦  
+  牛魔的，轮腿组小群连发21条消息，21小时过去，0个人回复，失踪了？想报警。  
+  回复了，but it's too late to apologize,it's too late(🎶);  
+  
 
