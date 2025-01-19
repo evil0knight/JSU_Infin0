@@ -33,5 +33,6 @@
   车模到了，吃完饭就可以迎接我的爱车了.  
   车模3部分[车模](https://github.com/evil0knight/JSU_Infin0/blob/main/images/9311554847967D365C688860AB1F6429.jpg),[收据](https://github.com/evil0knight/JSU_Infin0/blob/main/images/98A2E7EA33E9AA6A04E9D717F7FDEE33.jpg),[说明书](https://github.com/evil0knight/JSU_Infin0/blob/main/images/67C884BD3F96ADC681F1E695504C7463.jpg);  
   这里个你们隆重介绍一下我家的猫他叫[弟](https://github.com/evil0knight/JSU_Infin0/blob/main/images/5B9B17CED5BF7DACF951AFD515C9DF47.jpg)[弟](https://github.com/evil0knight/JSU_Infin0/blob/main/images/BB20DE6B64B784C16F2C725232924278.jpg),已经有我几分感觉了，帅猫TV。  
+  我有罪，今天没学多少，明天7点就起床，这小车我一定会搓出来的，明天一定好好学习。  
   
   
