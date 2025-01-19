@@ -7,7 +7,7 @@
  这是我第三天打开英飞凌软件，还是不会用，结果一早上王zy学长突然来实验室了，教了我快1小时，that's amazing！，祝王zy学长考研顺利。**根据官方文档进入软件，重复操作set actie会导致example呈现灰色。ctrl+z是返回上一步**  
  **这个软件好像改版了，官方文档上下载按钮找不到，无法重复下载，目前办法是一直按着reset按钮，然后多试几次debug就行了**
  **重要图片，详情看学长给的小车建造思路**  
- /assets/images/
+ [WZY学长笔记](https://github.com/evil0knight/JSU_Infin0/blob/main/images/wzy%E5%AD%A6%E9%95%BF%E7%9A%84%E5%B0%8F%E8%BD%A6%E6%9E%84%E5%BB%BA%E9%87%8D%E8%A6%81%E6%80%9D%E8%B7%AF.jpg)
  上图学长笔记，可是我还没学编码器，陀螺仪。  
 
  ## **2025.1.17**： 
