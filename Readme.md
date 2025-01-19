@@ -31,7 +31,7 @@
   **对比度没搜到，图像采集出来的是一个矩阵，按照总钻风采集出来的图像，矩阵上每个点由白（0）到黑（255）的一个色（0~255），就是个二维数组，二值化的意思是先用大津法（一种图像算法，好像照抄就好了，不确定）算出一个阈值，小于这个阈值就是白（0），大于这个就是黑（255），这样算法会方便易懂，逆势化就是把图像变成一个上帝视角，采集到的路都是横平竖直的，这些是从B站上看的，UP：WwuSama的智能车入门基础教学合集里看的。目前来看，这个合集很重要，八邻域我没搜，根据WZY学长所述，就是有时候图像会采集到白块，如果这个白块4周都是黑色，那他就是黑色，黑色同理**  
   **舵机的原理：他是一个伺服系统，意思是输出可以影响输入，转动的动力来源只是一个普通电机，通过齿轮组加大扭力，当到达设定角度时，电机被断电，设定角度的测量通过一个芯片测量，输入信息时PWM，高电压时间越长，就越顺时针转（大概这个意思），舵机旋转角度不要太大，舵机容易坏，装在车上的时候，舵机角度有限，一定要会了在装**  
   车模到了，吃完饭就可以迎接我的爱车了.  
-  车模3部分[车模](),[收据](),[说明书]();
+  车模3部分[车模](https://github.com/evil0knight/JSU_Infin0/blob/main/images/9311554847967D365C688860AB1F6429.jpg),[收据](https://github.com/evil0knight/JSU_Infin0/blob/main/images/98A2E7EA33E9AA6A04E9D717F7FDEE33.jpg),[说明书](https://github.com/evil0knight/JSU_Infin0/blob/main/images/67C884BD3F96ADC681F1E695504C7463.jpg);
   这里个你们隆重介绍一下我家的猫他叫[弟](https://github.com/evil0knight/JSU_Infin0/blob/main/images/5B9B17CED5BF7DACF951AFD515C9DF47.jpg)[弟](https://github.com/evil0knight/JSU_Infin0/blob/main/images/BB20DE6B64B784C16F2C725232924278.jpg)  
   
   
