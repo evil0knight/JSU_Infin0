@@ -34,7 +34,7 @@
   车模3部分[车模](https://github.com/evil0knight/JSU_Infin0/blob/main/images/9311554847967D365C688860AB1F6429.jpg),[收据](https://github.com/evil0knight/JSU_Infin0/blob/main/images/98A2E7EA33E9AA6A04E9D717F7FDEE33.jpg),[说明书](https://github.com/evil0knight/JSU_Infin0/blob/main/images/67C884BD3F96ADC681F1E695504C7463.jpg);   
   这里个你们隆重介绍一下我家的猫他叫[弟](https://github.com/evil0knight/JSU_Infin0/blob/main/images/5B9B17CED5BF7DACF951AFD515C9DF47.jpg)[弟](https://github.com/evil0knight/JSU_Infin0/blob/main/images/BB20DE6B64B784C16F2C725232924278.jpg)。   
   我有罪，今天没学多少，明天7点就起床，这小车我一定会搓出来的，明天一定好好学习。  
-  至我的车：  
+  至车：  
   车，你是我无欲无求的人生里旁生出的一丝贪念。  
   车，钱的事你不用担心，我会说服我的队友，一起A钱买最好的配件，我想比赛那天，你一定美的很惊艳。  
   车，我更喜爱你的灵魂，我想你心里留下最美好的程序，别无所求，只希望你能每天蹦蹦跳跳的走在赛道上，让周围的一切都沾染上你的光，从此阳光灿烂，万物生长。  
