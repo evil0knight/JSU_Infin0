@@ -49,4 +49,12 @@
   理发师你说这个发型好看的时候良心不痛吗，没法过年了🥲。  
   在写注释，明天看看能不能焊小车，明天把写好的注释提交。  
   已经有人把小车站起来了，我5天之内争取  
+  #  **2025.1.22**：  
+  **小车需要焊接，焊接只要差不多拔不下来就行，焊多了可以趁融化的时候把他甩下来，小经验**  
+  拧螺丝的时候可以先拿一个小螺丝攻丝，然后在上M3*5+6.  
+  **看安装驱动板安装版的驱动板方向再焊接驱动板，都是一一对应的😭**  
+  今天花了一天时间看了学长写的函数，我滴妈，太复杂了，估计还要看两天才能看懂怎么用。  
+  不过这车是真帅，真TM的帅，无敌帅，帅无敌。  
+  靓车爆照[1图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/1.jpg),[2图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/2.jpg),[3图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/3.jpg),[4图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/4.jpg).  
+  
   
