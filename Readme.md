@@ -53,7 +53,7 @@
   **小车需要焊接，焊接只要差不多拔不下来就行，焊多了可以趁融化的时候把他甩下来，小经验**  
   拧螺丝的时候可以先拿一个小螺丝攻丝，然后在上M3*5+6.  
   **看安装驱动板安装版的驱动板方向再焊接驱动板，都是一一对应的😭**  
-  今天花了一天时间看了学长写的函数，我滴妈，太复杂了，估计还要看两天才能看懂怎么用。  
+  今天花了一天时间看了学长写的函数，我滴妈，太复杂了，估计还要看两天才能看懂怎么用。我把代码都用GPT写了注释，gpt比KIMI好用点，吧，好用一点，用freecat翻墙，网上应该有翻墙教程吧，我这还是rm学长教我的，可惜叛变到智能车了，sorry.    
   不过这车是真帅，真TM的帅，无敌帅，帅无敌。  
   靓车爆照[1图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/1.jpg),[2图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/2.jpg),[3图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/3.jpg),[4图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/4.jpg).  
   
