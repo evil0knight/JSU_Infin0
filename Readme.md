@@ -56,5 +56,15 @@
   今天花了一天时间看了学长写的函数，我滴妈，太复杂了，估计还要看两天才能看懂怎么用。我把代码都用GPT写了注释，gpt比KIMI好用点，吧，好用一点，用freecat翻墙，网上应该有翻墙教程吧，我这还是rm学长教我的，可惜叛变到智能车了，sorry.    
   不过这车是真帅，真TM的帅，无敌帅，帅无敌。  
   靓车爆照[1图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/1.jpg),[2图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/2.jpg),[3图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/3.jpg),[4图](https://github.com/evil0knight/JSU_Infin0/blob/main/images/4.jpg).  
+  #  **2025.1.23**:  
+  **电池到了一定要先充电，一定要买配套电池，那个官方的驱动历程，没有电池电机是转不起来的，蓝灯，提示音也不会响，电压问题**  
+  **官方文档TC264_Library-master-->【文档】ADS使用教程 芯片手册等，这个挺重要，看看例程的功能**  
+  今天实验了电机，陀螺仪，都能正常工作，还好没有把驱动焊坏。  
+  陀螺仪的加速度怎么静止都上千了，为啥  
+  官方发的历程都要好好看，估计最后就是这些历程拼图造小车  
+  这几天手机又看多了，红果短剧控人有一手啊，不过我只看广告。  
+  我要早起学习，群里佬都完赛了，呜呜呜呜  
+  #  **2025.1.24**:  
+  sleep  
   
   
