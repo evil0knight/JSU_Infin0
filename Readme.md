@@ -108,4 +108,5 @@
   手好冷啊，我想先洗个澡，好难受  
   手好冷啊，
 ##  **2025.2.8**  
-**问题无意间找到了，陀螺仪放置方向有问题导致角度解算慢，WTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF，就这个问题搞得我，shittttttttttttttttttt,真是跟吃屎了一样**  
+**问题无意间找到了，陀螺仪放置方向有问题导致角度解算慢，WTFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF，就这个问题搞得我，shittttttttttttttttttt,真是跟吃屎了一样**   
+不对不对，他现在正常了？为什么跟昨天晚上状况不一样啊，wc,陀螺仪位置也不用改了？搞什么鬼  
