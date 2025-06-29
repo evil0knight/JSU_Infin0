@@ -1,1 +1,17 @@
-
+找一个干净的tc264_opensource_library  
+把除了main0，main1和isr的放到code里
+这3个放到user里  
+记得写"zf_common_headfile.h"  
+#include "ekf.h"
+#include "matrix.h"
+#include "small_driver_uart_control.h"
+#include "PID.h"
+#include "init.h"
+#include "isp200_show.h"
+#include "vmc.h"
+#include "leg_flexible.h"
+#include "search_line.h"
+#include "image(3).h"
+#include "island.h"
+#include "key_status.h"
+#include "menu.h"
