@@ -1,0 +1,13 @@
+21:59:37 **** Build of configuration Debug for project E04_pwm_demo ****
+amk -j20 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "E04_pwm_demo.elf"
+Total sizes:
+ROM: 0x7817 (30743) = code: 0x605a (24666) + romdata: 0x17bd (6077)
+RAM: 0x642a (25642) = data + bss
+Finished building: E04_pwm_demo.siz
+ 
+
+21:59:38 Build Finished. 0 errors, 0 warnings. (took 795ms)
+

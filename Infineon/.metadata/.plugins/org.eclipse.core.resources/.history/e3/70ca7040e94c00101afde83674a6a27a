@@ -1,0 +1,253 @@
+#include "zf_common_headfile.h"
+
+
+//ISLAND_H_1是轮腿开源佬的圆环代码,ISLAND_H_2是B站的代码
+#define ISLAND_H_2
+island_mode_choice circle_type;
+
+circle_type = CIRCLE_NONE;
+#if defined(ISLAND_H_1)
+
+island_mode_choice circle_type;
+track_type_e track_type;
+circle_type = CIRCLE_NONE;
+int beel = 0;
+
+int32_t Left_Border_None_Circle  = 0;
+int32_t Right_Border_None_Circle = 0;
+
+int32_t Left_Border_Have_Circle  = 0;
+int32_t Right_Border_Have_Circle = 0;
+
+int32_t Left_Border_ToLeft_Circle  = 0;
+int32_t Right_Border_ToLeft_Circle = 0;
+
+int32_t Left_Border_ToRight_Circle  = 0;
+int32_t Right_Border_ToRight_Circle = 0;
+/**
+* @brief 弯道检测与填充函数
+* @param uint8(*image)[image_w]     灰度图像数组
+* @param uint8 *l_border            左边缘数组
+* @param uint8 *r_border            右边缘数组
+* @param uint16 total_num_l         左边缘点总数
+* @param uint16 total_num_r         右边缘点总数
+* @param uint16 *dir_l              左边缘方向数组
+* @param uint16 *dir_r              右边缘方向数组
+* @param uint16(*points_l)[2]       左边缘点坐标数组
+* @param uint16(*points_r)[2]       右边缘点坐标数组
+* @param uint8* hightest            最高有效行指针
+* @param uint16 *l_index            左边缘索引数组
+* @param uint16 *r_index            右边缘索引数组
+* @param int monotonicity_l         左边缘单调性
+* @param int monotonicity_r         右边缘单调性
+*/
+void CheckCircle(uint8 *l_border, uint8 *r_border,
+                 uint16 total_num_l, uint16 total_num_r,
+                 uint16 *dir_l, uint16 *dir_r,
+                 uint16(*points_l)[2], uint16(*points_r)[2],
+                 uint8* hightest,
+                 uint16 *l_index, uint16 *r_index,
+                 int monotonicity_l, int monotonicity_r)
+{
+    // 将原函数中的变量替换为参数
+    // 原条件1: circle_type == CIRCLE_NONE && Lpt0_found && !Lpt1_found && is_straight1
+    if (circle_type == CIRCLE_NONE &&
+        total_num_l > 0 &&           // Lpt0_found: 左边缘存在
+        total_num_r == 0 &&          // !Lpt1_found: 右边缘不存在
+        monotonicity_r == 1)         // is_straight1: 右边缘单调性为1 (直道)
+    {
+        circle_type = CIRCLE_LEFT_BEGIN;
+        //beel = 500;
+    }
+
+    // 原条件2: circle_type == CIRCLE_NONE && !Lpt0_found && Lpt1_found && is_straight0
+    if (circle_type == CIRCLE_NONE &&
+        total_num_l == 0 &&          // !Lpt0_found: 左边缘不存在
+        total_num_r > 0 &&           // Lpt1_found: 右边缘存在
+        monotonicity_l == 1)         // is_straight0: 左边缘单调性为1 (直道)
+    {
+        circle_type = CIRCLE_RIGHT_BEGIN;
+       // beel = 500;
+    }
+}
+void RunCircle(uint8 *l_border, uint8 *r_border, uint16 total_num_l, uint16 total_num_r,
+               uint16 *dir_l, uint16 *dir_r, uint16(*points_l)[2], uint16(*points_r)[2],
+               uint8* highest, uint16 *l_index, uint16 *r_index,
+               int monotonicity_l, int monotonicity_r)
+{
+    if (circle_type == CIRCLE_LEFT_BEGIN)
+    {
+        track_type = TRACK_RIGHT;
+
+        // 替换：pts_resample_left_count -> total_num_l
+        if (total_num_l < 0.06 / RESAMPLEDIST) {
+            Left_Border_None_Circle++;
+        }
+        if (total_num_l > 0.2 / RESAMPLEDIST && Left_Border_None_Circle > FRAMENONE) {
+            Left_Border_Have_Circle++;
+            if (Left_Border_Have_Circle > FRAMENONE) {
+                circle_type             = CIRCLE_LEFT_IN;
+                Left_Border_None_Circle = 0;
+                Left_Border_Have_Circle = 0;
+            }
+        }
+    }
+    else if (circle_type == CIRCLE_LEFT_IN)
+    {
+        track_type = TRACK_LEFT;
+
+        // 替换：pts_resample_right -> points_r
+        if (points_r[(int32_t)(0.2 / RESAMPLEDIST)][1] - points_r[0][1] < -2) {
+            Right_Border_ToLeft_Circle++;
+        }
+        if (Right_Border_ToLeft_Circle > FRAMETOLEFT) {
+            circle_type                = CIRCLE_LEFT_RUNNING;
+            Right_Border_ToLeft_Circle = 0;
+        }
+    }
+    else if (circle_type == CIRCLE_LEFT_RUNNING)
+    {
+        track_type = TRACK_RIGHT;
+
+        // 替换：Lpt1_found -> (r_index 存在性逻辑)
+        if (/* r_index 存在 */) {
+            // 替换：Lpt1_rpts1s_id -> r_index 对应值
+            total_num_r = mid_right_count = /* r_index 值 */;
+        }
+        if (/* r_index 存在 */ && /* r_index 值 */ < 0.4 / RESAMPLEDIST) {
+            circle_type = CIRCLE_LEFT_OUT;
+        }
+    }
+    else if (circle_type == CIRCLE_LEFT_OUT)
+    {
+        track_type = TRACK_LEFT;
+
+        // 替换：is_straight1 -> monotonicity_r 判断
+        if (monotonicity_r == STRAIGHT) {
+            circle_type = CIRCLE_LEFT_END;
+        }
+    }
+    else if (circle_type == CIRCLE_LEFT_END)
+    {
+        track_type = TRACK_RIGHT;
+
+        // 替换：pts_resample_left_count -> total_num_l
+        if (total_num_l < 0.1 / RESAMPLEDIST) {
+            Left_Border_None_Circle++;
+        }
+        if (total_num_l > 0.5 / RESAMPLEDIST && Left_Border_None_Circle > FRAMENONE) {
+            circle_type                 = CIRCLE_NONE;
+            Left_Border_None_Circle     = 0;
+            Left_Border_Have_Circle     = 0;
+            Right_Border_ToLeft_Circle  = 0;
+            Right_Border_ToRight_Circle = 0;
+            //beel = 500;
+        }
+    }
+    else if (circle_type == CIRCLE_RIGHT_BEGIN)
+    {
+        track_type = TRACK_LEFT;
+
+        // 替换：pts_resample_right_count -> total_num_r
+        if (total_num_r < 0.06 / RESAMPLEDIST) {
+            Right_Border_None_Circle++;
+        }
+        if (total_num_r > 0.2 / RESAMPLEDIST && Right_Border_None_Circle > FRAMENONE) {
+            Right_Border_Have_Circle++;
+            if (Right_Border_Have_Circle > FRAMENONE) {
+                circle_type              = CIRCLE_RIGHT_IN;
+                Right_Border_None_Circle = 0;
+                Right_Border_Have_Circle = 0;
+            }
+        }
+    }
+    else if (circle_type == CIRCLE_RIGHT_IN)
+    {
+        track_type = TRACK_RIGHT;
+
+        // 替换：pts_resample_left -> points_l
+        if (points_l[(int32_t)(0.2 / RESAMPLEDIST)][1] - points_l[0][1] > 2) {
+            Left_Border_ToRight_Circle++;
+        }
+        if (Left_Border_ToRight_Circle > FRAMETORIGHT) {
+            circle_type                = CIRCLE_RIGHT_RUNNING;
+            Left_Border_ToRight_Circle = 0;
+        }
+    }
+    else if (circle_type == CIRCLE_RIGHT_RUNNING)
+    {
+        track_type = TRACK_RIGHT;
+
+        // 替换：Lpt0_found -> (l_index 存在性逻辑)
+        if (/* l_index 存在 */) {
+            // 替换：Lpt0_rpts0s_id -> l_index 对应值
+            total_num_l = mid_left_count = /* l_index 值 */;
+        }
+        if (/* l_index 存在 */ && /* l_index 值 */ < 0.4 / RESAMPLEDIST) {
+            circle_type = CIRCLE_RIGHT_OUT;
+        }
+    }
+    else if (circle_type == CIRCLE_RIGHT_OUT)
+    {
+        track_type = TRACK_RIGHT;
+
+        // 替换：is_straight0 -> monotonicity_l 判断
+        if (monotonicity_l == STRAIGHT) {
+            circle_type = CIRCLE_RIGHT_END;
+        }
+    }
+    else if (circle_type == CIRCLE_RIGHT_END)
+    {
+        track_type = TRACK_LEFT;
+
+        // 替换：pts_resample_right_count -> total_num_r
+        if (total_num_r < 0.1 / RESAMPLEDIST) {
+            Right_Border_None_Circle++;
+        }
+        if (total_num_r > (0.5 / RESAMPLEDIST) && Right_Border_None_Circle > FRAMENONE) {
+            circle_type                = CIRCLE_NONE;
+            Right_Border_None_Circle   = 0;
+            Right_Border_Have_Circle   = 0;
+            Left_Border_ToLeft_Circle  = 0;
+            Left_Border_ToRight_Circle = 0;
+            //beel = 500;
+        }
+    }
+}
+#elif defined(ISLAND_H_2)
+/**
+* @brief 弯道检测与填充函数
+* @param uint8(*image)[image_w]     灰度图像数组
+* @param uint8 *l_border            左边缘数组
+* @param uint8 *r_border            右边缘数组
+* @param uint16 total_num_l         左边缘点总数
+* @param uint16 total_num_r         右边缘点总数
+* @param uint16 *dir_l              左边缘方向数组
+* @param uint16 *dir_r              右边缘方向数组
+* @param uint16(*points_l)[2]       左边缘点坐标数组
+* @param uint16(*points_r)[2]       右边缘点坐标数组
+* @param uint8* hightest            最高有效行指针
+* @param uint16 *l_index            左边缘索引数组
+* @param uint16 *r_index            右边缘索引数组
+* @param int monotonicity_l         左边缘单调性
+* @param int monotonicity_r         右边缘单调性，单调是1，不单调是0
+* @return 无返回值，结果存储在全局变量中
+*     -<em>false</em> fail
+*     -<em>true</em> succeed
+ */
+void around_fill_1(uint8(*image)[image_w], uint8 *l_border, uint8 *r_border, uint16 total_num_l, uint16 total_num_r,
+                 uint16 *dir_l, uint16 *dir_r, uint16(*points_l)[2], uint16(*points_r)[2],
+                 uint8* hightest,uint16 *l_index,uint16 *r_index, int monotonicity_l, int monotonicity_r)
+{
+    if(/*island==2&&*/monotonicity_r==0&&monotonicity_l==1&&*hightest<15&&(circle_type==CIRCLE_NONE||circle_type==CIRCLE_RIGHT_BEGIN))//检测到了右环条件右边出现断裂,右边搜到黑框上,左边单调
+    {
+    /*右*/circle_type=CIRCLE_RIGHT_BEGIN;//开始圆环
+
+    /*右*/
+    }
+
+
+
+}
+
+#endif

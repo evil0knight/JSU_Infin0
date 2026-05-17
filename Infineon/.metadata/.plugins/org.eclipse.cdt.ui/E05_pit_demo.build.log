@@ -1,0 +1,13 @@
+21:59:49 **** Build of configuration Debug for project E05_pit_demo ****
+amk -j20 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "E05_pit_demo.elf"
+Total sizes:
+ROM: 0x68d2 (26834) = code: 0x6130 (24880) + romdata: 0x7a2 (1954)
+RAM: 0x6422 (25634) = data + bss
+Finished building: E05_pit_demo.siz
+ 
+
+21:59:50 Build Finished. 0 errors, 0 warnings. (took 679ms)
+

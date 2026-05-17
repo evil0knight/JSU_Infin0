@@ -1,0 +1,2973 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc17324a --dep-file=karman.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6 -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\code -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\code\\\\TLD7002_driver -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_common -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_components -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_device -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/karman.src ../code/karman.c"
+	.compiler_name		"ctc"
+	;source	'../code/karman.c'
+
+	
+$TC162
+	.sdecl	'.rodata.karman..1.cnt',data,rom
+	.sect	'.rodata.karman..1.cnt'
+	.align	4
+.1.cnt:	.type	object
+	.size	.1.cnt,8
+	.word	1202590843,1064598241
+	.sdecl	'.rodata.karman..2.cnt',data,rom
+	.sect	'.rodata.karman..2.cnt'
+	.align	4
+.2.cnt:	.type	object
+	.size	.2.cnt,8
+	.word	-1717986918,1070176665
+	
+	.sdecl	'.text.karman.KalmanFilter',code,cluster('KalmanFilter')
+	.sect	'.text.karman.KalmanFilter'
+	.align	2
+	
+	.global	KalmanFilter
+; Function KalmanFilter
+.L7:
+KalmanFilter:	.type	func
+	mov	e8,d5,d4
+.L132:
+	movh.a	a15,#@his(_999001_Angle)
+	lea	a15,[a15]@los(_999001_Angle)
+.L133:
+	movh.a	a2,#@his(Q_bias)
+	lea	a2,[a2]@los(Q_bias)
+	ld.w	d15,[a2]
+.L107:
+	sub.f	d4,d9,d15
+.L105:
+	call	__f_ftod
+.L106:
+	mov	e4,d3,d2
+.L134:
+	movh.a	a2,#@his(.1.cnt)
+	lea	a2,[a2]@los(.1.cnt)
+	ld.d	e6,[a2]0
+.L135:
+	call	__d_mul
+	mov	e10,d3,d2
+.L136:
+	movh.a	a2,#@his(_999001_Angle)
+	lea	a2,[a2]@los(_999001_Angle)
+	ld.w	d4,[a2]
+	call	__f_ftod
+	mov	e6,d3,d2
+.L137:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a15],d2
+.L138:
+	movh.a	a12,#@his(Pdot)
+	lea	a12,[a12]@los(Pdot)
+.L139:
+	movh.a	a15,#@his(.2.cnt)
+	lea	a15,[a15]@los(.2.cnt)
+	ld.d	e10,[a15]0
+.L140:
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L141:
+	ld.w	d4,[a15]4
+	call	__f_ftod
+	mov	e6,d3,d2
+.L142:
+	mov	e4,d11,d10
+	call	__d_sub
+	mov	e10,d3,d2
+.L143:
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L144:
+	ld.w	d4,[a15]8
+	call	__f_ftod
+	mov	e6,d3,d2
+.L145:
+	mov	e4,d11,d10
+	call	__d_sub
+	mov	e4,d3,d2
+	call	__d_dtof
+.L146:
+	st.w	[a12],d2
+.L147:
+	movh.a	a15,#@his(Pdot)
+	lea	a15,[a15]@los(Pdot)
+.L148:
+	movh.a	a2,#@his(PP)
+	lea	a2,[a2]@los(PP)
+.L149:
+	ld.w	d15,[a2]12
+.L150:
+	insn.t	d15,d15:31,d15:31
+.L151:
+	st.w	[a15]4,d15
+.L152:
+	movh.a	a15,#@his(Pdot)
+	lea	a15,[a15]@los(Pdot)
+.L153:
+	movh.a	a2,#@his(PP)
+	lea	a2,[a2]@los(PP)
+.L154:
+	ld.w	d15,[a2]12
+.L155:
+	insn.t	d15,d15:31,d15:31
+.L156:
+	st.w	[a15]8,d15
+.L157:
+	movh.a	a15,#@his(Pdot)
+	lea	a15,[a15]@los(Pdot)
+.L158:
+	mov.u	d15,#52429
+	addih	d15,d15,#15820
+.L159:
+	st.w	[a15]12,d15
+.L160:
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L161:
+	movh.a	a2,#@his(Pdot)
+	lea	a2,[a2]@los(Pdot)
+.L162:
+	ld.w	d4,[a2]
+	call	__f_ftod
+	mov	e4,d3,d2
+.L163:
+	movh.a	a2,#@his(.1.cnt)
+	lea	a2,[a2]@los(.1.cnt)
+	ld.d	e6,[a2]0
+.L164:
+	call	__d_mul
+	mov	e10,d3,d2
+.L165:
+	movh.a	a2,#@his(PP)
+	lea	a2,[a2]@los(PP)
+.L166:
+	ld.w	d4,[a2]
+	call	__f_ftod
+	mov	e6,d3,d2
+.L167:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a15],d2
+.L168:
+	movh.a	a12,#@his(PP)
+	lea	a12,[a12]@los(PP)
+.L169:
+	movh.a	a15,#@his(Pdot)
+	lea	a15,[a15]@los(Pdot)
+.L170:
+	ld.w	d4,[a15]4
+	call	__f_ftod
+	mov	e4,d3,d2
+.L171:
+	movh.a	a15,#@his(.1.cnt)
+	lea	a15,[a15]@los(.1.cnt)
+	ld.d	e6,[a15]0
+.L172:
+	call	__d_mul
+	mov	e10,d3,d2
+.L173:
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L174:
+	ld.w	d4,[a15]4
+	call	__f_ftod
+	mov	e6,d3,d2
+.L175:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a12]4,d2
+.L176:
+	movh.a	a12,#@his(PP)
+	lea	a12,[a12]@los(PP)
+.L177:
+	movh.a	a15,#@his(Pdot)
+	lea	a15,[a15]@los(Pdot)
+.L178:
+	ld.w	d4,[a15]8
+	call	__f_ftod
+	mov	e4,d3,d2
+.L179:
+	movh.a	a15,#@his(.1.cnt)
+	lea	a15,[a15]@los(.1.cnt)
+	ld.d	e6,[a15]0
+.L180:
+	call	__d_mul
+	mov	e10,d3,d2
+.L181:
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L182:
+	ld.w	d4,[a15]8
+	call	__f_ftod
+	mov	e6,d3,d2
+.L183:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a12]8,d2
+.L184:
+	movh.a	a12,#@his(PP)
+	lea	a12,[a12]@los(PP)
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L185:
+	ld.w	d4,[a15]12
+	call	__f_ftod
+	mov	e10,d3,d2
+.L186:
+	mov.u	d4,#52429
+	addih	d4,d4,#15820
+	call	__f_ftod
+	mov	e4,d3,d2
+.L187:
+	movh.a	a15,#@his(.1.cnt)
+	lea	a15,[a15]@los(.1.cnt)
+	ld.d	e6,[a15]0
+.L188:
+	call	__d_mul
+	mov	e6,d3,d2
+.L189:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a12]12,d2
+.L190:
+	movh.a	a15,#@his(Angle_err)
+	lea	a15,[a15]@los(Angle_err)
+.L191:
+	movh.a	a2,#@his(_999001_Angle)
+	lea	a2,[a2]@los(_999001_Angle)
+	ld.w	d15,[a2]
+.L108:
+	sub.f	d15,d8,d15
+.L109:
+	st.w	[a15],d15
+.L192:
+	movh.a	a15,#@his(PCt_0)
+	lea	a15,[a15]@los(PCt_0)
+.L193:
+	movh.a	a2,#@his(C_0)
+	lea	a2,[a2]@los(C_0)
+	ld.w	d15,[a2]
+.L194:
+	movh.a	a2,#@his(PP)
+	lea	a2,[a2]@los(PP)
+.L195:
+	ld.w	d0,[a2]
+.L196:
+	mul.f	d15,d15,d0
+.L197:
+	st.w	[a15],d15
+.L198:
+	movh.a	a2,#@his(PCt_1)
+	lea	a2,[a2]@los(PCt_1)
+.L199:
+	movh.a	a15,#@his(C_0)
+	lea	a15,[a15]@los(C_0)
+	ld.w	d0,[a15]
+.L200:
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L201:
+	ld.w	d15,[a15]8
+.L202:
+	mul.f	d15,d0,d15
+.L203:
+	st.w	[a2],d15
+.L204:
+	movh.a	a15,#@his(E)
+	lea	a15,[a15]@los(E)
+.L205:
+	movh.a	a2,#@his(C_0)
+	lea	a2,[a2]@los(C_0)
+	ld.w	d15,[a2]
+.L206:
+	movh.a	a2,#@his(PCt_0)
+	lea	a2,[a2]@los(PCt_0)
+	ld.w	d0,[a2]
+.L207:
+	mul.f	d4,d15,d0
+	call	__f_ftod
+	mov	e4,d3,d2
+.L208:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16352
+.L209:
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+.L210:
+	st.w	[a15],d2
+.L211:
+	movh.a	a15,#@his(K_0)
+	lea	a15,[a15]@los(K_0)
+.L212:
+	movh.a	a2,#@his(PCt_0)
+	lea	a2,[a2]@los(PCt_0)
+	ld.w	d15,[a2]
+.L213:
+	movh.a	a2,#@his(E)
+	lea	a2,[a2]@los(E)
+	ld.w	d0,[a2]
+.L214:
+	div.f	d15,d15,d0
+.L215:
+	st.w	[a15],d15
+.L216:
+	movh.a	a15,#@his(K_1)
+	lea	a15,[a15]@los(K_1)
+.L217:
+	movh.a	a2,#@his(PCt_1)
+	lea	a2,[a2]@los(PCt_1)
+	ld.w	d15,[a2]
+.L218:
+	movh.a	a2,#@his(E)
+	lea	a2,[a2]@los(E)
+	ld.w	d0,[a2]
+.L219:
+	div.f	d15,d15,d0
+.L220:
+	st.w	[a15],d15
+.L221:
+	movh.a	a15,#@his(t_0)
+	lea	a15,[a15]@los(t_0)
+.L222:
+	movh.a	a2,#@his(PCt_0)
+	lea	a2,[a2]@los(PCt_0)
+	ld.w	d15,[a2]
+.L223:
+	st.w	[a15],d15
+.L224:
+	movh.a	a2,#@his(t_1)
+	lea	a2,[a2]@los(t_1)
+.L225:
+	movh.a	a15,#@his(C_0)
+	lea	a15,[a15]@los(C_0)
+	ld.w	d0,[a15]
+.L226:
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L227:
+	ld.w	d15,[a15]4
+.L228:
+	mul.f	d15,d0,d15
+.L229:
+	st.w	[a2],d15
+.L230:
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+	movh.a	a2,#@his(PP)
+	lea	a2,[a2]@los(PP)
+.L231:
+	ld.w	d15,[a2]
+.L232:
+	movh.a	a2,#@his(K_0)
+	lea	a2,[a2]@los(K_0)
+	ld.w	d0,[a2]
+.L233:
+	movh.a	a2,#@his(PCt_0)
+	lea	a2,[a2]@los(PCt_0)
+	ld.w	d1,[a2]
+.L234:
+	msub.f	d15,d15,d0,d1
+	st.w	[a15],d15
+.L235:
+	movh.a	a2,#@his(PP)
+	lea	a2,[a2]@los(PP)
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L236:
+	ld.w	d15,[a15]4
+.L237:
+	movh.a	a15,#@his(K_0)
+	lea	a15,[a15]@los(K_0)
+	ld.w	d0,[a15]
+.L238:
+	movh.a	a15,#@his(t_1)
+	lea	a15,[a15]@los(t_1)
+	ld.w	d1,[a15]
+.L239:
+	msub.f	d15,d15,d0,d1
+	st.w	[a2]4,d15
+.L240:
+	movh.a	a2,#@his(PP)
+	lea	a2,[a2]@los(PP)
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L241:
+	ld.w	d15,[a15]8
+.L242:
+	movh.a	a15,#@his(K_1)
+	lea	a15,[a15]@los(K_1)
+	ld.w	d0,[a15]
+.L243:
+	movh.a	a15,#@his(PCt_0)
+	lea	a15,[a15]@los(PCt_0)
+	ld.w	d1,[a15]
+.L244:
+	msub.f	d15,d15,d0,d1
+	st.w	[a2]8,d15
+.L245:
+	movh.a	a2,#@his(PP)
+	lea	a2,[a2]@los(PP)
+	movh.a	a15,#@his(PP)
+	lea	a15,[a15]@los(PP)
+.L246:
+	ld.w	d15,[a15]12
+.L247:
+	movh.a	a15,#@his(K_1)
+	lea	a15,[a15]@los(K_1)
+	ld.w	d0,[a15]
+.L248:
+	movh.a	a15,#@his(t_1)
+	lea	a15,[a15]@los(t_1)
+	ld.w	d1,[a15]
+.L249:
+	msub.f	d15,d15,d0,d1
+	st.w	[a2]12,d15
+.L250:
+	movh.a	a15,#@his(_999001_Angle)
+	lea	a15,[a15]@los(_999001_Angle)
+.L251:
+	movh.a	a2,#@his(K_0)
+	lea	a2,[a2]@los(K_0)
+	ld.w	d15,[a2]
+.L252:
+	movh.a	a2,#@his(Angle_err)
+	lea	a2,[a2]@los(Angle_err)
+	ld.w	d0,[a2]
+.L253:
+	movh.a	a2,#@his(_999001_Angle)
+	lea	a2,[a2]@los(_999001_Angle)
+	ld.w	d1,[a2]
+.L254:
+	madd.f	d15,d1,d15,d0
+	st.w	[a15],d15
+.L255:
+	movh.a	a15,#@his(Q_bias)
+	lea	a15,[a15]@los(Q_bias)
+.L256:
+	movh.a	a2,#@his(K_1)
+	lea	a2,[a2]@los(K_1)
+	ld.w	d15,[a2]
+.L257:
+	movh.a	a2,#@his(Angle_err)
+	lea	a2,[a2]@los(Angle_err)
+	ld.w	d0,[a2]
+.L258:
+	movh.a	a2,#@his(Q_bias)
+	lea	a2,[a2]@los(Q_bias)
+	ld.w	d1,[a2]
+.L259:
+	madd.f	d15,d1,d15,d0
+	st.w	[a15],d15
+.L260:
+	movh.a	a15,#@his(_999002_Gyro_y)
+	lea	a15,[a15]@los(_999002_Gyro_y)
+.L261:
+	movh.a	a2,#@his(Q_bias)
+	lea	a2,[a2]@los(Q_bias)
+	ld.w	d15,[a2]
+.L110:
+	sub.f	d15,d9,d15
+.L111:
+	st.w	[a15],d15
+.L262:
+	movh.a	a15,#@his(_999001_Angle)
+	lea	a15,[a15]@los(_999001_Angle)
+	ld.w	d2,[a15]
+.L263:
+	j	.L2
+.L2:
+	ret
+.L90:
+	
+__KalmanFilter_function_end:
+	.size	KalmanFilter,__KalmanFilter_function_end-KalmanFilter
+.L20:
+	; End of function
+	
+	.sdecl	'.text.karman.KalmanFilter1',code,cluster('KalmanFilter1')
+	.sect	'.text.karman.KalmanFilter1'
+	.align	2
+	
+	.global	KalmanFilter1
+; Function KalmanFilter1
+.L9:
+KalmanFilter1:	.type	func
+	mov	e8,d5,d4
+.L268:
+	movh.a	a15,#@his(_999003_Angle1)
+	lea	a15,[a15]@los(_999003_Angle1)
+.L269:
+	movh.a	a2,#@his(Q_bias1)
+	lea	a2,[a2]@los(Q_bias1)
+	ld.w	d15,[a2]
+.L114:
+	sub.f	d4,d9,d15
+.L112:
+	call	__f_ftod
+.L113:
+	mov	e4,d3,d2
+.L270:
+	movh.a	a2,#@his(.1.cnt)
+	lea	a2,[a2]@los(.1.cnt)
+	ld.d	e6,[a2]0
+.L271:
+	call	__d_mul
+	mov	e10,d3,d2
+.L272:
+	movh.a	a2,#@his(_999003_Angle1)
+	lea	a2,[a2]@los(_999003_Angle1)
+	ld.w	d4,[a2]
+	call	__f_ftod
+	mov	e6,d3,d2
+.L273:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a15],d2
+.L274:
+	movh.a	a12,#@his(Pdot1)
+	lea	a12,[a12]@los(Pdot1)
+.L275:
+	movh.a	a15,#@his(.2.cnt)
+	lea	a15,[a15]@los(.2.cnt)
+	ld.d	e10,[a15]0
+.L276:
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L277:
+	ld.w	d4,[a15]4
+	call	__f_ftod
+	mov	e6,d3,d2
+.L278:
+	mov	e4,d11,d10
+	call	__d_sub
+	mov	e10,d3,d2
+.L279:
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L280:
+	ld.w	d4,[a15]8
+	call	__f_ftod
+	mov	e6,d3,d2
+.L281:
+	mov	e4,d11,d10
+	call	__d_sub
+	mov	e4,d3,d2
+	call	__d_dtof
+.L282:
+	st.w	[a12],d2
+.L283:
+	movh.a	a15,#@his(Pdot1)
+	lea	a15,[a15]@los(Pdot1)
+.L284:
+	movh.a	a2,#@his(PP1)
+	lea	a2,[a2]@los(PP1)
+.L285:
+	ld.w	d15,[a2]12
+.L286:
+	insn.t	d15,d15:31,d15:31
+.L287:
+	st.w	[a15]4,d15
+.L288:
+	movh.a	a15,#@his(Pdot1)
+	lea	a15,[a15]@los(Pdot1)
+.L289:
+	movh.a	a2,#@his(PP1)
+	lea	a2,[a2]@los(PP1)
+.L290:
+	ld.w	d15,[a2]12
+.L291:
+	insn.t	d15,d15:31,d15:31
+.L292:
+	st.w	[a15]8,d15
+.L293:
+	movh.a	a15,#@his(Pdot1)
+	lea	a15,[a15]@los(Pdot1)
+.L294:
+	mov.u	d15,#52429
+	addih	d15,d15,#15820
+.L295:
+	st.w	[a15]12,d15
+.L296:
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L297:
+	movh.a	a2,#@his(Pdot1)
+	lea	a2,[a2]@los(Pdot1)
+.L298:
+	ld.w	d4,[a2]
+	call	__f_ftod
+	mov	e4,d3,d2
+.L299:
+	movh.a	a2,#@his(.1.cnt)
+	lea	a2,[a2]@los(.1.cnt)
+	ld.d	e6,[a2]0
+.L300:
+	call	__d_mul
+	mov	e10,d3,d2
+.L301:
+	movh.a	a2,#@his(PP1)
+	lea	a2,[a2]@los(PP1)
+.L302:
+	ld.w	d4,[a2]
+	call	__f_ftod
+	mov	e6,d3,d2
+.L303:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a15],d2
+.L304:
+	movh.a	a12,#@his(PP1)
+	lea	a12,[a12]@los(PP1)
+.L305:
+	movh.a	a15,#@his(Pdot1)
+	lea	a15,[a15]@los(Pdot1)
+.L306:
+	ld.w	d4,[a15]4
+	call	__f_ftod
+	mov	e4,d3,d2
+.L307:
+	movh.a	a15,#@his(.1.cnt)
+	lea	a15,[a15]@los(.1.cnt)
+	ld.d	e6,[a15]0
+.L308:
+	call	__d_mul
+	mov	e10,d3,d2
+.L309:
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L310:
+	ld.w	d4,[a15]4
+	call	__f_ftod
+	mov	e6,d3,d2
+.L311:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a12]4,d2
+.L312:
+	movh.a	a12,#@his(PP1)
+	lea	a12,[a12]@los(PP1)
+.L313:
+	movh.a	a15,#@his(Pdot1)
+	lea	a15,[a15]@los(Pdot1)
+.L314:
+	ld.w	d4,[a15]8
+	call	__f_ftod
+	mov	e4,d3,d2
+.L315:
+	movh.a	a15,#@his(.1.cnt)
+	lea	a15,[a15]@los(.1.cnt)
+	ld.d	e6,[a15]0
+.L316:
+	call	__d_mul
+	mov	e10,d3,d2
+.L317:
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L318:
+	ld.w	d4,[a15]8
+	call	__f_ftod
+	mov	e6,d3,d2
+.L319:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a12]8,d2
+.L320:
+	movh.a	a12,#@his(PP1)
+	lea	a12,[a12]@los(PP1)
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L321:
+	ld.w	d4,[a15]12
+	call	__f_ftod
+	mov	e10,d3,d2
+.L322:
+	mov.u	d4,#52429
+	addih	d4,d4,#15820
+	call	__f_ftod
+	mov	e4,d3,d2
+.L323:
+	movh.a	a15,#@his(.1.cnt)
+	lea	a15,[a15]@los(.1.cnt)
+	ld.d	e6,[a15]0
+.L324:
+	call	__d_mul
+	mov	e6,d3,d2
+.L325:
+	mov	e4,d11,d10
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+	st.w	[a12]12,d2
+.L326:
+	movh.a	a15,#@his(Angle_err1)
+	lea	a15,[a15]@los(Angle_err1)
+.L327:
+	movh.a	a2,#@his(_999003_Angle1)
+	lea	a2,[a2]@los(_999003_Angle1)
+	ld.w	d15,[a2]
+.L115:
+	sub.f	d15,d8,d15
+.L116:
+	st.w	[a15],d15
+.L328:
+	movh.a	a15,#@his(PCt_01)
+	lea	a15,[a15]@los(PCt_01)
+.L329:
+	movh.a	a2,#@his(C_01)
+	lea	a2,[a2]@los(C_01)
+	ld.w	d15,[a2]
+.L330:
+	movh.a	a2,#@his(PP1)
+	lea	a2,[a2]@los(PP1)
+.L331:
+	ld.w	d0,[a2]
+.L332:
+	mul.f	d15,d15,d0
+.L333:
+	st.w	[a15],d15
+.L334:
+	movh.a	a2,#@his(PCt_11)
+	lea	a2,[a2]@los(PCt_11)
+.L335:
+	movh.a	a15,#@his(C_01)
+	lea	a15,[a15]@los(C_01)
+	ld.w	d0,[a15]
+.L336:
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L337:
+	ld.w	d15,[a15]8
+.L338:
+	mul.f	d15,d0,d15
+.L339:
+	st.w	[a2],d15
+.L340:
+	movh.a	a15,#@his(E1)
+	lea	a15,[a15]@los(E1)
+.L341:
+	movh.a	a2,#@his(C_01)
+	lea	a2,[a2]@los(C_01)
+	ld.w	d15,[a2]
+.L342:
+	movh.a	a2,#@his(PCt_01)
+	lea	a2,[a2]@los(PCt_01)
+	ld.w	d0,[a2]
+.L343:
+	mul.f	d4,d15,d0
+	call	__f_ftod
+	mov	e4,d3,d2
+.L344:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16352
+.L345:
+	call	__d_add
+	mov	e4,d3,d2
+	call	__d_dtof
+.L346:
+	st.w	[a15],d2
+.L347:
+	movh.a	a15,#@his(K_01)
+	lea	a15,[a15]@los(K_01)
+.L348:
+	movh.a	a2,#@his(PCt_01)
+	lea	a2,[a2]@los(PCt_01)
+	ld.w	d15,[a2]
+.L349:
+	movh.a	a2,#@his(E1)
+	lea	a2,[a2]@los(E1)
+	ld.w	d0,[a2]
+.L350:
+	div.f	d15,d15,d0
+.L351:
+	st.w	[a15],d15
+.L352:
+	movh.a	a15,#@his(K_11)
+	lea	a15,[a15]@los(K_11)
+.L353:
+	movh.a	a2,#@his(PCt_11)
+	lea	a2,[a2]@los(PCt_11)
+	ld.w	d15,[a2]
+.L354:
+	movh.a	a2,#@his(E1)
+	lea	a2,[a2]@los(E1)
+	ld.w	d0,[a2]
+.L355:
+	div.f	d15,d15,d0
+.L356:
+	st.w	[a15],d15
+.L357:
+	movh.a	a15,#@his(t_01)
+	lea	a15,[a15]@los(t_01)
+.L358:
+	movh.a	a2,#@his(PCt_01)
+	lea	a2,[a2]@los(PCt_01)
+	ld.w	d15,[a2]
+.L359:
+	st.w	[a15],d15
+.L360:
+	movh.a	a2,#@his(t_11)
+	lea	a2,[a2]@los(t_11)
+.L361:
+	movh.a	a15,#@his(C_01)
+	lea	a15,[a15]@los(C_01)
+	ld.w	d0,[a15]
+.L362:
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L363:
+	ld.w	d15,[a15]4
+.L364:
+	mul.f	d15,d0,d15
+.L365:
+	st.w	[a2],d15
+.L366:
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+	movh.a	a2,#@his(PP1)
+	lea	a2,[a2]@los(PP1)
+.L367:
+	ld.w	d15,[a2]
+.L368:
+	movh.a	a2,#@his(K_01)
+	lea	a2,[a2]@los(K_01)
+	ld.w	d0,[a2]
+.L369:
+	movh.a	a2,#@his(PCt_01)
+	lea	a2,[a2]@los(PCt_01)
+	ld.w	d1,[a2]
+.L370:
+	msub.f	d15,d15,d0,d1
+	st.w	[a15],d15
+.L371:
+	movh.a	a2,#@his(PP1)
+	lea	a2,[a2]@los(PP1)
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L372:
+	ld.w	d15,[a15]4
+.L373:
+	movh.a	a15,#@his(K_01)
+	lea	a15,[a15]@los(K_01)
+	ld.w	d0,[a15]
+.L374:
+	movh.a	a15,#@his(t_11)
+	lea	a15,[a15]@los(t_11)
+	ld.w	d1,[a15]
+.L375:
+	msub.f	d15,d15,d0,d1
+	st.w	[a2]4,d15
+.L376:
+	movh.a	a2,#@his(PP1)
+	lea	a2,[a2]@los(PP1)
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L377:
+	ld.w	d15,[a15]8
+.L378:
+	movh.a	a15,#@his(K_11)
+	lea	a15,[a15]@los(K_11)
+	ld.w	d0,[a15]
+.L379:
+	movh.a	a15,#@his(PCt_01)
+	lea	a15,[a15]@los(PCt_01)
+	ld.w	d1,[a15]
+.L380:
+	msub.f	d15,d15,d0,d1
+	st.w	[a2]8,d15
+.L381:
+	movh.a	a2,#@his(PP1)
+	lea	a2,[a2]@los(PP1)
+	movh.a	a15,#@his(PP1)
+	lea	a15,[a15]@los(PP1)
+.L382:
+	ld.w	d15,[a15]12
+.L383:
+	movh.a	a15,#@his(K_11)
+	lea	a15,[a15]@los(K_11)
+	ld.w	d0,[a15]
+.L384:
+	movh.a	a15,#@his(t_11)
+	lea	a15,[a15]@los(t_11)
+	ld.w	d1,[a15]
+.L385:
+	msub.f	d15,d15,d0,d1
+	st.w	[a2]12,d15
+.L386:
+	movh.a	a15,#@his(_999003_Angle1)
+	lea	a15,[a15]@los(_999003_Angle1)
+.L387:
+	movh.a	a2,#@his(K_01)
+	lea	a2,[a2]@los(K_01)
+	ld.w	d15,[a2]
+.L388:
+	movh.a	a2,#@his(Angle_err1)
+	lea	a2,[a2]@los(Angle_err1)
+	ld.w	d0,[a2]
+.L389:
+	movh.a	a2,#@his(_999003_Angle1)
+	lea	a2,[a2]@los(_999003_Angle1)
+	ld.w	d1,[a2]
+.L390:
+	madd.f	d15,d1,d15,d0
+	st.w	[a15],d15
+.L391:
+	movh.a	a15,#@his(Q_bias1)
+	lea	a15,[a15]@los(Q_bias1)
+.L392:
+	movh.a	a2,#@his(K_11)
+	lea	a2,[a2]@los(K_11)
+	ld.w	d15,[a2]
+.L393:
+	movh.a	a2,#@his(Angle_err1)
+	lea	a2,[a2]@los(Angle_err1)
+	ld.w	d0,[a2]
+.L394:
+	movh.a	a2,#@his(Q_bias1)
+	lea	a2,[a2]@los(Q_bias1)
+	ld.w	d1,[a2]
+.L395:
+	madd.f	d15,d1,d15,d0
+	st.w	[a15],d15
+.L396:
+	movh.a	a15,#@his(_999004_Gyro_y1)
+	lea	a15,[a15]@los(_999004_Gyro_y1)
+.L397:
+	movh.a	a2,#@his(Q_bias1)
+	lea	a2,[a2]@los(Q_bias1)
+	ld.w	d15,[a2]
+.L117:
+	sub.f	d15,d9,d15
+.L118:
+	st.w	[a15],d15
+.L398:
+	movh.a	a15,#@his(_999003_Angle1)
+	lea	a15,[a15]@los(_999003_Angle1)
+	ld.w	d2,[a15]
+.L399:
+	j	.L3
+.L3:
+	ret
+.L93:
+	
+__KalmanFilter1_function_end:
+	.size	KalmanFilter1,__KalmanFilter1_function_end-KalmanFilter1
+.L25:
+	; End of function
+	
+	.sdecl	'.text.karman.angle_calc',code,cluster('angle_calc')
+	.sect	'.text.karman.angle_calc'
+	.align	2
+	
+	.global	angle_calc
+; Function angle_calc
+.L11:
+angle_calc:	.type	func
+	movh.a	a15,#@his(_999006_first_angle)
+	lea	a15,[a15]@los(_999006_first_angle)
+	ld.bu	d15,[a15]
+	jne	d15,#0,.L4
+.L404:
+	movh.a	a15,#@his(_999006_first_angle)
+	lea	a15,[a15]@los(_999006_first_angle)
+.L405:
+	mov	d15,#1
+.L406:
+	st.b	[a15],d15
+.L407:
+	movh.a	a15,#@his(_999005_last_angle)
+	lea	a15,[a15]@los(_999005_last_angle)
+.L408:
+	st.w	[a15],d4
+.L4:
+	movh.a	a15,#@his(gyro_ratio)
+	lea	a15,[a15]@los(gyro_ratio)
+	ld.w	d15,[a15]
+.L409:
+	mul.f	d15,d5,d15
+.L119:
+	movh.a	a15,#@his(_999005_last_angle)
+	lea	a15,[a15]@los(_999005_last_angle)
+	ld.w	d0,[a15]
+.L410:
+	sub.f	d0,d4,d0
+.L411:
+	movh.a	a15,#@his(acc_ratio)
+	lea	a15,[a15]@los(acc_ratio)
+	ld.w	d1,[a15]
+.L412:
+	mul.f	d0,d0,d1
+.L121:
+	add.f	d15,d0,d15
+.L120:
+	movh.a	a15,#@his(dt2)
+	lea	a15,[a15]@los(dt2)
+	ld.w	d0,[a15]
+.L122:
+	movh.a	a15,#@his(_999005_last_angle)
+	lea	a15,[a15]@los(_999005_last_angle)
+	ld.w	d1,[a15]
+.L413:
+	madd.f	d2,d1,d15,d0
+.L123:
+	movh.a	a15,#@his(_999005_last_angle)
+	lea	a15,[a15]@los(_999005_last_angle)
+.L414:
+	st.w	[a15],d2
+.L415:
+	j	.L5
+.L5:
+	ret
+.L96:
+	
+__angle_calc_function_end:
+	.size	angle_calc,__angle_calc_function_end-angle_calc
+.L30:
+	; End of function
+	
+	.sdecl	'.bss.karman.gyro',data,cluster('gyro')
+	.sect	'.bss.karman.gyro'
+	.global	gyro
+	.align	2
+gyro:	.type	object
+	.size	gyro,4
+	.space	4
+	.sdecl	'.bss.karman.Q_bias',data,cluster('Q_bias')
+	.sect	'.bss.karman.Q_bias'
+	.global	Q_bias
+	.align	2
+Q_bias:	.type	object
+	.size	Q_bias,4
+	.space	4
+	.sdecl	'.bss.karman.Angle_err',data,cluster('Angle_err')
+	.sect	'.bss.karman.Angle_err'
+	.global	Angle_err
+	.align	2
+Angle_err:	.type	object
+	.size	Angle_err,4
+	.space	4
+	.sdecl	'.bss.karman.PCt_0',data,cluster('PCt_0')
+	.sect	'.bss.karman.PCt_0'
+	.global	PCt_0
+	.align	2
+PCt_0:	.type	object
+	.size	PCt_0,4
+	.space	4
+	.sdecl	'.bss.karman.PCt_1',data,cluster('PCt_1')
+	.sect	'.bss.karman.PCt_1'
+	.global	PCt_1
+	.align	2
+PCt_1:	.type	object
+	.size	PCt_1,4
+	.space	4
+	.sdecl	'.bss.karman.E',data,cluster('E')
+	.sect	'.bss.karman.E'
+	.global	E
+	.align	2
+E:	.type	object
+	.size	E,4
+	.space	4
+	.sdecl	'.bss.karman.K_0',data,cluster('K_0')
+	.sect	'.bss.karman.K_0'
+	.global	K_0
+	.align	2
+K_0:	.type	object
+	.size	K_0,4
+	.space	4
+	.sdecl	'.bss.karman.K_1',data,cluster('K_1')
+	.sect	'.bss.karman.K_1'
+	.global	K_1
+	.align	2
+K_1:	.type	object
+	.size	K_1,4
+	.space	4
+	.sdecl	'.bss.karman.t_0',data,cluster('t_0')
+	.sect	'.bss.karman.t_0'
+	.global	t_0
+	.align	2
+t_0:	.type	object
+	.size	t_0,4
+	.space	4
+	.sdecl	'.bss.karman.t_1',data,cluster('t_1')
+	.sect	'.bss.karman.t_1'
+	.global	t_1
+	.align	2
+t_1:	.type	object
+	.size	t_1,4
+	.space	4
+	.sdecl	'.data.karman.Pdot',data,cluster('Pdot')
+	.sect	'.data.karman.Pdot'
+	.global	Pdot
+	.align	2
+Pdot:	.type	object
+	.size	Pdot,16
+	.space	16
+	.sdecl	'.data.karman.PP',data,cluster('PP')
+	.sect	'.data.karman.PP'
+	.global	PP
+	.align	2
+PP:	.type	object
+	.size	PP,16
+	.word	1065353216
+	.space	8
+	.word	1065353216
+	.sdecl	'.data.karman.C_0',data,cluster('C_0')
+	.sect	'.data.karman.C_0'
+	.global	C_0
+	.align	2
+C_0:	.type	object
+	.size	C_0,4
+	.word	1065353216
+	.sdecl	'.data.karman._999001_Angle',data,cluster('_999001_Angle')
+	.sect	'.data.karman._999001_Angle'
+	.align	2
+_999001_Angle:	.type	object
+	.size	_999001_Angle,4
+	.space	4
+	.sdecl	'.data.karman._999002_Gyro_y',data,cluster('_999002_Gyro_y')
+	.sect	'.data.karman._999002_Gyro_y'
+	.align	2
+_999002_Gyro_y:	.type	object
+	.size	_999002_Gyro_y,4
+	.space	4
+	.sdecl	'.bss.karman.gyro1',data,cluster('gyro1')
+	.sect	'.bss.karman.gyro1'
+	.global	gyro1
+	.align	2
+gyro1:	.type	object
+	.size	gyro1,4
+	.space	4
+	.sdecl	'.bss.karman.Q_bias1',data,cluster('Q_bias1')
+	.sect	'.bss.karman.Q_bias1'
+	.global	Q_bias1
+	.align	2
+Q_bias1:	.type	object
+	.size	Q_bias1,4
+	.space	4
+	.sdecl	'.bss.karman.Angle_err1',data,cluster('Angle_err1')
+	.sect	'.bss.karman.Angle_err1'
+	.global	Angle_err1
+	.align	2
+Angle_err1:	.type	object
+	.size	Angle_err1,4
+	.space	4
+	.sdecl	'.bss.karman.PCt_01',data,cluster('PCt_01')
+	.sect	'.bss.karman.PCt_01'
+	.global	PCt_01
+	.align	2
+PCt_01:	.type	object
+	.size	PCt_01,4
+	.space	4
+	.sdecl	'.bss.karman.PCt_11',data,cluster('PCt_11')
+	.sect	'.bss.karman.PCt_11'
+	.global	PCt_11
+	.align	2
+PCt_11:	.type	object
+	.size	PCt_11,4
+	.space	4
+	.sdecl	'.bss.karman.E1',data,cluster('E1')
+	.sect	'.bss.karman.E1'
+	.global	E1
+	.align	2
+E1:	.type	object
+	.size	E1,4
+	.space	4
+	.sdecl	'.bss.karman.K_01',data,cluster('K_01')
+	.sect	'.bss.karman.K_01'
+	.global	K_01
+	.align	2
+K_01:	.type	object
+	.size	K_01,4
+	.space	4
+	.sdecl	'.bss.karman.K_11',data,cluster('K_11')
+	.sect	'.bss.karman.K_11'
+	.global	K_11
+	.align	2
+K_11:	.type	object
+	.size	K_11,4
+	.space	4
+	.sdecl	'.bss.karman.t_01',data,cluster('t_01')
+	.sect	'.bss.karman.t_01'
+	.global	t_01
+	.align	2
+t_01:	.type	object
+	.size	t_01,4
+	.space	4
+	.sdecl	'.bss.karman.t_11',data,cluster('t_11')
+	.sect	'.bss.karman.t_11'
+	.global	t_11
+	.align	2
+t_11:	.type	object
+	.size	t_11,4
+	.space	4
+	.sdecl	'.data.karman.Pdot1',data,cluster('Pdot1')
+	.sect	'.data.karman.Pdot1'
+	.global	Pdot1
+	.align	2
+Pdot1:	.type	object
+	.size	Pdot1,16
+	.space	16
+	.sdecl	'.data.karman.PP1',data,cluster('PP1')
+	.sect	'.data.karman.PP1'
+	.global	PP1
+	.align	2
+PP1:	.type	object
+	.size	PP1,16
+	.word	1065353216
+	.space	8
+	.word	1065353216
+	.sdecl	'.data.karman.C_01',data,cluster('C_01')
+	.sect	'.data.karman.C_01'
+	.global	C_01
+	.align	2
+C_01:	.type	object
+	.size	C_01,4
+	.word	1065353216
+	.sdecl	'.data.karman._999003_Angle1',data,cluster('_999003_Angle1')
+	.sect	'.data.karman._999003_Angle1'
+	.align	2
+_999003_Angle1:	.type	object
+	.size	_999003_Angle1,4
+	.space	4
+	.sdecl	'.data.karman._999004_Gyro_y1',data,cluster('_999004_Gyro_y1')
+	.sect	'.data.karman._999004_Gyro_y1'
+	.align	2
+_999004_Gyro_y1:	.type	object
+	.size	_999004_Gyro_y1,4
+	.space	4
+	.sdecl	'.data.karman.acc_ratio',data,cluster('acc_ratio')
+	.sect	'.data.karman.acc_ratio'
+	.global	acc_ratio
+	.align	2
+acc_ratio:	.type	object
+	.size	acc_ratio,4
+	.word	1067030938
+	.sdecl	'.data.karman.gyro_ratio',data,cluster('gyro_ratio')
+	.sect	'.data.karman.gyro_ratio'
+	.global	gyro_ratio
+	.align	2
+gyro_ratio:	.type	object
+	.size	gyro_ratio,4
+	.word	1065353216
+	.sdecl	'.data.karman.dt2',data,cluster('dt2')
+	.sect	'.data.karman.dt2'
+	.global	dt2
+	.align	2
+dt2:	.type	object
+	.size	dt2,4
+	.word	990057071
+	.sdecl	'.bss.karman._999005_last_angle',data,cluster('_999005_last_angle')
+	.sect	'.bss.karman._999005_last_angle'
+	.align	2
+_999005_last_angle:	.type	object
+	.size	_999005_last_angle,4
+	.space	4
+	.sdecl	'.bss.karman._999006_first_angle',data,cluster('_999006_first_angle')
+	.sect	'.bss.karman._999006_first_angle'
+_999006_first_angle:	.type	object
+	.size	_999006_first_angle,1
+	.space	1
+	.calls	'KalmanFilter','__f_ftod'
+	.calls	'KalmanFilter','__d_mul'
+	.calls	'KalmanFilter','__d_add'
+	.calls	'KalmanFilter','__d_dtof'
+	.calls	'KalmanFilter','__d_sub'
+	.calls	'KalmanFilter1','__f_ftod'
+	.calls	'KalmanFilter1','__d_mul'
+	.calls	'KalmanFilter1','__d_add'
+	.calls	'KalmanFilter1','__d_dtof'
+	.calls	'KalmanFilter1','__d_sub'
+	.calls	'KalmanFilter','',0
+	.calls	'KalmanFilter1','',0
+	.extern	__f_ftod
+	.extern	__d_mul
+	.extern	__d_add
+	.extern	__d_dtof
+	.extern	__d_sub
+	.calls	'angle_calc','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L13:
+	.word	726
+	.half	3
+	.word	.L14
+	.byte	4
+.L12:
+	.byte	1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L15
+.L89:
+	.byte	2
+	.byte	'float',0,4,4
+.L102:
+	.byte	2
+	.byte	'unsigned char',0,1,8,2
+	.byte	'short int',0,2,5,3
+	.byte	'__wchar_t',0,1,1,1
+	.word	197
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'__size_t',0,1,1,1
+	.word	228
+	.byte	2
+	.byte	'int',0,4,5,3
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	261
+	.byte	4,1,5
+	.word	288
+	.byte	3
+	.byte	'__codeptr',0,1,1,1
+	.word	290
+	.byte	3
+	.byte	'__intptr_t',0,1,1,1
+	.word	261
+	.byte	3
+	.byte	'__uintptr_t',0,1,1,1
+	.word	228
+	.byte	2
+	.byte	'unsigned short int',0,2,7,3
+	.byte	'_iob_flag_t',0,2,82,25
+	.word	352
+	.byte	3
+	.byte	'uint8',0,3,105,29
+	.word	180
+	.byte	3
+	.byte	'uint16',0,3,109,29
+	.word	352
+	.byte	2
+	.byte	'unsigned long int',0,4,7,3
+	.byte	'uint32',0,3,113,29
+	.word	423
+	.byte	2
+	.byte	'unsigned long long int',0,8,7,3
+	.byte	'uint64',0,3,118,29
+	.word	459
+	.byte	3
+	.byte	'sint16',0,3,126,29
+	.word	197
+	.byte	2
+	.byte	'long int',0,4,5,3
+	.byte	'sint32',0,3,131,1,29
+	.word	515
+	.byte	2
+	.byte	'long long int',0,8,5,3
+	.byte	'sint64',0,3,138,1,29
+	.word	543
+	.byte	3
+	.byte	'float32',0,3,167,1,29
+	.word	171
+	.byte	6
+	.byte	'void',0,5
+	.word	593
+	.byte	3
+	.byte	'pvoid',0,4,57,28
+	.word	599
+	.byte	3
+	.byte	'Ifx_TickTime',0,4,79,28
+	.word	543
+	.byte	2
+	.byte	'char',0,1,6,3
+	.byte	'int8',0,5,54,29
+	.word	639
+	.byte	3
+	.byte	'int16',0,5,55,29
+	.word	197
+	.byte	3
+	.byte	'int32',0,5,56,29
+	.word	261
+	.byte	3
+	.byte	'int64',0,5,57,29
+	.word	543
+.L103:
+	.byte	7,16
+	.word	171
+	.byte	8,3,0,7,8
+	.word	171
+	.byte	8,1,0
+.L104:
+	.byte	7,16
+	.word	711
+	.byte	8,1,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L14:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,22,0,3,8,58,15,59,15,57,15
+	.byte	73,19,0,0,4,21,0,54,15,0,0,5,15,0,73,19,0,0,6,59,0,3,8,0,0,7,1,1,11,15,73,19,0,0,8,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L15:
+	.word	.L125-.L124
+.L124:
+	.half	3
+	.word	.L127-.L126
+.L126:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'E:\\AURIX\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'C:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'C:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_common',0
+	.byte	0
+	.byte	'../code/karman.c',0,0,0,0
+	.byte	'stdio.h',0,1,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'ifx_types.h',0,2,0,0
+	.byte	'zf_common_typedef.h',0,3,0,0,0
+.L127:
+.L125:
+	.sdecl	'.debug_info',debug,cluster('KalmanFilter')
+	.sect	'.debug_info'
+.L16:
+	.word	300
+	.half	3
+	.word	.L17
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L19,.L18
+	.byte	2
+	.word	.L12
+	.byte	3
+	.byte	'KalmanFilter',0,1,31,7
+	.word	.L89
+	.byte	1,1,1
+	.word	.L7,.L90,.L6
+	.byte	4
+	.byte	'Accel',0,1,31,26
+	.word	.L89,.L91
+	.byte	4
+	.byte	'Gyro',0,1,31,38
+	.word	.L89,.L92
+	.byte	5
+	.word	.L7,.L90
+	.byte	6
+	.byte	'Angle',0,1,33,18
+	.word	.L89
+	.byte	5,3
+	.word	_999001_Angle
+	.byte	6
+	.byte	'Gyro_y',0,1,33,29
+	.word	.L89
+	.byte	5,3
+	.word	_999002_Gyro_y
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('KalmanFilter')
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('KalmanFilter')
+	.sect	'.debug_line'
+.L18:
+	.word	.L129-.L128
+.L128:
+	.half	3
+	.word	.L131-.L130
+.L130:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/karman.c',0,0,0,0,0
+.L131:
+	.byte	5,7,7,0,5,2
+	.word	.L7
+	.byte	3,30,1,5,5,9
+	.half	.L132-.L7
+	.byte	3,4,1,5,20,9
+	.half	.L133-.L132
+	.byte	1,5,18,9
+	.half	.L107-.L133
+	.byte	1,5,30,9
+	.half	.L134-.L107
+	.byte	1,5,28,9
+	.half	.L135-.L134
+	.byte	1,5,5,9
+	.half	.L136-.L135
+	.byte	1,5,10,9
+	.half	.L137-.L136
+	.byte	1,5,5,9
+	.half	.L138-.L137
+	.byte	3,2,1,5,13,9
+	.half	.L139-.L138
+	.byte	1,5,23,9
+	.half	.L140-.L139
+	.byte	1,5,28,9
+	.half	.L141-.L140
+	.byte	1,5,21,9
+	.half	.L142-.L141
+	.byte	1,5,34,9
+	.half	.L143-.L142
+	.byte	1,5,39,9
+	.half	.L144-.L143
+	.byte	1,5,32,9
+	.half	.L145-.L144
+	.byte	1,5,12,9
+	.half	.L146-.L145
+	.byte	1,5,5,9
+	.half	.L147-.L146
+	.byte	3,2,1,5,16,9
+	.half	.L148-.L147
+	.byte	1,5,21,9
+	.half	.L149-.L148
+	.byte	1,5,15,9
+	.half	.L150-.L149
+	.byte	1,5,13,9
+	.half	.L151-.L150
+	.byte	1,5,5,9
+	.half	.L152-.L151
+	.byte	3,1,1,5,16,9
+	.half	.L153-.L152
+	.byte	1,5,21,9
+	.half	.L154-.L153
+	.byte	1,5,15,9
+	.half	.L155-.L154
+	.byte	1,5,13,9
+	.half	.L156-.L155
+	.byte	1,5,5,9
+	.half	.L157-.L156
+	.byte	3,1,1,5,14,9
+	.half	.L158-.L157
+	.byte	1,5,12,9
+	.half	.L159-.L158
+	.byte	1,5,5,9
+	.half	.L160-.L159
+	.byte	3,2,1,5,17,9
+	.half	.L161-.L160
+	.byte	1,5,21,9
+	.half	.L162-.L161
+	.byte	1,5,27,9
+	.half	.L163-.L162
+	.byte	1,5,25,9
+	.half	.L164-.L163
+	.byte	1,5,5,9
+	.half	.L165-.L164
+	.byte	1,5,10,9
+	.half	.L166-.L165
+	.byte	1,5,14,9
+	.half	.L167-.L166
+	.byte	1,5,5,9
+	.half	.L168-.L167
+	.byte	3,1,1,5,17,9
+	.half	.L169-.L168
+	.byte	1,5,21,9
+	.half	.L170-.L169
+	.byte	1,5,27,9
+	.half	.L171-.L170
+	.byte	1,5,25,9
+	.half	.L172-.L171
+	.byte	1,5,5,9
+	.half	.L173-.L172
+	.byte	1,5,10,9
+	.half	.L174-.L173
+	.byte	1,5,14,9
+	.half	.L175-.L174
+	.byte	1,5,5,9
+	.half	.L176-.L175
+	.byte	3,1,1,5,17,9
+	.half	.L177-.L176
+	.byte	1,5,21,9
+	.half	.L178-.L177
+	.byte	1,5,27,9
+	.half	.L179-.L178
+	.byte	1,5,25,9
+	.half	.L180-.L179
+	.byte	1,5,5,9
+	.half	.L181-.L180
+	.byte	1,5,10,9
+	.half	.L182-.L181
+	.byte	1,5,14,9
+	.half	.L183-.L182
+	.byte	1,5,5,9
+	.half	.L184-.L183
+	.byte	3,1,1,5,10,9
+	.half	.L185-.L184
+	.byte	1,5,21,9
+	.half	.L186-.L185
+	.byte	1,5,27,9
+	.half	.L187-.L186
+	.byte	1,5,25,9
+	.half	.L188-.L187
+	.byte	1,5,14,9
+	.half	.L189-.L188
+	.byte	1,5,5,9
+	.half	.L190-.L189
+	.byte	3,2,1,5,25,9
+	.half	.L191-.L190
+	.byte	1,5,23,9
+	.half	.L108-.L191
+	.byte	1,5,15,9
+	.half	.L109-.L108
+	.byte	1,5,5,9
+	.half	.L192-.L109
+	.byte	3,2,1,5,13,9
+	.half	.L193-.L192
+	.byte	1,5,17,9
+	.half	.L194-.L193
+	.byte	1,5,22,9
+	.half	.L195-.L194
+	.byte	1,5,16,9
+	.half	.L196-.L195
+	.byte	1,5,11,9
+	.half	.L197-.L196
+	.byte	1,5,5,9
+	.half	.L198-.L197
+	.byte	3,1,1,5,13,9
+	.half	.L199-.L198
+	.byte	1,5,17,9
+	.half	.L200-.L199
+	.byte	1,5,22,9
+	.half	.L201-.L200
+	.byte	1,5,16,9
+	.half	.L202-.L201
+	.byte	1,5,11,9
+	.half	.L203-.L202
+	.byte	1,5,5,9
+	.half	.L204-.L203
+	.byte	3,2,1,5,19,9
+	.half	.L205-.L204
+	.byte	1,5,23,9
+	.half	.L206-.L205
+	.byte	1,5,22,9
+	.half	.L207-.L206
+	.byte	1,5,9,9
+	.half	.L208-.L207
+	.byte	1,5,17,9
+	.half	.L209-.L208
+	.byte	1,5,7,9
+	.half	.L210-.L209
+	.byte	1,5,5,9
+	.half	.L211-.L210
+	.byte	3,2,1,5,11,9
+	.half	.L212-.L211
+	.byte	1,5,19,9
+	.half	.L213-.L212
+	.byte	1,5,17,9
+	.half	.L214-.L213
+	.byte	1,5,9,9
+	.half	.L215-.L214
+	.byte	1,5,5,9
+	.half	.L216-.L215
+	.byte	3,1,1,5,11,9
+	.half	.L217-.L216
+	.byte	1,5,19,9
+	.half	.L218-.L217
+	.byte	1,5,17,9
+	.half	.L219-.L218
+	.byte	1,5,9,9
+	.half	.L220-.L219
+	.byte	1,5,5,9
+	.half	.L221-.L220
+	.byte	3,2,1,5,11,9
+	.half	.L222-.L221
+	.byte	1,5,9,9
+	.half	.L223-.L222
+	.byte	1,5,5,9
+	.half	.L224-.L223
+	.byte	3,1,1,5,11,9
+	.half	.L225-.L224
+	.byte	1,5,15,9
+	.half	.L226-.L225
+	.byte	1,5,20,9
+	.half	.L227-.L226
+	.byte	1,5,14,9
+	.half	.L228-.L227
+	.byte	1,5,9,9
+	.half	.L229-.L228
+	.byte	1,5,5,9
+	.half	.L230-.L229
+	.byte	3,2,1,5,10,9
+	.half	.L231-.L230
+	.byte	1,5,17,9
+	.half	.L232-.L231
+	.byte	1,5,23,9
+	.half	.L233-.L232
+	.byte	1,5,14,9
+	.half	.L234-.L233
+	.byte	1,5,5,9
+	.half	.L235-.L234
+	.byte	3,1,1,5,10,9
+	.half	.L236-.L235
+	.byte	1,5,17,9
+	.half	.L237-.L236
+	.byte	1,5,23,9
+	.half	.L238-.L237
+	.byte	1,5,14,9
+	.half	.L239-.L238
+	.byte	1,5,5,9
+	.half	.L240-.L239
+	.byte	3,1,1,5,10,9
+	.half	.L241-.L240
+	.byte	1,5,17,9
+	.half	.L242-.L241
+	.byte	1,5,23,9
+	.half	.L243-.L242
+	.byte	1,5,14,9
+	.half	.L244-.L243
+	.byte	1,5,5,9
+	.half	.L245-.L244
+	.byte	3,1,1,5,10,9
+	.half	.L246-.L245
+	.byte	1,5,17,9
+	.half	.L247-.L246
+	.byte	1,5,23,9
+	.half	.L248-.L247
+	.byte	1,5,14,9
+	.half	.L249-.L248
+	.byte	1,5,5,9
+	.half	.L250-.L249
+	.byte	3,2,1,5,16,9
+	.half	.L251-.L250
+	.byte	1,5,22,9
+	.half	.L252-.L251
+	.byte	1,5,5,9
+	.half	.L253-.L252
+	.byte	1,5,13,9
+	.half	.L254-.L253
+	.byte	1,5,5,9
+	.half	.L255-.L254
+	.byte	3,1,1,5,16,9
+	.half	.L256-.L255
+	.byte	1,5,22,9
+	.half	.L257-.L256
+	.byte	1,5,5,9
+	.half	.L258-.L257
+	.byte	1,5,13,9
+	.half	.L259-.L258
+	.byte	1,5,5,9
+	.half	.L260-.L259
+	.byte	3,1,1,5,23,9
+	.half	.L261-.L260
+	.byte	1,5,21,9
+	.half	.L110-.L261
+	.byte	1,5,14,9
+	.half	.L111-.L110
+	.byte	1,5,12,9
+	.half	.L262-.L111
+	.byte	3,1,1,5,5,9
+	.half	.L263-.L262
+	.byte	1,5,1,9
+	.half	.L2-.L263
+	.byte	3,1,1,7,9
+	.half	.L20-.L2
+	.byte	0,1,1
+.L129:
+	.sdecl	'.debug_ranges',debug,cluster('KalmanFilter')
+	.sect	'.debug_ranges'
+.L19:
+	.word	-1,.L7,0,.L20-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('KalmanFilter1')
+	.sect	'.debug_info'
+.L21:
+	.word	305
+	.half	3
+	.word	.L22
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L24,.L23
+	.byte	2
+	.word	.L12
+	.byte	3
+	.byte	'KalmanFilter1',0,1,83,7
+	.word	.L89
+	.byte	1,1,1
+	.word	.L9,.L93,.L8
+	.byte	4
+	.byte	'Accel1',0,1,83,27
+	.word	.L89,.L94
+	.byte	4
+	.byte	'Gyro1',0,1,83,40
+	.word	.L89,.L95
+	.byte	5
+	.word	.L9,.L93
+	.byte	6
+	.byte	'Angle1',0,1,85,18
+	.word	.L89
+	.byte	5,3
+	.word	_999003_Angle1
+	.byte	6
+	.byte	'Gyro_y1',0,1,85,30
+	.word	.L89
+	.byte	5,3
+	.word	_999004_Gyro_y1
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('KalmanFilter1')
+	.sect	'.debug_abbrev'
+.L22:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('KalmanFilter1')
+	.sect	'.debug_line'
+.L23:
+	.word	.L265-.L264
+.L264:
+	.half	3
+	.word	.L267-.L266
+.L266:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/karman.c',0,0,0,0,0
+.L267:
+	.byte	5,7,7,0,5,2
+	.word	.L9
+	.byte	3,210,0,1,5,5,9
+	.half	.L268-.L9
+	.byte	3,4,1,5,22,9
+	.half	.L269-.L268
+	.byte	1,5,20,9
+	.half	.L114-.L269
+	.byte	1,5,33,9
+	.half	.L270-.L114
+	.byte	1,5,31,9
+	.half	.L271-.L270
+	.byte	1,5,5,9
+	.half	.L272-.L271
+	.byte	1,5,11,9
+	.half	.L273-.L272
+	.byte	1,5,5,9
+	.half	.L274-.L273
+	.byte	3,2,1,5,14,9
+	.half	.L275-.L274
+	.byte	1,5,25,9
+	.half	.L276-.L275
+	.byte	1,5,31,9
+	.half	.L277-.L276
+	.byte	1,5,23,9
+	.half	.L278-.L277
+	.byte	1,5,37,9
+	.half	.L279-.L278
+	.byte	1,5,43,9
+	.half	.L280-.L279
+	.byte	1,5,35,9
+	.half	.L281-.L280
+	.byte	1,5,13,9
+	.half	.L282-.L281
+	.byte	1,5,5,9
+	.half	.L283-.L282
+	.byte	3,2,1,5,17,9
+	.half	.L284-.L283
+	.byte	1,5,23,9
+	.half	.L285-.L284
+	.byte	1,5,16,9
+	.half	.L286-.L285
+	.byte	1,5,14,9
+	.half	.L287-.L286
+	.byte	1,5,5,9
+	.half	.L288-.L287
+	.byte	3,1,1,5,17,9
+	.half	.L289-.L288
+	.byte	1,5,23,9
+	.half	.L290-.L289
+	.byte	1,5,16,9
+	.half	.L291-.L290
+	.byte	1,5,14,9
+	.half	.L292-.L291
+	.byte	1,5,5,9
+	.half	.L293-.L292
+	.byte	3,1,1,5,15,9
+	.half	.L294-.L293
+	.byte	1,5,13,9
+	.half	.L295-.L294
+	.byte	1,5,5,9
+	.half	.L296-.L295
+	.byte	3,2,1,5,18,9
+	.half	.L297-.L296
+	.byte	1,5,23,9
+	.half	.L298-.L297
+	.byte	1,5,29,9
+	.half	.L299-.L298
+	.byte	1,5,27,9
+	.half	.L300-.L299
+	.byte	1,5,5,9
+	.half	.L301-.L300
+	.byte	1,5,11,9
+	.half	.L302-.L301
+	.byte	1,5,15,9
+	.half	.L303-.L302
+	.byte	1,5,5,9
+	.half	.L304-.L303
+	.byte	3,1,1,5,18,9
+	.half	.L305-.L304
+	.byte	1,5,23,9
+	.half	.L306-.L305
+	.byte	1,5,29,9
+	.half	.L307-.L306
+	.byte	1,5,27,9
+	.half	.L308-.L307
+	.byte	1,5,5,9
+	.half	.L309-.L308
+	.byte	1,5,11,9
+	.half	.L310-.L309
+	.byte	1,5,15,9
+	.half	.L311-.L310
+	.byte	1,5,5,9
+	.half	.L312-.L311
+	.byte	3,1,1,5,18,9
+	.half	.L313-.L312
+	.byte	1,5,23,9
+	.half	.L314-.L313
+	.byte	1,5,29,9
+	.half	.L315-.L314
+	.byte	1,5,27,9
+	.half	.L316-.L315
+	.byte	1,5,5,9
+	.half	.L317-.L316
+	.byte	1,5,11,9
+	.half	.L318-.L317
+	.byte	1,5,15,9
+	.half	.L319-.L318
+	.byte	1,5,5,9
+	.half	.L320-.L319
+	.byte	3,1,1,5,11,9
+	.half	.L321-.L320
+	.byte	1,5,23,9
+	.half	.L322-.L321
+	.byte	1,5,29,9
+	.half	.L323-.L322
+	.byte	1,5,27,9
+	.half	.L324-.L323
+	.byte	1,5,15,9
+	.half	.L325-.L324
+	.byte	1,5,5,9
+	.half	.L326-.L325
+	.byte	3,2,1,5,27,9
+	.half	.L327-.L326
+	.byte	1,5,25,9
+	.half	.L115-.L327
+	.byte	1,5,16,9
+	.half	.L116-.L115
+	.byte	1,5,5,9
+	.half	.L328-.L116
+	.byte	3,2,1,5,14,9
+	.half	.L329-.L328
+	.byte	1,5,19,9
+	.half	.L330-.L329
+	.byte	1,5,25,9
+	.half	.L331-.L330
+	.byte	1,5,18,9
+	.half	.L332-.L331
+	.byte	1,5,12,9
+	.half	.L333-.L332
+	.byte	1,5,5,9
+	.half	.L334-.L333
+	.byte	3,1,1,5,14,9
+	.half	.L335-.L334
+	.byte	1,5,19,9
+	.half	.L336-.L335
+	.byte	1,5,25,9
+	.half	.L337-.L336
+	.byte	1,5,18,9
+	.half	.L338-.L337
+	.byte	1,5,12,9
+	.half	.L339-.L338
+	.byte	1,5,5,9
+	.half	.L340-.L339
+	.byte	3,2,1,5,21,9
+	.half	.L341-.L340
+	.byte	1,5,26,9
+	.half	.L342-.L341
+	.byte	1,5,25,9
+	.half	.L343-.L342
+	.byte	1,5,10,9
+	.half	.L344-.L343
+	.byte	1,5,19,9
+	.half	.L345-.L344
+	.byte	1,5,8,9
+	.half	.L346-.L345
+	.byte	1,5,5,9
+	.half	.L347-.L346
+	.byte	3,2,1,5,12,9
+	.half	.L348-.L347
+	.byte	1,5,21,9
+	.half	.L349-.L348
+	.byte	1,5,19,9
+	.half	.L350-.L349
+	.byte	1,5,10,9
+	.half	.L351-.L350
+	.byte	1,5,5,9
+	.half	.L352-.L351
+	.byte	3,1,1,5,12,9
+	.half	.L353-.L352
+	.byte	1,5,21,9
+	.half	.L354-.L353
+	.byte	1,5,19,9
+	.half	.L355-.L354
+	.byte	1,5,10,9
+	.half	.L356-.L355
+	.byte	1,5,5,9
+	.half	.L357-.L356
+	.byte	3,2,1,5,12,9
+	.half	.L358-.L357
+	.byte	1,5,10,9
+	.half	.L359-.L358
+	.byte	1,5,5,9
+	.half	.L360-.L359
+	.byte	3,1,1,5,12,9
+	.half	.L361-.L360
+	.byte	1,5,17,9
+	.half	.L362-.L361
+	.byte	1,5,23,9
+	.half	.L363-.L362
+	.byte	1,5,16,9
+	.half	.L364-.L363
+	.byte	1,5,10,9
+	.half	.L365-.L364
+	.byte	1,5,5,9
+	.half	.L366-.L365
+	.byte	3,2,1,5,11,9
+	.half	.L367-.L366
+	.byte	1,5,18,9
+	.half	.L368-.L367
+	.byte	1,5,25,9
+	.half	.L369-.L368
+	.byte	1,5,15,9
+	.half	.L370-.L369
+	.byte	1,5,5,9
+	.half	.L371-.L370
+	.byte	3,1,1,5,11,9
+	.half	.L372-.L371
+	.byte	1,5,18,9
+	.half	.L373-.L372
+	.byte	1,5,25,9
+	.half	.L374-.L373
+	.byte	1,5,15,9
+	.half	.L375-.L374
+	.byte	1,5,5,9
+	.half	.L376-.L375
+	.byte	3,1,1,5,11,9
+	.half	.L377-.L376
+	.byte	1,5,18,9
+	.half	.L378-.L377
+	.byte	1,5,25,9
+	.half	.L379-.L378
+	.byte	1,5,15,9
+	.half	.L380-.L379
+	.byte	1,5,5,9
+	.half	.L381-.L380
+	.byte	3,1,1,5,11,9
+	.half	.L382-.L381
+	.byte	1,5,18,9
+	.half	.L383-.L382
+	.byte	1,5,25,9
+	.half	.L384-.L383
+	.byte	1,5,15,9
+	.half	.L385-.L384
+	.byte	1,5,5,9
+	.half	.L386-.L385
+	.byte	3,2,1,5,17,9
+	.half	.L387-.L386
+	.byte	1,5,24,9
+	.half	.L388-.L387
+	.byte	1,5,5,9
+	.half	.L389-.L388
+	.byte	1,5,14,9
+	.half	.L390-.L389
+	.byte	1,5,5,9
+	.half	.L391-.L390
+	.byte	3,1,1,5,17,9
+	.half	.L392-.L391
+	.byte	1,5,24,9
+	.half	.L393-.L392
+	.byte	1,5,5,9
+	.half	.L394-.L393
+	.byte	1,5,14,9
+	.half	.L395-.L394
+	.byte	1,5,5,9
+	.half	.L396-.L395
+	.byte	3,1,1,5,25,9
+	.half	.L397-.L396
+	.byte	1,5,23,9
+	.half	.L117-.L397
+	.byte	1,5,15,9
+	.half	.L118-.L117
+	.byte	1,5,12,9
+	.half	.L398-.L118
+	.byte	3,1,1,5,5,9
+	.half	.L399-.L398
+	.byte	1,5,1,9
+	.half	.L3-.L399
+	.byte	3,1,1,7,9
+	.half	.L25-.L3
+	.byte	0,1,1
+.L265:
+	.sdecl	'.debug_ranges',debug,cluster('KalmanFilter1')
+	.sect	'.debug_ranges'
+.L24:
+	.word	-1,.L9,0,.L25-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('angle_calc')
+	.sect	'.debug_info'
+.L26:
+	.word	388
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L29,.L28
+	.byte	2
+	.word	.L12
+	.byte	3
+	.byte	'angle_calc',0,1,138,1,7
+	.word	.L89
+	.byte	1,1,1
+	.word	.L11,.L96,.L10
+	.byte	4
+	.byte	'angle_m',0,1,138,1,24
+	.word	.L89,.L97
+	.byte	4
+	.byte	'gyro_m',0,1,138,1,39
+	.word	.L89,.L98
+	.byte	5
+	.word	.L11,.L96
+	.byte	6
+	.byte	'temp_angle',0,1,140,1,11
+	.word	.L89,.L99
+	.byte	6
+	.byte	'gyro_now',0,1,141,1,11
+	.word	.L89,.L100
+	.byte	6
+	.byte	'error_angle',0,1,142,1,11
+	.word	.L89,.L101
+	.byte	7
+	.byte	'last_angle',0,1,144,1,18
+	.word	.L89
+	.byte	5,3
+	.word	_999005_last_angle
+	.byte	7
+	.byte	'first_angle',0,1,145,1,18
+	.word	.L102
+	.byte	5,3
+	.word	_999006_first_angle
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('angle_calc')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,7,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_line',debug,cluster('angle_calc')
+	.sect	'.debug_line'
+.L28:
+	.word	.L401-.L400
+.L400:
+	.half	3
+	.word	.L403-.L402
+.L402:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/karman.c',0,0,0,0,0
+.L403:
+	.byte	5,9,7,0,5,2
+	.word	.L11
+	.byte	3,146,1,1,9
+	.half	.L404-.L11
+	.byte	3,3,1,5,23,9
+	.half	.L405-.L404
+	.byte	1,5,21,9
+	.half	.L406-.L405
+	.byte	1,5,9,9
+	.half	.L407-.L406
+	.byte	3,1,1,5,20,9
+	.half	.L408-.L407
+	.byte	1,5,25,9
+	.half	.L4-.L408
+	.byte	3,3,1,5,23,9
+	.half	.L409-.L4
+	.byte	1,5,30,9
+	.half	.L119-.L409
+	.byte	3,3,1,5,28,9
+	.half	.L410-.L119
+	.byte	1,5,42,9
+	.half	.L411-.L410
+	.byte	1,5,41,9
+	.half	.L412-.L411
+	.byte	1,5,44,9
+	.half	.L121-.L412
+	.byte	3,3,1,5,56,9
+	.half	.L120-.L121
+	.byte	1,5,18,9
+	.half	.L122-.L120
+	.byte	1,5,29,9
+	.half	.L413-.L122
+	.byte	1,5,5,9
+	.half	.L123-.L413
+	.byte	3,3,1,5,16,9
+	.half	.L414-.L123
+	.byte	1,5,5,9
+	.half	.L415-.L414
+	.byte	3,2,1,5,1,9
+	.half	.L5-.L415
+	.byte	3,1,1,7,9
+	.half	.L30-.L5
+	.byte	0,1,1
+.L401:
+	.sdecl	'.debug_ranges',debug,cluster('angle_calc')
+	.sect	'.debug_ranges'
+.L29:
+	.word	-1,.L11,0,.L30-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('gyro')
+	.sect	'.debug_info'
+.L31:
+	.word	189
+	.half	3
+	.word	.L32
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'gyro',0,1,15,7
+	.word	.L89
+	.byte	1,5,3
+	.word	gyro
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('gyro')
+	.sect	'.debug_abbrev'
+.L32:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Q_bias')
+	.sect	'.debug_info'
+.L33:
+	.word	191
+	.half	3
+	.word	.L34
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'Q_bias',0,1,16,7
+	.word	.L89
+	.byte	1,5,3
+	.word	Q_bias
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Q_bias')
+	.sect	'.debug_abbrev'
+.L34:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Angle_err')
+	.sect	'.debug_info'
+.L35:
+	.word	194
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'Angle_err',0,1,16,15
+	.word	.L89
+	.byte	1,5,3
+	.word	Angle_err
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Angle_err')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PCt_0')
+	.sect	'.debug_info'
+.L37:
+	.word	190
+	.half	3
+	.word	.L38
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'PCt_0',0,1,17,7
+	.word	.L89
+	.byte	1,5,3
+	.word	PCt_0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PCt_0')
+	.sect	'.debug_abbrev'
+.L38:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PCt_1')
+	.sect	'.debug_info'
+.L39:
+	.word	190
+	.half	3
+	.word	.L40
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'PCt_1',0,1,17,14
+	.word	.L89
+	.byte	1,5,3
+	.word	PCt_1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PCt_1')
+	.sect	'.debug_abbrev'
+.L40:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('E')
+	.sect	'.debug_info'
+.L41:
+	.word	186
+	.half	3
+	.word	.L42
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'E',0,1,17,21
+	.word	.L89
+	.byte	1,5,3
+	.word	E
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('E')
+	.sect	'.debug_abbrev'
+.L42:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('K_0')
+	.sect	'.debug_info'
+.L43:
+	.word	188
+	.half	3
+	.word	.L44
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'K_0',0,1,18,7
+	.word	.L89
+	.byte	1,5,3
+	.word	K_0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('K_0')
+	.sect	'.debug_abbrev'
+.L44:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('K_1')
+	.sect	'.debug_info'
+.L45:
+	.word	188
+	.half	3
+	.word	.L46
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'K_1',0,1,18,12
+	.word	.L89
+	.byte	1,5,3
+	.word	K_1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('K_1')
+	.sect	'.debug_abbrev'
+.L46:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('t_0')
+	.sect	'.debug_info'
+.L47:
+	.word	188
+	.half	3
+	.word	.L48
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	't_0',0,1,18,17
+	.word	.L89
+	.byte	1,5,3
+	.word	t_0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('t_0')
+	.sect	'.debug_abbrev'
+.L48:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('t_1')
+	.sect	'.debug_info'
+.L49:
+	.word	188
+	.half	3
+	.word	.L50
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	't_1',0,1,18,22
+	.word	.L89
+	.byte	1,5,3
+	.word	t_1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('t_1')
+	.sect	'.debug_abbrev'
+.L50:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Pdot')
+	.sect	'.debug_info'
+.L51:
+	.word	189
+	.half	3
+	.word	.L52
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'Pdot',0,1,19,7
+	.word	.L103
+	.byte	1,5,3
+	.word	Pdot
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Pdot')
+	.sect	'.debug_abbrev'
+.L52:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PP')
+	.sect	'.debug_info'
+.L53:
+	.word	187
+	.half	3
+	.word	.L54
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'PP',0,1,20,7
+	.word	.L104
+	.byte	1,5,3
+	.word	PP
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PP')
+	.sect	'.debug_abbrev'
+.L54:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('C_0')
+	.sect	'.debug_info'
+.L55:
+	.word	188
+	.half	3
+	.word	.L56
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'C_0',0,1,25,7
+	.word	.L89
+	.byte	1,5,3
+	.word	C_0
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('C_0')
+	.sect	'.debug_abbrev'
+.L56:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('gyro1')
+	.sect	'.debug_info'
+.L57:
+	.word	190
+	.half	3
+	.word	.L58
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'gyro1',0,1,72,7
+	.word	.L89
+	.byte	1,5,3
+	.word	gyro1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('gyro1')
+	.sect	'.debug_abbrev'
+.L58:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Q_bias1')
+	.sect	'.debug_info'
+.L59:
+	.word	192
+	.half	3
+	.word	.L60
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'Q_bias1',0,1,73,7
+	.word	.L89
+	.byte	1,5,3
+	.word	Q_bias1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Q_bias1')
+	.sect	'.debug_abbrev'
+.L60:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Angle_err1')
+	.sect	'.debug_info'
+.L61:
+	.word	195
+	.half	3
+	.word	.L62
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'Angle_err1',0,1,73,16
+	.word	.L89
+	.byte	1,5,3
+	.word	Angle_err1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Angle_err1')
+	.sect	'.debug_abbrev'
+.L62:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PCt_01')
+	.sect	'.debug_info'
+.L63:
+	.word	191
+	.half	3
+	.word	.L64
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'PCt_01',0,1,74,7
+	.word	.L89
+	.byte	1,5,3
+	.word	PCt_01
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PCt_01')
+	.sect	'.debug_abbrev'
+.L64:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PCt_11')
+	.sect	'.debug_info'
+.L65:
+	.word	191
+	.half	3
+	.word	.L66
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'PCt_11',0,1,74,15
+	.word	.L89
+	.byte	1,5,3
+	.word	PCt_11
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PCt_11')
+	.sect	'.debug_abbrev'
+.L66:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('E1')
+	.sect	'.debug_info'
+.L67:
+	.word	187
+	.half	3
+	.word	.L68
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'E1',0,1,74,23
+	.word	.L89
+	.byte	1,5,3
+	.word	E1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('E1')
+	.sect	'.debug_abbrev'
+.L68:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('K_01')
+	.sect	'.debug_info'
+.L69:
+	.word	189
+	.half	3
+	.word	.L70
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'K_01',0,1,75,7
+	.word	.L89
+	.byte	1,5,3
+	.word	K_01
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('K_01')
+	.sect	'.debug_abbrev'
+.L70:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('K_11')
+	.sect	'.debug_info'
+.L71:
+	.word	189
+	.half	3
+	.word	.L72
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'K_11',0,1,75,13
+	.word	.L89
+	.byte	1,5,3
+	.word	K_11
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('K_11')
+	.sect	'.debug_abbrev'
+.L72:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('t_01')
+	.sect	'.debug_info'
+.L73:
+	.word	189
+	.half	3
+	.word	.L74
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	't_01',0,1,75,19
+	.word	.L89
+	.byte	1,5,3
+	.word	t_01
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('t_01')
+	.sect	'.debug_abbrev'
+.L74:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('t_11')
+	.sect	'.debug_info'
+.L75:
+	.word	189
+	.half	3
+	.word	.L76
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	't_11',0,1,75,25
+	.word	.L89
+	.byte	1,5,3
+	.word	t_11
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('t_11')
+	.sect	'.debug_abbrev'
+.L76:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Pdot1')
+	.sect	'.debug_info'
+.L77:
+	.word	190
+	.half	3
+	.word	.L78
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'Pdot1',0,1,76,7
+	.word	.L103
+	.byte	1,5,3
+	.word	Pdot1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Pdot1')
+	.sect	'.debug_abbrev'
+.L78:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('PP1')
+	.sect	'.debug_info'
+.L79:
+	.word	188
+	.half	3
+	.word	.L80
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'PP1',0,1,77,7
+	.word	.L104
+	.byte	1,5,3
+	.word	PP1
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('PP1')
+	.sect	'.debug_abbrev'
+.L80:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('C_01')
+	.sect	'.debug_info'
+.L81:
+	.word	189
+	.half	3
+	.word	.L82
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'C_01',0,1,80,7
+	.word	.L89
+	.byte	1,5,3
+	.word	C_01
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('C_01')
+	.sect	'.debug_abbrev'
+.L82:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('acc_ratio')
+	.sect	'.debug_info'
+.L83:
+	.word	194
+	.half	3
+	.word	.L84
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'acc_ratio',0,1,127,7
+	.word	.L89
+	.byte	1,5,3
+	.word	acc_ratio
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('acc_ratio')
+	.sect	'.debug_abbrev'
+.L84:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('gyro_ratio')
+	.sect	'.debug_info'
+.L85:
+	.word	196
+	.half	3
+	.word	.L86
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'gyro_ratio',0,1,128,1,7
+	.word	.L89
+	.byte	1,5,3
+	.word	gyro_ratio
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('gyro_ratio')
+	.sect	'.debug_abbrev'
+.L86:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('dt2')
+	.sect	'.debug_info'
+.L87:
+	.word	189
+	.half	3
+	.word	.L88
+	.byte	4,1
+	.byte	'../code/karman.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L12
+	.byte	3
+	.byte	'dt2',0,1,129,1,7
+	.word	.L89
+	.byte	1,5,3
+	.word	dt2
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('dt2')
+	.sect	'.debug_abbrev'
+.L88:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('KalmanFilter')
+	.sect	'.debug_loc'
+.L91:
+	.word	-1,.L7,0,.L105-.L7
+	.half	1
+	.byte	84
+	.word	.L108-.L7,.L109-.L7
+	.half	1
+	.byte	88
+	.word	0,0
+.L92:
+	.word	-1,.L7,0,.L106-.L7
+	.half	1
+	.byte	85
+	.word	.L107-.L7,.L105-.L7
+	.half	1
+	.byte	89
+	.word	.L110-.L7,.L111-.L7
+	.half	1
+	.byte	89
+	.word	0,0
+.L6:
+	.word	-1,.L7,0,.L90-.L7
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('KalmanFilter1')
+	.sect	'.debug_loc'
+.L94:
+	.word	-1,.L9,0,.L112-.L9
+	.half	1
+	.byte	84
+	.word	.L115-.L9,.L116-.L9
+	.half	1
+	.byte	88
+	.word	0,0
+.L95:
+	.word	-1,.L9,0,.L113-.L9
+	.half	1
+	.byte	85
+	.word	.L114-.L9,.L112-.L9
+	.half	1
+	.byte	89
+	.word	.L117-.L9,.L118-.L9
+	.half	1
+	.byte	89
+	.word	0,0
+.L8:
+	.word	-1,.L9,0,.L93-.L9
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('angle_calc')
+	.sect	'.debug_loc'
+.L10:
+	.word	-1,.L11,0,.L96-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L97:
+	.word	-1,.L11,0,.L96-.L11
+	.half	1
+	.byte	84
+	.word	0,0
+.L101:
+	.word	-1,.L11,.L121-.L11,.L122-.L11
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L98:
+	.word	-1,.L11,0,.L96-.L11
+	.half	1
+	.byte	85
+	.word	0,0
+.L100:
+	.word	-1,.L11,.L119-.L11,.L120-.L11
+	.half	1
+	.byte	95
+	.word	0,0
+.L99:
+	.word	-1,.L11,.L123-.L11,.L96-.L11
+	.half	1
+	.byte	82
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L416:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('KalmanFilter')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L416,.L7,.L90-.L7
+	.sdecl	'.debug_frame',debug,cluster('KalmanFilter1')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L416,.L9,.L93-.L9
+	.sdecl	'.debug_frame',debug,cluster('angle_calc')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L416,.L11,.L96-.L11
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end

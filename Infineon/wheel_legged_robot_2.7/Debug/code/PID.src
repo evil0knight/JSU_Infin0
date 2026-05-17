@@ -1,0 +1,1035 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc28448a --dep-file=PID.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -ID:\\\\Infineon\\\\wheel_legged_robot_2.7 -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\code -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Configurations -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Service -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\zf_common -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\zf_components -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\zf_device -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\libraries\\\\zf_driver -ID:\\\\Infineon\\\\wheel_legged_robot_2.7\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/PID.src ../code/PID.c"
+	.compiler_name		"ctc"
+	;source	'../code/PID.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.PID.place_pid_init',code,cluster('place_pid_init')
+	.sect	'.text.PID.place_pid_init'
+	.align	2
+	
+	.global	place_pid_init
+; Function place_pid_init
+.L11:
+place_pid_init:	.type	func
+	ld.w	d0,[a10]
+.L69:
+	ld.w	d15,[a10]4
+.L70:
+	st.w	[a4],d4
+.L87:
+	st.w	[a4]4,d5
+.L88:
+	st.w	[a4]8,d6
+.L89:
+	st.w	[a4]16,d7
+.L90:
+	st.w	[a4]28,d0
+.L91:
+	st.w	[a4]32,d15
+.L92:
+	mov	d15,#0
+.L71:
+	st.w	[a4]12,d15
+.L93:
+	mov	d15,#0
+.L94:
+	st.w	[a4]24,d15
+.L95:
+	mov	d15,#0
+.L96:
+	st.w	[a4]20,d15
+.L97:
+	mov	d15,#0
+.L98:
+	st.w	[a4]36,d15
+.L99:
+	ret
+.L42:
+	
+__place_pid_init_function_end:
+	.size	place_pid_init,__place_pid_init_function_end-place_pid_init
+.L26:
+	; End of function
+	
+	.sdecl	'.text.PID.place_pid_update',code,cluster('place_pid_update')
+	.sect	'.text.PID.place_pid_update'
+	.align	2
+	
+	.global	place_pid_update
+; Function place_pid_update
+.L13:
+place_pid_update:	.type	func
+	ld.w	d15,[a4]16
+.L104:
+	ld.w	d0,[a4]12
+.L105:
+	sub.f	d2,d15,d0
+.L72:
+	ld.w	d0,[a4]24
+.L106:
+	ld.w	d15,[a4]20
+.L107:
+	add.f	d15,d0,d15
+	st.w	[a4]24,d15
+.L108:
+	ld.w	d0,[a4]24
+.L109:
+	ld.w	d15,[a4]28
+.L110:
+	cmp.f	d0,d0,d15
+	extr.u	d15,d0,#2,#1
+.L111:
+	jeq	d15,#0,.L2
+.L112:
+	ld.w	d15,[a4]28
+.L113:
+	st.w	[a4]24,d15
+.L114:
+	j	.L3
+.L2:
+	ld.w	d0,[a4]24
+.L115:
+	ld.w	d15,[a4]28
+.L116:
+	movh	d1,#49024
+.L117:
+	mul.f	d1,d15,d1
+.L118:
+	cmp.f	d0,d0,d1
+	extr.u	d15,d0,#0,#1
+.L119:
+	jeq	d15,#0,.L4
+.L120:
+	ld.w	d15,[a4]28
+.L121:
+	movh	d0,#49024
+.L122:
+	mul.f	d15,d15,d0
+.L123:
+	st.w	[a4]24,d15
+.L4:
+.L3:
+	ld.w	d15,[a4]32
+.L124:
+	cmp.f	d15,d2,d15
+	extr.u	d15,d15,#2,#1
+.L125:
+	jeq	d15,#0,.L5
+.L126:
+	mov	d15,#0
+.L127:
+	st.w	[a4]24,d15
+.L128:
+	j	.L6
+.L5:
+	ld.w	d15,[a4]32
+.L129:
+	movh	d0,#49024
+.L130:
+	mul.f	d15,d15,d0
+.L131:
+	cmp.f	d15,d2,d15
+	extr.u	d15,d15,#0,#1
+.L132:
+	jeq	d15,#0,.L7
+.L133:
+	mov	d15,#0
+.L134:
+	st.w	[a4]24,d15
+.L7:
+.L6:
+	ld.w	d0,[a4]8
+.L135:
+	ld.w	d1,[a4]
+.L136:
+	ld.w	d3,[a4]4
+.L137:
+	ld.w	d15,[a4]24
+.L138:
+	mul.f	d15,d3,d15
+.L139:
+	madd.f	d15,d15,d1,d2
+.L140:
+	madd.f	d15,d15,d0,d4
+.L141:
+	st.w	[a4]36,d15
+.L142:
+	st.w	[a4]20,d2
+.L143:
+	ret
+.L52:
+	
+__place_pid_update_function_end:
+	.size	place_pid_update,__place_pid_update_function_end-place_pid_update
+.L31:
+	; End of function
+	
+	.sdecl	'.text.PID.increment_pid_init',code,cluster('increment_pid_init')
+	.sect	'.text.PID.increment_pid_init'
+	.align	2
+	
+	.global	increment_pid_init
+; Function increment_pid_init
+.L15:
+increment_pid_init:	.type	func
+	ld.w	d15,[a10]
+.L73:
+	st.w	[a4],d4
+.L148:
+	st.w	[a4]4,d5
+.L149:
+	st.w	[a4]8,d6
+.L150:
+	st.w	[a4]16,d7
+.L151:
+	st.w	[a4]28,d15
+.L152:
+	mov	d15,#0
+.L74:
+	st.w	[a4]12,d15
+.L153:
+	mov	d15,#0
+.L154:
+	st.w	[a4]20,d15
+.L155:
+	mov	d15,#0
+.L156:
+	st.w	[a4]24,d15
+.L157:
+	mov	d15,#0
+.L158:
+	st.w	[a4]32,d15
+.L159:
+	ret
+.L56:
+	
+__increment_pid_init_function_end:
+	.size	increment_pid_init,__increment_pid_init_function_end-increment_pid_init
+.L36:
+	; End of function
+	
+	.sdecl	'.text.PID.increment_pid_update',code,cluster('increment_pid_update')
+	.sect	'.text.PID.increment_pid_update'
+	.align	2
+	
+	.global	increment_pid_update
+; Function increment_pid_update
+.L17:
+increment_pid_update:	.type	func
+	ld.w	d15,[a4]16
+.L164:
+	ld.w	d0,[a4]12
+.L165:
+	sub.f	d4,d15,d0
+.L75:
+	ld.w	d15,[a4]20
+.L166:
+	movh	d0,#16384
+.L167:
+	msub.f	d0,d4,d15,d0
+.L168:
+	ld.w	d15,[a4]24
+.L169:
+	add.f	d0,d0,d15
+.L76:
+	ld.w	d1,[a4]8
+.L170:
+	ld.w	d2,[a4]
+.L171:
+	ld.w	d15,[a4]4
+.L172:
+	mul.f	d3,d15,d4
+.L173:
+	madd.f	d2,d3,d2,d4
+.L174:
+	madd.f	d0,d2,d1,d0
+.L77:
+	ld.w	d15,[a4]28
+.L175:
+	cmp.f	d1,d0,d15
+	extr.u	d15,d1,#2,#1
+.L176:
+	jeq	d15,#0,.L8
+.L177:
+	ld.w	d0,[a4]28
+.L8:
+	ld.w	d15,[a4]28
+.L178:
+	movh	d1,#49024
+.L179:
+	mul.f	d15,d15,d1
+.L180:
+	cmp.f	d15,d0,d15
+	extr.u	d15,d15,#0,#1
+.L181:
+	jeq	d15,#0,.L9
+.L182:
+	ld.w	d15,[a4]28
+.L183:
+	movh	d0,#49024
+.L78:
+	mul.f	d0,d15,d0
+.L9:
+	st.w	[a4]20,d4
+.L184:
+	st.w	[a4]24,d4
+.L185:
+	ld.w	d15,[a4]32
+.L186:
+	add.f	d15,d15,d0
+	st.w	[a4]32,d15
+.L187:
+	ret
+.L64:
+	
+__increment_pid_update_function_end:
+	.size	increment_pid_update,__increment_pid_update_function_end-increment_pid_update
+.L41:
+	; End of function
+	
+	.calls	'place_pid_init','',0
+	.calls	'place_pid_update','',0
+	.calls	'increment_pid_init','',0
+	.calls	'increment_pid_update','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L19:
+	.word	593
+	.half	3
+	.word	.L20
+	.byte	4
+.L18:
+	.byte	1
+	.byte	'../code/PID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Infineon\\wheel_legged_robot_2.7\\Debug\\',0,12,1
+	.word	.L21
+.L45:
+	.byte	2
+	.byte	'float',0,4,4,3,1,12,9,40,4
+	.byte	'Kp',0
+	.word	151
+	.byte	4,2,35,0,4
+	.byte	'Ki',0
+	.word	151
+	.byte	4,2,35,4,4
+	.byte	'Kd',0
+	.word	151
+	.byte	4,2,35,8,4
+	.byte	'now_data',0
+	.word	151
+	.byte	4,2,35,12,4
+	.byte	'target_data',0
+	.word	151
+	.byte	4,2,35,16,4
+	.byte	'last_E',0
+	.word	151
+	.byte	4,2,35,20,4
+	.byte	'E_integral',0
+	.word	151
+	.byte	4,2,35,24,4
+	.byte	'E_integral_limit',0
+	.word	151
+	.byte	4,2,35,28,4
+	.byte	'E_integral_separate',0
+	.word	151
+	.byte	4,2,35,32,4
+	.byte	'output',0
+	.word	151
+	.byte	4,2,35,36,0
+.L43:
+	.byte	5
+	.word	160
+	.byte	3,1,31,9,36,4
+	.byte	'Kp',0
+	.word	151
+	.byte	4,2,35,0,4
+	.byte	'Ki',0
+	.word	151
+	.byte	4,2,35,4,4
+	.byte	'Kd',0
+	.word	151
+	.byte	4,2,35,8,4
+	.byte	'now_data',0
+	.word	151
+	.byte	4,2,35,12,4
+	.byte	'target_data',0
+	.word	151
+	.byte	4,2,35,16,4
+	.byte	'last_E',0
+	.word	151
+	.byte	4,2,35,20,4
+	.byte	'last_last_E',0
+	.word	151
+	.byte	4,2,35,24,4
+	.byte	'increment_limit',0
+	.word	151
+	.byte	4,2,35,28,4
+	.byte	'output',0
+	.word	151
+	.byte	4,2,35,32,0
+.L57:
+	.byte	5
+	.word	353
+	.byte	6,1,5
+	.word	517
+	.byte	7
+	.byte	'__codeptr',0,2,1,1
+	.word	519
+	.byte	7
+	.byte	'place_PID_struct',0,1,28,2
+	.word	160
+	.byte	7
+	.byte	'increment_PID_struct',0,1,45,2
+	.word	353
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,19,1,58,15,59,15,57,15,11,15
+	.byte	0,0,4,13,0,3,8,73,19,11,15,56,9,0,0,5,15,0,73,19,0,0,6,21,0,54,15,0,0,7,22,0,3,8,58,15,59,15,57,15,73
+	.byte	19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L21:
+	.word	.L80-.L79
+.L79:
+	.half	3
+	.word	.L82-.L81
+.L81:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\code\\PID.h',0,0,0,0
+	.byte	'../code/PID.c',0,0,0,0,0
+.L82:
+.L80:
+	.sdecl	'.debug_info',debug,cluster('place_pid_init')
+	.sect	'.debug_info'
+.L22:
+	.word	322
+	.half	3
+	.word	.L23
+	.byte	4,1
+	.byte	'../code/PID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Infineon\\wheel_legged_robot_2.7\\Debug\\',0,12,1
+	.word	.L25,.L24
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'place_pid_init',0,1,15,6,1,1,1
+	.word	.L11,.L42,.L10
+	.byte	4
+	.byte	'Place',0,1,15,40
+	.word	.L43,.L44
+	.byte	4
+	.byte	'Kp',0,1,15,52
+	.word	.L45,.L46
+	.byte	4
+	.byte	'Ki',0,1,15,61
+	.word	.L45,.L47
+	.byte	4
+	.byte	'Kd',0,1,15,70
+	.word	.L45,.L48
+	.byte	4
+	.byte	'target',0,1,15,79
+	.word	.L45,.L49
+	.byte	4
+	.byte	'limit',0,1,15,92
+	.word	.L45,.L50
+	.byte	4
+	.byte	'separate',0,1,15,104
+	.word	.L45,.L51
+	.byte	5
+	.word	.L11,.L42
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('place_pid_init')
+	.sect	'.debug_abbrev'
+.L23:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('place_pid_init')
+	.sect	'.debug_line'
+.L24:
+	.word	.L84-.L83
+.L83:
+	.half	3
+	.word	.L86-.L85
+.L85:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/PID.c',0,0,0,0,0
+.L86:
+	.byte	5,6,7,0,5,2
+	.word	.L11
+	.byte	3,14,1,5,17,9
+	.half	.L70-.L11
+	.byte	3,2,1,9
+	.half	.L87-.L70
+	.byte	3,1,1,9
+	.half	.L88-.L87
+	.byte	3,1,1,5,26,9
+	.half	.L89-.L88
+	.byte	3,2,1,5,31,9
+	.half	.L90-.L89
+	.byte	3,2,1,5,34,9
+	.half	.L91-.L90
+	.byte	3,1,1,5,25,9
+	.half	.L92-.L91
+	.byte	3,2,1,5,23,9
+	.half	.L71-.L92
+	.byte	1,5,27,9
+	.half	.L93-.L71
+	.byte	3,1,1,5,25,9
+	.half	.L94-.L93
+	.byte	1,5,23,9
+	.half	.L95-.L94
+	.byte	3,1,1,5,21,9
+	.half	.L96-.L95
+	.byte	1,5,23,9
+	.half	.L97-.L96
+	.byte	3,1,1,5,21,9
+	.half	.L98-.L97
+	.byte	1,5,1,9
+	.half	.L99-.L98
+	.byte	3,1,1,7,9
+	.half	.L26-.L99
+	.byte	0,1,1
+.L84:
+	.sdecl	'.debug_ranges',debug,cluster('place_pid_init')
+	.sect	'.debug_ranges'
+.L25:
+	.word	-1,.L11,0,.L26-.L11,0,0
+	.sdecl	'.debug_info',debug,cluster('place_pid_update')
+	.sect	'.debug_info'
+.L27:
+	.word	266
+	.half	3
+	.word	.L28
+	.byte	4,1
+	.byte	'../code/PID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Infineon\\wheel_legged_robot_2.7\\Debug\\',0,12,1
+	.word	.L30,.L29
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'place_pid_update',0,1,34,6,1,1,1
+	.word	.L13,.L52,.L12
+	.byte	4
+	.byte	'Place',0,1,34,42
+	.word	.L43,.L53
+	.byte	4
+	.byte	'E_differentiation',0,1,34,55
+	.word	.L45,.L54
+	.byte	5
+	.word	.L13,.L52
+	.byte	6
+	.byte	'E',0,1,36,11
+	.word	.L45,.L55
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('place_pid_update')
+	.sect	'.debug_abbrev'
+.L28:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('place_pid_update')
+	.sect	'.debug_line'
+.L29:
+	.word	.L101-.L100
+.L100:
+	.half	3
+	.word	.L103-.L102
+.L102:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/PID.c',0,0,0,0,0
+.L103:
+	.byte	5,21,7,0,5,2
+	.word	.L13
+	.byte	3,35,1,5,44,9
+	.half	.L104-.L13
+	.byte	1,5,36,9
+	.half	.L105-.L104
+	.byte	1,5,11,9
+	.half	.L72-.L105
+	.byte	3,1,1,5,34,9
+	.half	.L106-.L72
+	.byte	1,5,25,9
+	.half	.L107-.L106
+	.byte	1,5,14,9
+	.half	.L108-.L107
+	.byte	3,3,1,5,36,9
+	.half	.L109-.L108
+	.byte	1,5,28,9
+	.half	.L110-.L109
+	.byte	1,5,5,9
+	.half	.L111-.L110
+	.byte	1,5,85,7,9
+	.half	.L112-.L111
+	.byte	1,5,77,9
+	.half	.L113-.L112
+	.byte	1,5,104,9
+	.half	.L114-.L113
+	.byte	1,5,19,9
+	.half	.L2-.L114
+	.byte	3,1,1,5,48,9
+	.half	.L115-.L2
+	.byte	1,5,36,9
+	.half	.L116-.L115
+	.byte	1,5,48,9
+	.half	.L117-.L116
+	.byte	1,5,33,9
+	.half	.L118-.L117
+	.byte	1,5,10,9
+	.half	.L119-.L118
+	.byte	1,5,104,7,9
+	.half	.L120-.L119
+	.byte	1,5,92,9
+	.half	.L121-.L120
+	.byte	1,5,104,9
+	.half	.L122-.L121
+	.byte	1,5,89,9
+	.half	.L123-.L122
+	.byte	1,5,18,9
+	.half	.L3-.L123
+	.byte	3,1,1,5,10,9
+	.half	.L124-.L3
+	.byte	1,5,5,9
+	.half	.L125-.L124
+	.byte	1,5,64,7,9
+	.half	.L126-.L125
+	.byte	1,5,62,9
+	.half	.L127-.L126
+	.byte	1,5,65,9
+	.half	.L128-.L127
+	.byte	1,5,30,9
+	.half	.L5-.L128
+	.byte	3,1,1,5,18,9
+	.half	.L129-.L5
+	.byte	1,5,30,9
+	.half	.L130-.L129
+	.byte	1,5,15,9
+	.half	.L131-.L130
+	.byte	1,5,10,9
+	.half	.L132-.L131
+	.byte	1,5,76,7,9
+	.half	.L133-.L132
+	.byte	1,5,74,9
+	.half	.L134-.L133
+	.byte	1,5,83,9
+	.half	.L6-.L134
+	.byte	3,2,1,5,29,9
+	.half	.L135-.L6
+	.byte	1,5,47,9
+	.half	.L136-.L135
+	.byte	1,5,61,9
+	.half	.L137-.L136
+	.byte	1,5,53,9
+	.half	.L138-.L137
+	.byte	1,5,39,9
+	.half	.L139-.L138
+	.byte	1,5,75,9
+	.half	.L140-.L139
+	.byte	1,5,21,9
+	.half	.L141-.L140
+	.byte	1,9
+	.half	.L142-.L141
+	.byte	3,2,1,5,1,9
+	.half	.L143-.L142
+	.byte	3,1,1,7,9
+	.half	.L31-.L143
+	.byte	0,1,1
+.L101:
+	.sdecl	'.debug_ranges',debug,cluster('place_pid_update')
+	.sect	'.debug_ranges'
+.L30:
+	.word	-1,.L13,0,.L31-.L13,0,0
+	.sdecl	'.debug_info',debug,cluster('increment_pid_init')
+	.sect	'.debug_info'
+.L32:
+	.word	305
+	.half	3
+	.word	.L33
+	.byte	4,1
+	.byte	'../code/PID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Infineon\\wheel_legged_robot_2.7\\Debug\\',0,12,1
+	.word	.L35,.L34
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'increment_pid_init',0,1,55,6,1,1,1
+	.word	.L15,.L56,.L14
+	.byte	4
+	.byte	'Place',0,1,55,48
+	.word	.L57,.L58
+	.byte	4
+	.byte	'Kp',0,1,55,60
+	.word	.L45,.L59
+	.byte	4
+	.byte	'Ki',0,1,55,69
+	.word	.L45,.L60
+	.byte	4
+	.byte	'Kd',0,1,55,78
+	.word	.L45,.L61
+	.byte	4
+	.byte	'target',0,1,55,87
+	.word	.L45,.L62
+	.byte	4
+	.byte	'limit',0,1,55,100
+	.word	.L45,.L63
+	.byte	5
+	.word	.L15,.L56
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('increment_pid_init')
+	.sect	'.debug_abbrev'
+.L33:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('increment_pid_init')
+	.sect	'.debug_line'
+.L34:
+	.word	.L145-.L144
+.L144:
+	.half	3
+	.word	.L147-.L146
+.L146:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/PID.c',0,0,0,0,0
+.L147:
+	.byte	5,6,7,0,5,2
+	.word	.L15
+	.byte	3,54,1,5,17,9
+	.half	.L73-.L15
+	.byte	3,2,1,9
+	.half	.L148-.L73
+	.byte	3,1,1,9
+	.half	.L149-.L148
+	.byte	3,1,1,5,26,9
+	.half	.L150-.L149
+	.byte	3,2,1,5,30,9
+	.half	.L151-.L150
+	.byte	3,2,1,5,25,9
+	.half	.L152-.L151
+	.byte	3,2,1,5,23,9
+	.half	.L74-.L152
+	.byte	1,9
+	.half	.L153-.L74
+	.byte	3,1,1,5,21,9
+	.half	.L154-.L153
+	.byte	1,5,28,9
+	.half	.L155-.L154
+	.byte	3,1,1,5,26,9
+	.half	.L156-.L155
+	.byte	1,5,23,9
+	.half	.L157-.L156
+	.byte	3,1,1,5,21,9
+	.half	.L158-.L157
+	.byte	1,5,1,9
+	.half	.L159-.L158
+	.byte	3,1,1,7,9
+	.half	.L36-.L159
+	.byte	0,1,1
+.L145:
+	.sdecl	'.debug_ranges',debug,cluster('increment_pid_init')
+	.sect	'.debug_ranges'
+.L35:
+	.word	-1,.L15,0,.L36-.L15,0,0
+	.sdecl	'.debug_info',debug,cluster('increment_pid_update')
+	.sect	'.debug_info'
+.L37:
+	.word	289
+	.half	3
+	.word	.L38
+	.byte	4,1
+	.byte	'../code/PID.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Infineon\\wheel_legged_robot_2.7\\Debug\\',0,12,1
+	.word	.L40,.L39
+	.byte	2
+	.word	.L18
+	.byte	3
+	.byte	'increment_pid_update',0,1,73,6,1,1,1
+	.word	.L17,.L64,.L16
+	.byte	4
+	.byte	'Place',0,1,73,50
+	.word	.L57,.L65
+	.byte	5
+	.word	.L17,.L64
+	.byte	6
+	.byte	'E',0,1,75,11
+	.word	.L45,.L66
+	.byte	6
+	.byte	'E_differentiation',0,1,76,11
+	.word	.L45,.L67
+	.byte	6
+	.byte	'result',0,1,78,11
+	.word	.L45,.L68
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('increment_pid_update')
+	.sect	'.debug_abbrev'
+.L38:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('increment_pid_update')
+	.sect	'.debug_line'
+.L39:
+	.word	.L161-.L160
+.L160:
+	.half	3
+	.word	.L163-.L162
+.L162:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/PID.c',0,0,0,0,0
+.L163:
+	.byte	5,21,7,0,5,2
+	.word	.L17
+	.byte	3,202,0,1,5,44,9
+	.half	.L164-.L17
+	.byte	1,5,36,9
+	.half	.L165-.L164
+	.byte	1,5,46,9
+	.half	.L75-.L165
+	.byte	3,1,1,5,36,9
+	.half	.L166-.L75
+	.byte	1,5,34,9
+	.half	.L167-.L166
+	.byte	1,5,64,9
+	.half	.L168-.L167
+	.byte	1,5,56,9
+	.half	.L169-.L168
+	.byte	1,5,64,9
+	.half	.L76-.L169
+	.byte	3,2,1,5,26,9
+	.half	.L170-.L76
+	.byte	1,5,46,9
+	.half	.L171-.L170
+	.byte	1,5,52,9
+	.half	.L172-.L171
+	.byte	1,5,38,9
+	.half	.L173-.L172
+	.byte	1,5,56,9
+	.half	.L174-.L173
+	.byte	1,5,23,9
+	.half	.L77-.L174
+	.byte	3,2,1,5,15,9
+	.half	.L175-.L77
+	.byte	1,5,5,9
+	.half	.L176-.L175
+	.byte	1,5,58,7,9
+	.half	.L177-.L176
+	.byte	1,5,30,9
+	.half	.L8-.L177
+	.byte	3,1,1,5,18,9
+	.half	.L178-.L8
+	.byte	1,5,30,9
+	.half	.L179-.L178
+	.byte	1,5,15,9
+	.half	.L180-.L179
+	.byte	1,5,5,9
+	.half	.L181-.L180
+	.byte	1,5,72,7,9
+	.half	.L182-.L181
+	.byte	1,5,60,9
+	.half	.L183-.L182
+	.byte	1,5,72,9
+	.half	.L78-.L183
+	.byte	1,5,21,9
+	.half	.L9-.L78
+	.byte	3,2,1,5,26,9
+	.half	.L184-.L9
+	.byte	3,1,1,5,11,9
+	.half	.L185-.L184
+	.byte	3,2,1,5,21,9
+	.half	.L186-.L185
+	.byte	1,5,1,9
+	.half	.L187-.L186
+	.byte	3,1,1,7,9
+	.half	.L41-.L187
+	.byte	0,1,1
+.L161:
+	.sdecl	'.debug_ranges',debug,cluster('increment_pid_update')
+	.sect	'.debug_ranges'
+.L40:
+	.word	-1,.L17,0,.L41-.L17,0,0
+	.sdecl	'.debug_loc',debug,cluster('increment_pid_init')
+	.sect	'.debug_loc'
+.L61:
+	.word	-1,.L15,0,.L56-.L15
+	.half	1
+	.byte	86
+	.word	0,0
+.L60:
+	.word	-1,.L15,0,.L56-.L15
+	.half	1
+	.byte	85
+	.word	0,0
+.L59:
+	.word	-1,.L15,0,.L56-.L15
+	.half	1
+	.byte	84
+	.word	0,0
+.L58:
+	.word	-1,.L15,0,.L56-.L15
+	.half	1
+	.byte	100
+	.word	0,0
+.L14:
+	.word	-1,.L15,0,.L56-.L15
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L63:
+	.word	-1,.L15,0,.L56-.L15
+	.half	2
+	.byte	145,0
+	.word	0,.L56-.L15
+	.half	2
+	.byte	145,0
+	.word	.L73-.L15,.L74-.L15
+	.half	1
+	.byte	95
+	.word	0,0
+.L62:
+	.word	-1,.L15,0,.L56-.L15
+	.half	1
+	.byte	87
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('increment_pid_update')
+	.sect	'.debug_loc'
+.L66:
+	.word	-1,.L17,.L75-.L17,.L64-.L17
+	.half	1
+	.byte	84
+	.word	0,0
+.L67:
+	.word	-1,.L17,.L76-.L17,.L77-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L65:
+	.word	-1,.L17,0,.L64-.L17
+	.half	1
+	.byte	100
+	.word	0,0
+.L16:
+	.word	-1,.L17,0,.L64-.L17
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L68:
+	.word	-1,.L17,.L77-.L17,.L78-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L9-.L17,.L64-.L17
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('place_pid_init')
+	.sect	'.debug_loc'
+.L48:
+	.word	-1,.L11,0,.L42-.L11
+	.half	1
+	.byte	86
+	.word	0,0
+.L47:
+	.word	-1,.L11,0,.L42-.L11
+	.half	1
+	.byte	85
+	.word	0,0
+.L46:
+	.word	-1,.L11,0,.L42-.L11
+	.half	1
+	.byte	84
+	.word	0,0
+.L44:
+	.word	-1,.L11,0,.L42-.L11
+	.half	1
+	.byte	100
+	.word	0,0
+.L50:
+	.word	-1,.L11,0,.L42-.L11
+	.half	2
+	.byte	145,0
+	.word	0,.L42-.L11
+	.half	2
+	.byte	145,0
+	.word	.L69-.L11,.L42-.L11
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L10:
+	.word	-1,.L11,0,.L42-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L51:
+	.word	-1,.L11,0,.L42-.L11
+	.half	2
+	.byte	145,4
+	.word	0,.L42-.L11
+	.half	2
+	.byte	145,4
+	.word	.L70-.L11,.L71-.L11
+	.half	1
+	.byte	95
+	.word	0,0
+.L49:
+	.word	-1,.L11,0,.L42-.L11
+	.half	1
+	.byte	87
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('place_pid_update')
+	.sect	'.debug_loc'
+.L55:
+	.word	-1,.L13,.L72-.L13,.L52-.L13
+	.half	1
+	.byte	82
+	.word	0,0
+.L54:
+	.word	-1,.L13,0,.L52-.L13
+	.half	1
+	.byte	84
+	.word	0,0
+.L53:
+	.word	-1,.L13,0,.L52-.L13
+	.half	1
+	.byte	100
+	.word	0,0
+.L12:
+	.word	-1,.L13,0,.L52-.L13
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L188:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('place_pid_init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L188,.L11,.L42-.L11
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('place_pid_update')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L188,.L13,.L52-.L13
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('increment_pid_init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L188,.L15,.L56-.L15
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	.sdecl	'.debug_frame',debug,cluster('increment_pid_update')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L188,.L17,.L64-.L17
+	.byte	8,18,8,19,8,21,8,22,8,23,0,0
+	; Module end

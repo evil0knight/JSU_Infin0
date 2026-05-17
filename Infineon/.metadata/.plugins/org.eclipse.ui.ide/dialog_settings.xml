@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.infineon.aurix.ads.profiler.feature:1.10.2"/>
+		<item value="com.infineon.aurix.buildsystem.feature:1.10.2"/>
+		<item value="org.eclipse.cdt.build.crossgcc:11.2.0.202304191745"/>
+		<item value="org.eclipse.cdt.debug.gdbjtag:11.2.0.202303140100"/>
+		<item value="org.eclipse.cdt.examples.dsf:11.2.0.202303140100"/>
+		<item value="org.eclipse.cdt.gdb:11.2.0.202303140100"/>
+		<item value="org.eclipse.cdt.gnu.build:11.2.0.202304211730"/>
+		<item value="org.eclipse.cdt.gnu.debug:11.2.0.202303140100"/>
+		<item value="org.eclipse.cdt.gnu.dsf:11.2.0.202304102232"/>
+		<item value="org.eclipse.cdt.native:11.2.0.202306051917"/>
+		<item value="org.eclipse.cdt.platform:11.2.0.202306051917"/>
+		<item value="org.eclipse.emf.common:2.29.0.v20230315-1321"/>
+		<item value="org.eclipse.emf.ecore:2.32.0.v20230406-1203"/>
+		<item value="org.eclipse.help:2.3.1400.v20230605-0440"/>
+		<item value="org.eclipse.justj.openjdk.hotspot.jre.full:17.0.4.v20221004-1257"/>
+		<item value="org.eclipse.launchbar:11.2.0.202303141802"/>
+		<item value="org.eclipse.mylyn.wikitext.editors_feature:3.0.46.202301111837"/>
+		<item value="org.eclipse.platform:4.28.0.v20230605-0440"/>
+		<item value="org.eclipse.rcp:4.28.0.v20230605-0440"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\轮腿资料\2寸IPS SPI接口屏幕资料\例程\TC264\TC264\E06_04_ips200_display_demo"/>
+			<item value="D:\轮腿资料\无线转串口\V2.4新版资料\例程\逐飞助手例程\TC264_demo\TC264_demo\seekfree_assistant_oscilloscope_demo"/>
+			<item value="D:\轮腿资料\TC264wifi_spi\TC264\E07_09_wifi_spi_mt9v03x_demo"/>
+			<item value="D:\轮腿资料\校赛寄寄，代码开源\wheel_legged_robot_2.7"/>
+			<item value="D:\轮腿资料\第十九届全国总决赛代码(1)_QQ浏览器压缩包"/>
+			<item value="D:\轮腿资料\总钻风摄像头\【例程】总钻风对应各种单片机的例程\新版本例程\TC264\TC264"/>
+			<item value="E:\seekfree_assistant-master"/>
+			<item value="D:\轮腿资料\WIFI串口模块\例程\TC264"/>
+			<item value="D:\轮腿资料\377五连杆例程\Seekfree_TC377_Opensource_Library"/>
+			<item value="D:\轮腿资料\轮腿案例\ekf拓展卡尔曼滤波"/>
+			<item value="D:\轮腿资料\TC264_Library-master\Seekfree_TC264_Opensource_Library"/>
+			<item value="D:\轮腿资料\CYT2BL3_Brushless_Driver_Project-master\CYT2BL3_Brushless_Driver_Project-master\【例程】使用无刷双驱的示例\E02_TC264"/>
+			<item value="D:\轮腿资料\TC264_Library-master\Example"/>
+			<item value="D:\轮腿资料\IMU660RA六轴模块"/>
+			<item value="D:\轮腿资料\CYT2BL3_Brushless_Driver_Project-master\CYT2BL3_Brushless_Driver_Project-master\【例程】使用无刷双驱的示例\E02_TC264\E02_07_foc_double_driver_demo"/>
+			<item value="E:\seekfree_assistant-master\seekfree_assistant-master\【程序】各个单片机的使用程序\TC264_demo\seekfree_assistant_mt9v03x_demo"/>
+			<item value="D:\轮腿资料\2寸IPS SPI接口屏幕资料\例程\TC264"/>
+			<item value="D:\学长给的逐飞资料\verison_7_6_1"/>
+			<item value="D:\TC264_Library-master\TC264_Library-master\Example\E03_adc_demo"/>
+			<item value="D:\TC264_Library-master\TC264_Library-master\Seekfree_TC264_Opensource_Library"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="com.infineon.aurix.buildsystem.importexport.wizard.ui.ImportFromCodeExampleWizardPage">
+		<item key="SELECTED_REPOSITORY" value="100"/>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="768"/>
+		<item key="DIALOG_Y_ORIGIN" value="475"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="747"/>
+		<item key="DIALOG_HEIGHT" value="474"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI"/>
+	</section>
+	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
+		<item key="OUTSIDE_LOCATION" value="D:\Infineon\Seekfree_TC264_Opensource_Library\code"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

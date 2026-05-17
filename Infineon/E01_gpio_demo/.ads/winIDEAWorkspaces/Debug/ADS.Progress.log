@@ -1,0 +1,16 @@
+LOADING	D:\Infineon\E01_gpio_demo\Debug\E01_gpio_demo.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Connected to SoC/core(s)
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+SoC	Detected device: TC260 series, rev. BC
+EMULATION	STARTED
+PROGRAMMING 	24412 bytes
+PROGRAMMING	Infineon TC26x_PFLASH_2MB5 (4 sectors)
+EMULATION	END - Without cleanup

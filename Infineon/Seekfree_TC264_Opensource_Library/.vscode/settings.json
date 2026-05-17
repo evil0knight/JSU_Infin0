@@ -1,0 +1,7 @@
+{
+    "winidea-debug.workspace": "d:\\Infineon\\Seekfree_TC264_Opensource_Library\\.ads\\winIDEAWorkspaces\\Debug\\ADS.xjrf",
+    "files.associations": {
+        "zf_common_headfile.h": "c",
+        "zf_device_mt9v03x.h": "c"
+    }
+}

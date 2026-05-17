@@ -1,0 +1,113 @@
+/*
+ * dianzhen.c
+ *
+ *  Created on: 2024年6月30日
+ *      Author: Lenovo
+ */
+
+#include "zf_common_headfile.h"
+#include "zf_device_tld7002.h"
+#include "zf_device_dot_matrix_screen.h"
+
+
+const char  temp_string[] = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}";
+
+uint32      stime;
+uint8       pit_10ms_flag;
+uint8       pit_500ms_flag;
+uint8       duty_dir = 1;       // 占空比改变的方向
+uint8       display_mode = 0;   // 显示模式 0:轮流将4个模式进行显示  1：依次显示OK 、NG、 A1、 B2  2：显示字符666，并带有呼吸效果 3：显示字符888，并带有闪烁效果  4：依次显示取模中所有的字符
+uint16      led_duty = 1500;    // 呼吸灯模式时 控制点阵亮度
+void display_example1(void)
+{
+    // 设置点阵亮度
+    dot_matrix_screen_set_brightness(5000);
+
+    // 依次显示OK 、NG、 A1、 B2
+    if(0 == (stime%200))
+    {
+        dot_matrix_screen_show_string("OK ");
+    }
+    else if(50 == (stime%200))
+    {
+        dot_matrix_screen_show_string("NG ");
+    }
+    else if(100 == (stime%200))
+    {
+        dot_matrix_screen_show_string("A1 ");
+    }
+    else if(150 == (stime%200))
+    {
+        dot_matrix_screen_show_string("B2 ");
+    }
+}
+
+void display_example2(void)
+{
+    // 显示字符 666
+    dot_matrix_screen_show_string("666");
+
+    if(1 == pit_10ms_flag)
+    {
+        pit_10ms_flag = 0;
+
+        if(duty_dir)
+        {
+            led_duty += 50;
+            if(9500 < led_duty)
+            {
+                duty_dir = 0;
+            }
+        }
+        else
+        {
+            led_duty -= 50;
+            if(1500 > led_duty)
+            {
+                duty_dir = 1;
+            }
+        }
+        // 设置点阵亮度
+        dot_matrix_screen_set_brightness(led_duty);
+    }
+}
+
+void display_example3(void)
+{
+    // 显示字符 888
+    dot_matrix_screen_show_string("888");
+
+    if(0 == (stime%100))
+    {
+        // 设置点阵亮度
+        dot_matrix_screen_set_brightness(9500);
+    }
+    else if(50 == (stime%100))
+    {
+        // 设置点阵亮度
+        dot_matrix_screen_set_brightness(1500);
+    }
+}
+
+void display_example4(void)
+{
+    static uint8 temp_position = 0;
+
+    if(pit_500ms_flag)
+    {
+        dot_matrix_screen_set_brightness(5000);
+
+        pit_500ms_flag = 0;
+
+        // 显示字符
+        dot_matrix_screen_show_string(&temp_string[temp_position]);
+        temp_position++;
+
+        if((temp_position + 3) >= sizeof(temp_string))
+        {
+            temp_position = 0;
+        }
+    }
+}
+
+

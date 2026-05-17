@@ -1,0 +1,217 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc20288a --dep-file=CompilerTasking.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6 -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\code -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\code\\\\TLD7002_driver -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_common -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_components -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_device -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src ../libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c"
+	.compiler_name		"ctc"
+	;source	'../libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.CompilerTasking.Ifx_C_Init',code,cluster('Ifx_C_Init')
+	.sect	'.text.CompilerTasking.Ifx_C_Init'
+	.align	2
+	
+	.global	Ifx_C_Init
+; Function Ifx_C_Init
+.L3:
+Ifx_C_Init:	.type	func
+	call	_c_init
+.L22:
+	ret
+.L13:
+	
+__Ifx_C_Init_function_end:
+	.size	Ifx_C_Init,__Ifx_C_Init_function_end-Ifx_C_Init
+.L12:
+	; End of function
+	
+	.calls	'Ifx_C_Init','_c_init'
+	.extern	_c_init
+	.calls	'Ifx_C_Init','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L5:
+	.word	781
+	.half	3
+	.word	.L6
+	.byte	4
+.L4:
+	.byte	1
+	.byte	'../libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L7
+	.byte	2
+	.byte	'_c_init',0,1,59,17,1,1,1,1,3
+	.byte	'short int',0,2,5,4
+	.byte	'__wchar_t',0,1,1,1
+	.word	253
+	.byte	3
+	.byte	'unsigned int',0,4,7,4
+	.byte	'__size_t',0,1,1,1
+	.word	284
+	.byte	3
+	.byte	'int',0,4,5,4
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	317
+	.byte	5,1,6
+	.word	344
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	346
+	.byte	4
+	.byte	'__intptr_t',0,1,1,1
+	.word	317
+	.byte	4
+	.byte	'__uintptr_t',0,1,1,1
+	.word	284
+	.byte	3
+	.byte	'unsigned short int',0,2,7,4
+	.byte	'_iob_flag_t',0,2,82,25
+	.word	408
+	.byte	3
+	.byte	'unsigned char',0,1,8,4
+	.byte	'uint8',0,3,105,29
+	.word	450
+	.byte	4
+	.byte	'uint16',0,3,109,29
+	.word	408
+	.byte	3
+	.byte	'unsigned long int',0,4,7,4
+	.byte	'uint32',0,3,113,29
+	.word	496
+	.byte	3
+	.byte	'unsigned long long int',0,8,7,4
+	.byte	'uint64',0,3,118,29
+	.word	532
+	.byte	4
+	.byte	'sint16',0,3,126,29
+	.word	253
+	.byte	3
+	.byte	'long int',0,4,5,4
+	.byte	'sint32',0,3,131,1,29
+	.word	588
+	.byte	3
+	.byte	'long long int',0,8,5,4
+	.byte	'sint64',0,3,138,1,29
+	.word	616
+	.byte	3
+	.byte	'float',0,4,4,4
+	.byte	'float32',0,3,167,1,29
+	.word	649
+	.byte	3
+	.byte	'char',0,1,6,4
+	.byte	'int8',0,4,54,29
+	.word	675
+	.byte	4
+	.byte	'int16',0,4,55,29
+	.word	253
+	.byte	4
+	.byte	'int32',0,4,56,29
+	.word	317
+	.byte	4
+	.byte	'int64',0,4,57,29
+	.word	616
+	.byte	7
+	.byte	'void',0,6
+	.word	738
+	.byte	4
+	.byte	'pvoid',0,5,57,28
+	.word	744
+	.byte	4
+	.byte	'Ifx_TickTime',0,5,79,28
+	.word	616
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L6:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,46,0,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0
+	.byte	3,36,0,3,8,11,15,62,15,0,0,4,22,0,3,8,58,15,59,15,57,15,73,19,0,0,5,21,0,54,15,0,0,6,15,0,73,19,0,0,7
+	.byte	59,0,3,8,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L7:
+	.word	.L15-.L14
+.L14:
+	.half	3
+	.word	.L17-.L16
+.L16:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'E:\\AURIX\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'C:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'C:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_common',0
+	.byte	0
+	.byte	'../libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c',0,0,0,0
+	.byte	'stdio.h',0,1,0,0
+	.byte	'PLATFORM_TYPES.H',0,2,0,0
+	.byte	'zf_common_typedef.h',0,3,0,0
+	.byte	'C:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\Cpu\\Std\\Ifx_Types.h',0
+	.byte	0,0,0,0
+.L17:
+.L15:
+	.sdecl	'.debug_info',debug,cluster('Ifx_C_Init')
+	.sect	'.debug_info'
+.L8:
+	.word	283
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'../libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L11,.L10
+	.byte	2
+	.word	.L4
+	.byte	3
+	.byte	'Ifx_C_Init',0,1,57,6,1,1,1
+	.word	.L3,.L13,.L2
+	.byte	4
+	.word	.L3,.L13
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Ifx_C_Init')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Ifx_C_Init')
+	.sect	'.debug_line'
+.L10:
+	.word	.L19-.L18
+.L18:
+	.half	3
+	.word	.L21-.L20
+.L20:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c',0,0,0,0,0
+.L21:
+	.byte	5,12,7,0,5,2
+	.word	.L3
+	.byte	3,60,1,5,1,9
+	.half	.L22-.L3
+	.byte	3,1,1,7,9
+	.half	.L12-.L22
+	.byte	0,1,1
+.L19:
+	.sdecl	'.debug_ranges',debug,cluster('Ifx_C_Init')
+	.sect	'.debug_ranges'
+.L11:
+	.word	-1,.L3,0,.L12-.L3,0,0
+	.sdecl	'.debug_loc',debug,cluster('Ifx_C_Init')
+	.sect	'.debug_loc'
+.L2:
+	.word	-1,.L3,0,.L13-.L3
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L23:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Ifx_C_Init')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L23,.L3,.L13-.L3
+	; Module end

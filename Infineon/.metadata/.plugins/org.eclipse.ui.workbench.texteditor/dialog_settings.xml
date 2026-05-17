@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=" get_reference_point        (image_copy[0]);"/>
+		<list key="findhistory">
+			<item value=" get_reference_point        (image_copy[0]);"/>
+			<item value="get_reference_point        (image_copy[0]);"/>
+			<item value="clock_init();                   // 获取时钟频率&lt;务必保留&gt;"/>
+			<item value="Data_Init(0,euler_angle.pitch);"/>
+			<item value="small_driver_set_duty(duty * (PWM_DUTY_MAX / 100), -duty * (PWM_DUTY_MAX / 100));   // 计算占空比输出"/>
+		</list>
+	</section>
+</section>

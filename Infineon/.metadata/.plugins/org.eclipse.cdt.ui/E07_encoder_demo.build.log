@@ -1,0 +1,13 @@
+11:20:15 **** Incremental Build of configuration Debug for project E07_encoder_demo ****
+amk -j20 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "E07_encoder_demo.elf"
+Total sizes:
+ROM: 0x70fe (28926) = code: 0x66c4 (26308) + romdata: 0xa3a (2618)
+RAM: 0x65a2 (26018) = data + bss
+Finished building: E07_encoder_demo.siz
+ 
+
+11:20:15 Build Finished. 0 errors, 0 warnings. (took 608ms)
+

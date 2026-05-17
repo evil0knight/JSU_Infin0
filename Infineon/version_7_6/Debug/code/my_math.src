@@ -1,0 +1,4487 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc11400a --dep-file=my_math.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 -D__CPU__=tc37x -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6 -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\code -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\code\\\\TLD7002_driver -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Configurations -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC37A\\\\_Reg -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Ssw\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6 -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Ccu6\\\\Timer -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Dma -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Dma\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Adc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Evadc\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Flash\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12 -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\IncrEnc -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gpt12\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\SpiMaster -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Qspi\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_common -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_components -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_device -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_driver -IC:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o code/my_math.src ../code/my_math.c"
+	.compiler_name		"ctc"
+	;source	'../code/my_math.c'
+
+	
+$TC162
+	.sdecl	'.rodata.my_math..1.cnt',data,rom
+	.sect	'.rodata.my_math..1.cnt'
+	.align	4
+.1.cnt:	.type	object
+	.size	.1.cnt,8
+	.word	1749644930,1027352002
+	.sdecl	'.rodata.my_math..2.cnt',data,rom
+	.sect	'.rodata.my_math..2.cnt'
+	.align	4
+.2.cnt:	.type	object
+	.size	.2.cnt,8
+	.word	-640172613,1037794527
+	.sdecl	'.rodata.my_math..3.cnt',data,rom
+	.sect	'.rodata.my_math..3.cnt'
+	.align	4
+.3.cnt:	.type	object
+	.size	.3.cnt,8
+	.word	699007920,1064308752
+	.sdecl	'.rodata.my_math..4.cnt',data,rom
+	.sect	'.rodata.my_math..4.cnt'
+	.align	4
+.4.cnt:	.type	object
+	.size	.4.cnt,8
+	.word	1820615334,1072979760
+	.sdecl	'.rodata.my_math..5.cnt',data,rom
+	.sect	'.rodata.my_math..5.cnt'
+	.align	4
+.5.cnt:	.type	object
+	.size	.5.cnt,8
+	.word	1654204249,1071247407
+	.sdecl	'.rodata.my_math..6.cnt',data,rom
+	.sect	'.rodata.my_math..6.cnt'
+	.align	4
+.6.cnt:	.type	object
+	.size	.6.cnt,8
+	.word	-858993459,1070386380
+	.sdecl	'.rodata.my_math..7.cnt',data,rom
+	.sect	'.rodata.my_math..7.cnt'
+	.align	4
+.7.cnt:	.type	object
+	.size	.7.cnt,8
+	.word	-858993459,-1077097268
+	.sdecl	'.rodata.my_math..8.cnt',data,rom
+	.sect	'.rodata.my_math..8.cnt'
+	.align	4
+.8.cnt:	.type	object
+	.size	.8.cnt,8
+	.word	1405670641,1074340347
+	.sdecl	'.rodata.my_math..9.cnt',data,rom
+	.sect	'.rodata.my_math..9.cnt'
+	.align	4
+.9.cnt:	.type	object
+	.size	.9.cnt,8
+	.word	1405670641,1073291771
+	
+	.sdecl	'.text.my_math.func_pow',code,cluster('func_pow')
+	.sect	'.text.my_math.func_pow'
+	.align	2
+	
+	.global	func_pow
+; Function func_pow
+.L98:
+func_pow:	.type	func
+	mov	e8,d5,d4
+.L574:
+	jlt	d6,#1,.L2
+.L575:
+	add	d6,#-1
+.L301:
+	mov	e4,d9,d8
+.L302:
+	call	func_pow
+.L303:
+	mov	e4,d9,d8
+.L304:
+	mov	e6,d3,d2
+	call	__d_mul
+.L576:
+	j	.L3
+.L2:
+	jne	d6,#0,.L4
+.L577:
+	mov	d2,#0
+	mov	d3,#0
+	addih	d3,d3,#16368
+.L578:
+	j	.L5
+.L4:
+	mov	d10,#0
+	mov	d11,#0
+	addih	d11,d11,#16368
+.L579:
+	rsub	d6,#0
+.L307:
+	mov	e4,d9,d8
+.L306:
+	call	func_pow
+.L305:
+	mov	e4,d11,d10
+	mov	e6,d3,d2
+	call	__d_div
+.L580:
+	j	.L6
+.L6:
+.L5:
+.L3:
+	ret
+.L218:
+	
+__func_pow_function_end:
+	.size	func_pow,__func_pow_function_end-func_pow
+.L137:
+	; End of function
+	
+	.sdecl	'.text.my_math.func_sqrt',code,cluster('func_sqrt')
+	.sect	'.text.my_math.func_sqrt'
+	.align	2
+	
+	.global	func_sqrt
+; Function func_sqrt
+.L100:
+func_sqrt:	.type	func
+	mov	e8,d5,d4
+.L585:
+	mov	d10,#0
+	mov	d11,#0
+.L309:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16384
+.L310:
+	mov	e4,d9,d8
+.L308:
+	call	__d_div
+.L586:
+	mov	e12,d3,d2
+.L587:
+	j	.L7
+.L8:
+	mov	e10,d13,d12
+.L311:
+	mov	e4,d9,d8
+.L312:
+	mov	e6,d13,d12
+.L313:
+	call	__d_div
+.L314:
+	mov	e4,d13,d12
+.L315:
+	mov	e6,d3,d2
+	call	__d_add
+.L588:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16384
+.L589:
+	mov	e4,d3,d2
+	call	__d_div
+.L590:
+	mov	e12,d3,d2
+.L7:
+	mov	e4,d11,d10
+.L316:
+	mov	e6,d13,d12
+.L317:
+	call	__d_feq
+	eq	d15,d2,#0
+.L591:
+	jne	d15,#0,.L8
+.L318:
+	mov	e2,d11,d10
+.L319:
+	j	.L9
+.L9:
+	ret
+.L222:
+	
+__func_sqrt_function_end:
+	.size	func_sqrt,__func_sqrt_function_end-func_sqrt
+.L142:
+	; End of function
+	
+	.sdecl	'.text.my_math.func_cos',code,cluster('func_cos')
+	.sect	'.text.my_math.func_cos'
+	.align	2
+	
+	.global	func_cos
+; Function func_cos
+.L102:
+func_cos:	.type	func
+	sub.a	a10,#24
+.L320:
+	mov	e8,d5,d4
+.L596:
+	mov	d6,#0
+	mov	d7,#0
+.L322:
+	mov	e4,d9,d8
+.L321:
+	call	__d_fge
+	jne	d2,#0,.L10
+	insn.t	d9,d9:31,d9:31
+	j	.L11
+.L10:
+.L11:
+	mov	d15,#1
+.L323:
+	st.w	[a10]16,d15
+.L325:
+	mov	d0,#0
+	mov	d1,#0
+.L326:
+	addih	d1,d1,#16368
+	st.d	[a10]8,e0
+.L327:
+	mov	d10,#0
+	mov	d11,#0
+.L328:
+	addih	d11,d11,#16368
+.L597:
+	mov	d12,#0
+	mov	d13,#0
+.L329:
+	mov	d15,#2
+.L324:
+	st.w	[a10],d15
+.L330:
+	j	.L12
+.L13:
+	ld.w	d4,[a10]
+.L331:
+	call	__d_itod
+.L332:
+	mov	e6,d3,d2
+.L598:
+	ld.d	e4,[a10]8
+.L333:
+	call	__d_mul
+.L334:
+	st.d	[a10]8,e2
+.L335:
+	mov	d15,#2
+.L599:
+	ld.w	d0,[a10]
+.L336:
+	div	e0,d0,d15
+.L337:
+	jne	d1,#0,.L14
+.L338:
+	mov	e12,d11,d10
+.L339:
+	ld.w	d15,[a10]16
+.L340:
+	mul	d15,d15,#-1
+	st.w	[a10]16,d15
+.L342:
+	mov	e4,d9,d8
+.L343:
+	ld.w	d6,[a10]
+.L344:
+	call	func_pow
+.L345:
+	mov	e4,d3,d2
+	mov	d6,#0
+	mov	d7,#0
+	call	__d_fge
+	mov	d15,d2
+.L341:
+	jne	d15,#0,.L15
+.L346:
+	mov	e4,d9,d8
+.L347:
+	ld.w	d6,[a10]
+.L348:
+	call	func_pow
+.L349:
+	insn.t	d5,d3:31,d3:31
+	mov	d4,d2
+	j	.L16
+.L15:
+	mov	e4,d9,d8
+.L350:
+	ld.w	d6,[a10]
+.L351:
+	call	func_pow
+.L352:
+	mov	e4,d3,d2
+.L16:
+	ld.d	e6,[a10]8
+.L353:
+	call	__d_div
+.L354:
+	mov	e14,d3,d2
+.L600:
+	ld.w	d4,[a10]16
+.L355:
+	call	__d_itod
+.L356:
+	mov	e4,d3,d2
+.L357:
+	mov	e6,d15,d14
+.L358:
+	call	__d_mul
+	mov	e4,d3,d2
+.L359:
+	mov	e6,d11,d10
+.L360:
+	call	__d_add
+	mov	e10,d3,d2
+.L14:
+	mov	e4,d11,d10
+.L361:
+	mov	e6,d13,d12
+.L362:
+	call	__d_sub
+	mov	e4,d3,d2
+	mov	d6,#0
+	mov	d7,#0
+	call	__d_fge
+	mov	d15,d2
+	jne	d15,#0,.L17
+.L363:
+	mov	e4,d11,d10
+.L364:
+	mov	e6,d13,d12
+.L365:
+	call	__d_sub
+	insn.t	d7,d3:31,d3:31
+	mov	d6,d2
+	j	.L18
+.L17:
+	mov	e4,d11,d10
+.L366:
+	mov	e6,d13,d12
+.L367:
+	call	__d_sub
+	mov	e6,d3,d2
+.L18:
+	movh.a	a15,#@his(.1.cnt)
+	lea	a15,[a15]@los(.1.cnt)
+	ld.d	e4,[a15]0
+.L601:
+	call	__d_fge
+	mov	d15,d2
+.L602:
+	jeq	d15,#0,.L19
+.L603:
+	j	.L20
+.L19:
+	ld.w	d15,[a10]
+.L368:
+	add	d15,#1
+	st.w	[a10],d15
+.L12:
+	j	.L13
+.L20:
+	mov	e2,d11,d10
+.L369:
+	j	.L21
+.L21:
+	ret
+.L226:
+	
+__func_cos_function_end:
+	.size	func_cos,__func_cos_function_end-func_cos
+.L147:
+	; End of function
+	
+	.sdecl	'.text.my_math.func_sin',code,cluster('func_sin')
+	.sect	'.text.my_math.func_sin'
+	.align	2
+	
+	.global	func_sin
+; Function func_sin
+.L104:
+func_sin:	.type	func
+	sub.a	a10,#24
+.L370:
+	mov	e8,d5,d4
+.L608:
+	mov	d4,#0
+.L371:
+	mov	d5,#0
+.L372:
+	mov	e6,d9,d8
+.L373:
+	call	__d_fgt
+	mov	d15,d2
+.L609:
+	jne	d15,#0,.L22
+.L610:
+	mov	d15,#0
+.L374:
+	st.w	[a10]20,d15
+.L375:
+	j	.L23
+.L22:
+	mov	d15,#1
+.L376:
+	st.w	[a10]20,d15
+.L23:
+	mov	d6,#0
+	mov	d7,#0
+.L377:
+	mov	e4,d9,d8
+.L378:
+	call	__d_fge
+	mov	d15,d2
+	jne	d15,#0,.L24
+	insn.t	d9,d9:31,d9:31
+	j	.L25
+.L24:
+.L25:
+	mov	d15,#1
+.L379:
+	st.w	[a10]16,d15
+.L381:
+	mov	d0,#0
+	mov	d1,#0
+.L382:
+	addih	d1,d1,#16368
+	st.d	[a10]8,e0
+.L383:
+	mov	d10,#0
+	mov	d11,#0
+.L384:
+	mov	e12,d9,d8
+.L385:
+	mov	d15,#2
+.L380:
+	st.w	[a10],d15
+.L386:
+	j	.L26
+.L27:
+	ld.w	d4,[a10]
+.L387:
+	call	__d_itod
+.L388:
+	mov	e6,d3,d2
+.L611:
+	ld.d	e4,[a10]8
+.L389:
+	call	__d_mul
+.L390:
+	st.d	[a10]8,e2
+.L391:
+	mov	d15,#2
+.L612:
+	ld.w	d0,[a10]
+.L392:
+	div	e0,d0,d15
+.L393:
+	jeq	d1,#0,.L28
+.L394:
+	mov	e10,d13,d12
+.L395:
+	ld.w	d15,[a10]16
+.L396:
+	mul	d15,d15,#-1
+	st.w	[a10]16,d15
+.L398:
+	mov	e4,d9,d8
+.L399:
+	ld.w	d6,[a10]
+.L400:
+	call	func_pow
+.L401:
+	mov	e4,d3,d2
+	mov	d6,#0
+	mov	d7,#0
+	call	__d_fge
+	mov	d15,d2
+.L397:
+	jne	d15,#0,.L29
+.L402:
+	mov	e4,d9,d8
+.L403:
+	ld.w	d6,[a10]
+.L404:
+	call	func_pow
+.L405:
+	insn.t	d5,d3:31,d3:31
+	mov	d4,d2
+	j	.L30
+.L29:
+	mov	e4,d9,d8
+.L406:
+	ld.w	d6,[a10]
+.L407:
+	call	func_pow
+.L408:
+	mov	e4,d3,d2
+.L30:
+	ld.d	e6,[a10]8
+.L409:
+	call	__d_div
+.L410:
+	mov	e14,d3,d2
+.L613:
+	ld.w	d4,[a10]16
+.L411:
+	call	__d_itod
+.L412:
+	mov	e4,d3,d2
+.L413:
+	mov	e6,d15,d14
+.L414:
+	call	__d_mul
+	mov	e4,d3,d2
+.L415:
+	mov	e6,d13,d12
+.L416:
+	call	__d_add
+.L614:
+	mov	e12,d3,d2
+.L28:
+	mov	e4,d13,d12
+.L417:
+	mov	e6,d11,d10
+.L418:
+	call	__d_sub
+	mov	e4,d3,d2
+	mov	d6,#0
+	mov	d7,#0
+	call	__d_fge
+	mov	d15,d2
+	jne	d15,#0,.L31
+.L419:
+	mov	e4,d13,d12
+.L420:
+	mov	e6,d11,d10
+.L421:
+	call	__d_sub
+	insn.t	d7,d3:31,d3:31
+	mov	d6,d2
+	j	.L32
+.L31:
+	mov	e4,d13,d12
+.L422:
+	mov	e6,d11,d10
+.L423:
+	call	__d_sub
+	mov	e6,d3,d2
+.L32:
+	movh.a	a15,#@his(.1.cnt)
+	lea	a15,[a15]@los(.1.cnt)
+	ld.d	e4,[a15]0
+.L615:
+	call	__d_fge
+	mov	d15,d2
+.L616:
+	jeq	d15,#0,.L33
+.L617:
+	j	.L34
+.L33:
+	ld.w	d15,[a10]
+.L424:
+	add	d15,#1
+	st.w	[a10],d15
+.L26:
+	j	.L27
+.L34:
+	ld.w	d15,[a10]20
+.L425:
+	jne	d15,#1,.L35
+.L618:
+	insn.t	d3,d13:31,d13:31
+	mov	d2,d12
+.L426:
+	j	.L36
+.L35:
+	mov	e2,d13,d12
+.L427:
+	j	.L37
+.L37:
+.L36:
+	ret
+.L235:
+	
+__func_sin_function_end:
+	.size	func_sin,__func_sin_function_end-func_sin
+.L152:
+	; End of function
+	
+	.sdecl	'.text.my_math.power',code,cluster('power')
+	.sect	'.text.my_math.power'
+	.align	2
+	
+	.global	power
+; Function power
+.L106:
+power:	.type	func
+	mov	e8,d5,d4
+	mov	d15,d6
+.L429:
+	mov	d4,#0
+.L428:
+	mov	d5,#0
+.L430:
+	addih	d5,d5,#16368
+.L277:
+	mov	d10,#0
+.L431:
+	j	.L38
+.L39:
+	mov	e6,d9,d8
+.L432:
+	call	__d_mul
+	mov	e4,d3,d2
+.L749:
+	add	d10,#1
+.L38:
+	jlt	d10,d15,.L39
+.L278:
+	mov	e2,d5,d4
+.L433:
+	j	.L40
+.L40:
+	ret
+.L273:
+	
+__power_function_end:
+	.size	power,__power_function_end-power
+.L187:
+	; End of function
+	
+	.sdecl	'.text.my_math.my_sign',code,cluster('my_sign')
+	.sect	'.text.my_math.my_sign'
+	.align	2
+	
+	.global	my_sign
+; Function my_sign
+.L108:
+my_sign:	.type	func
+	mov	e8,d5,d4
+.L623:
+	mov	d6,#0
+	mov	d7,#0
+.L435:
+	mov	e4,d9,d8
+.L434:
+	call	__d_fgt
+.L624:
+	jeq	d2,#0,.L41
+.L625:
+	mov	d2,#1
+.L626:
+	j	.L42
+.L41:
+	mov	d4,#0
+	mov	d5,#0
+.L436:
+	mov	e6,d9,d8
+.L437:
+	call	__d_fgt
+.L627:
+	jeq	d2,#0,.L43
+.L628:
+	mov	d2,#-1
+.L629:
+	j	.L44
+.L43:
+	mov	d2,#0
+.L630:
+	j	.L45
+.L45:
+.L44:
+.L42:
+	ret
+.L245:
+	
+__my_sign_function_end:
+	.size	my_sign,__my_sign_function_end-my_sign
+.L157:
+	; End of function
+	
+	.sdecl	'.text.my_math.my_atan2',code,cluster('my_atan2')
+	.sect	'.text.my_math.my_atan2'
+	.align	2
+	
+	.global	my_atan2
+; Function my_atan2
+.L110:
+my_atan2:	.type	func
+	sub.a	a10,#24
+.L438:
+	st.d	[a10]8,e4
+.L441:
+	st.d	[a10]16,e6
+.L442:
+	extr.u	d15,d7,#20,#11
+	eq	d15,d15,#0
+.L635:
+	jeq	d15,#0,.L46
+.L636:
+	ld.w	d15,[a10]12
+.L440:
+	extr.u	d15,d15,#20,#11
+.L443:
+	eq	d15,d15,#0
+	jeq	d15,#0,.L47
+.L637:
+	mov	d2,#0
+	mov	d3,#0
+.L638:
+	j	.L48
+.L47:
+.L46:
+	ld.w	d15,[a10]20
+.L439:
+	extr.u	d15,d15,#20,#11
+.L444:
+	eq	d15,d15,#0
+.L639:
+	jeq	d15,#0,.L49
+.L640:
+	ld.d	e4,[a10]8
+.L445:
+	mov	d6,#0
+	mov	d7,#0
+.L641:
+	call	__d_fgt
+.L446:
+	jeq	d2,#0,.L50
+.L642:
+	movh.a	a15,#@his(M_PI)
+	lea	a15,[a15]@los(M_PI)
+	ld.d	e4,[a15]0
+.L643:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16384
+.L644:
+	call	__d_div
+.L645:
+	j	.L51
+.L50:
+	movh.a	a15,#@his(M_PI)
+	lea	a15,[a15]@los(M_PI)
+	ld.d	e0,[a15]0
+.L646:
+	insn.t	d5,d1:31,d1:31
+	mov	d4,d0
+.L647:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16384
+.L648:
+	call	__d_div
+.L649:
+	j	.L52
+.L49:
+	ld.d	e4,[a10]8
+.L447:
+	ld.d	e6,[a10]16
+.L449:
+	call	__d_div
+.L448:
+	st.d	[a10]0,e2
+.L450:
+	mov	d10,#0
+	mov	d11,#0
+.L451:
+	mov	e12,d3,d2
+.L452:
+	mov	d8,#1
+.L453:
+	mov	d9,#0
+.L454:
+	j	.L53
+.L54:
+	mov	d4,d8
+.L455:
+	call	__d_itod
+.L456:
+	mov	e4,d3,d2
+.L457:
+	mov	e6,d13,d12
+.L458:
+	call	__d_mul
+	mov	e4,d3,d2
+.L459:
+	mov	e6,d11,d10
+.L460:
+	call	__d_add
+	mov	e10,d3,d2
+.L650:
+	add	d9,#1
+.L651:
+	mul	d6,d9,#2
+.L652:
+	add	d6,#1
+	ld.d	e4,[a10]0
+.L461:
+	call	power
+.L462:
+	insn.t	d13,d3:31,d3:31
+	mov	d12,d2
+.L653:
+	mul	d4,d9,#2
+.L654:
+	add	d4,#1
+	call	__d_itod
+	mov	e6,d3,d2
+.L655:
+	mov	e4,d13,d12
+	call	__d_div
+.L656:
+	mov	e12,d3,d2
+.L657:
+	mul	d8,d8,#-1
+.L53:
+	mov	d4,d12
+	insert	d5,d13,#0,#31,#1
+.L658:
+	movh.a	a15,#@his(.2.cnt)
+	lea	a15,[a15]@los(.2.cnt)
+	ld.d	e6,[a15]0
+.L659:
+	call	__d_fgt
+	mov	d15,d2
+.L660:
+	jeq	d15,#0,.L55
+.L661:
+	mov	d15,#10
+.L662:
+	jlt	d9,d15,.L54
+.L55:
+	ld.d	e4,[a10]16
+.L463:
+	mov	d6,#0
+	mov	d7,#0
+.L663:
+	call	__d_fgt
+.L464:
+	mov	d15,d2
+.L664:
+	jeq	d15,#0,.L56
+.L465:
+	mov	e2,d11,d10
+.L466:
+	j	.L57
+.L56:
+	ld.d	e4,[a10]8
+.L467:
+	call	my_sign
+.L468:
+	mov	d4,d2
+.L665:
+	call	__d_itod
+.L666:
+	movh.a	a15,#@his(M_PI)
+	lea	a15,[a15]@los(M_PI)
+	ld.d	e6,[a15]0
+.L667:
+	mov	e4,d3,d2
+	call	__d_mul
+.L668:
+	mov	e4,d3,d2
+.L469:
+	mov	e6,d11,d10
+.L470:
+	call	__d_sub
+.L669:
+	j	.L58
+.L58:
+.L57:
+.L52:
+.L51:
+.L48:
+	ret
+.L247:
+	
+__my_atan2_function_end:
+	.size	my_atan2,__my_atan2_function_end-my_atan2
+.L162:
+	; End of function
+	
+	.sdecl	'.text.my_math.my_tan',code,cluster('my_tan')
+	.sect	'.text.my_math.my_tan'
+	.align	2
+	
+	.global	my_tan
+; Function my_tan
+.L112:
+my_tan:	.type	func
+	mov	e8,d5,d4
+.L472:
+	mov	e4,d9,d8
+.L471:
+	call	func_sin
+.L674:
+	mov	e10,d3,d2
+.L473:
+	mov	e4,d9,d8
+.L474:
+	call	func_cos
+.L675:
+	mov	e4,d11,d10
+	mov	e6,d3,d2
+	call	__d_div
+.L676:
+	j	.L59
+.L59:
+	ret
+.L255:
+	
+__my_tan_function_end:
+	.size	my_tan,__my_tan_function_end-my_tan
+.L167:
+	; End of function
+	
+	.sdecl	'.text.my_math.my_abs',code,cluster('my_abs')
+	.sect	'.text.my_math.my_abs'
+	.align	2
+	
+	.global	my_abs
+; Function my_abs
+.L114:
+my_abs:	.type	func
+	mov	d15,d4
+.L476:
+	mov	d4,d15
+	call	__f_ftod
+.L475:
+	mov	e4,d3,d2
+.L685:
+	mov	d6,#0
+	mov	d7,#0
+.L686:
+	call	__d_fge
+.L687:
+	jeq	d2,#0,.L60
+.L688:
+	mov	d2,d15
+.L477:
+	j	.L61
+.L60:
+	insn.t	d2,d15:31,d15:31
+.L689:
+	j	.L62
+.L62:
+.L61:
+	ret
+.L261:
+	
+__my_abs_function_end:
+	.size	my_abs,__my_abs_function_end-my_abs
+.L177:
+	; End of function
+	
+	.sdecl	'.text.my_math.fast_atan2',code,cluster('fast_atan2')
+	.sect	'.text.my_math.fast_atan2'
+	.align	2
+	
+	.global	fast_atan2
+; Function fast_atan2
+.L116:
+fast_atan2:	.type	func
+	mov	d8,d4
+.L479:
+	mov	d12,d5
+.L480:
+	mov	d4,d8
+	call	__f_ftod
+.L478:
+	extr.u	d15,d3,#20,#11
+	eq	d15,d15,#0
+.L694:
+	jeq	d15,#0,.L63
+.L695:
+	mov	d4,d12
+.L481:
+	call	__f_ftod
+.L482:
+	extr.u	d15,d3,#20,#11
+	eq	d15,d15,#0
+	jeq	d15,#0,.L64
+.L696:
+	mov	d2,#0
+.L483:
+	j	.L65
+.L64:
+.L63:
+	mov	d4,d8
+.L484:
+	call	my_abs
+.L485:
+	mov	d10,d2
+.L487:
+	mov	d4,d12
+.L488:
+	call	my_abs
+.L486:
+	mov	d9,d2
+.L490:
+	cmp.f	d15,d10,d9
+	jnz.t	d15:0,.L66
+.L697:
+	div.f	d11,d9,d10
+.L491:
+	j	.L67
+.L66:
+	div.f	d11,d10,d9
+.L67:
+	mov	d4,d11
+.L492:
+	call	__f_ftod
+.L489:
+	mov	e6,d3,d2
+.L698:
+	movh.a	a15,#@his(.3.cnt)
+	lea	a15,[a15]@los(.3.cnt)
+	ld.d	e4,[a15]0
+.L699:
+	call	__d_fgt
+.L700:
+	jne	d2,#0,.L68
+.L701:
+	movh	d15,#17280
+.L702:
+	mul.f	d4,d11,d15
+	call	__f_ftod
+	mov	e4,d3,d2
+.L703:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16352
+.L704:
+	call	__d_sub
+	mov	e4,d3,d2
+	call	__d_dtof
+.L493:
+	ftoiz	d0,d2
+.L494:
+	itof	d15,d0
+.L495:
+	sub.f	d1,d2,d15
+.L496:
+	mul	d15,d0,#4
+.L705:
+	movh.a	a15,#@his(fast_atan_table)
+	lea	a15,[a15]@los(fast_atan_table)
+.L706:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d2,[a15]
+.L497:
+	add	d15,d0,#1
+.L707:
+	mul	d15,d15,#4
+.L708:
+	movh.a	a15,#@his(fast_atan_table)
+	lea	a15,[a15]@los(fast_atan_table)
+.L709:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d3,[a15]
+.L710:
+	mul	d15,d0,#4
+.L711:
+	movh.a	a15,#@his(fast_atan_table)
+	lea	a15,[a15]@los(fast_atan_table)
+.L712:
+	addsc.a	a15,a15,d15,#0
+	ld.w	d15,[a15]
+.L713:
+	sub.f	d15,d3,d15
+.L714:
+	madd.f	d11,d2,d15,d1
+.L715:
+	j	.L69
+.L68:
+.L69:
+	cmp.f	d15,d9,d10
+	extr.u	d15,d15,#2,#1
+.L716:
+	jeq	d15,#0,.L70
+.L717:
+	mov	d4,d12
+.L498:
+	call	__f_ftod
+.L499:
+	mov	e4,d3,d2
+.L718:
+	mov	d6,#0
+	mov	d7,#0
+.L719:
+	call	__d_fge
+.L720:
+	jeq	d2,#0,.L71
+.L721:
+	mov	d4,d8
+.L500:
+	call	__f_ftod
+.L501:
+	mov	e4,d3,d2
+.L722:
+	mov	d6,#0
+	mov	d7,#0
+.L723:
+	call	__d_fge
+.L724:
+	jne	d2,#0,.L72
+.L725:
+	insn.t	d2,d11:31,d11:31
+.L502:
+	j	.L73
+.L72:
+	mov	d2,d11
+.L73:
+	j	.L74
+.L71:
+	mov	d15,#4059
+.L503:
+	addih	d15,d15,#16457
+.L726:
+	mov	d4,d8
+.L505:
+	call	__f_ftod
+.L506:
+	mov	e4,d3,d2
+.L727:
+	mov	d6,#0
+	mov	d7,#0
+.L728:
+	call	__d_fge
+.L729:
+	jne	d2,#0,.L75
+.L730:
+	sub.f	d2,d11,d15
+.L504:
+	j	.L76
+.L75:
+	sub.f	d2,d15,d11
+.L76:
+.L74:
+	j	.L77
+.L70:
+	mov	d4,d8
+.L507:
+	call	__f_ftod
+.L508:
+	mov	e4,d3,d2
+.L731:
+	mov	d6,#0
+	mov	d7,#0
+.L732:
+	call	__d_fge
+.L733:
+	jeq	d2,#0,.L78
+.L734:
+	mov	d15,#4059
+.L509:
+	addih	d15,d15,#16329
+.L735:
+	mov	d4,d12
+.L511:
+	call	__f_ftod
+.L512:
+	mov	e4,d3,d2
+.L736:
+	mov	d6,#0
+	mov	d7,#0
+.L737:
+	call	__d_fge
+.L738:
+	jne	d2,#0,.L79
+.L739:
+	add.f	d2,d15,d11
+.L510:
+	j	.L80
+.L79:
+	sub.f	d2,d15,d11
+.L80:
+	j	.L81
+.L78:
+	mov	d15,#4059
+.L513:
+	addih	d15,d15,#49097
+.L740:
+	mov	d4,d12
+.L515:
+	call	__f_ftod
+.L516:
+	mov	e4,d3,d2
+.L741:
+	mov	d6,#0
+	mov	d7,#0
+.L742:
+	call	__d_fge
+.L743:
+	jne	d2,#0,.L82
+.L744:
+	sub.f	d2,d15,d11
+.L514:
+	j	.L83
+.L82:
+	add.f	d2,d15,d11
+.L83:
+.L81:
+.L77:
+.L65:
+	j	.L84
+.L84:
+	ret
+.L263:
+	
+__fast_atan2_function_end:
+	.size	fast_atan2,__fast_atan2_function_end-fast_atan2
+.L182:
+	; End of function
+	
+	.sdecl	'.text.my_math.my_atan',code,cluster('my_atan')
+	.sect	'.text.my_math.my_atan'
+	.align	2
+	
+	.global	my_atan
+; Function my_atan
+.L118:
+my_atan:	.type	func
+	mov	d15,d4
+.L519:
+	mov	d4,d5
+.L517:
+	mov	d5,d15
+.L518:
+	call	fast_atan2
+.L520:
+	j	.L85
+.L85:
+	ret
+.L258:
+	
+__my_atan_function_end:
+	.size	my_atan,__my_atan_function_end-my_atan
+.L172:
+	; End of function
+	
+	.sdecl	'.text.my_math.my_pow',code,cluster('my_pow')
+	.sect	'.text.my_math.my_pow'
+	.align	2
+	
+	.global	my_pow
+; Function my_pow
+.L120:
+my_pow:	.type	func
+	mul.f	d2,d4,d4
+.L754:
+	j	.L86
+.L86:
+	ret
+.L280:
+	
+__my_pow_function_end:
+	.size	my_pow,__my_pow_function_end-my_pow
+.L192:
+	; End of function
+	
+	.sdecl	'.text.my_math.my_sqrt',code,cluster('my_sqrt')
+	.sect	'.text.my_math.my_sqrt'
+	.align	2
+	
+	.global	my_sqrt
+; Function my_sqrt
+.L122:
+my_sqrt:	.type	func
+	movh	d15,#16320
+.L521:
+	movh	d0,#16128
+.L759:
+	mul.f	d1,d4,d0
+.L523:
+	mov	d0,#23007
+	addih	d0,d0,#24375
+.L760:
+	sha	d2,d4,#-1
+.L525:
+	sub	d0,d2
+.L761:
+	mul.f	d2,d1,d0
+.L762:
+	msub.f	d2,d15,d2,d0
+.L763:
+	mul.f	d0,d0,d2
+.L526:
+	mul.f	d1,d1,d0
+.L524:
+	msub.f	d15,d15,d1,d0
+.L522:
+	mul.f	d15,d0,d15
+.L527:
+	mul.f	d2,d4,d15
+.L764:
+	j	.L87
+.L87:
+	ret
+.L282:
+	
+__my_sqrt_function_end:
+	.size	my_sqrt,__my_sqrt_function_end-my_sqrt
+.L197:
+	; End of function
+	
+	.sdecl	'.text.my_math.mx_sin',code,cluster('mx_sin')
+	.sect	'.text.my_math.mx_sin'
+	.align	2
+	
+	.global	mx_sin
+; Function mx_sin
+.L124:
+mx_sin:	.type	func
+	mov	e8,d5,d4
+.L769:
+	mov	d4,#0
+.L528:
+	mov	d5,#0
+.L529:
+	mov	e6,d9,d8
+.L530:
+	call	__d_fgt
+.L770:
+	jne	d2,#0,.L88
+.L771:
+	movh.a	a15,#@his(.4.cnt)
+	lea	a15,[a15]@los(.4.cnt)
+	ld.d	e10,[a15]0
+.L772:
+	movh.a	a15,#@his(.5.cnt)
+	lea	a15,[a15]@los(.5.cnt)
+	ld.d	e6,[a15]0
+.L531:
+	mov	e4,d9,d8
+.L532:
+	call	__d_mul
+.L773:
+	mov	e4,d11,d10
+	mov	e6,d3,d2
+	call	__d_sub
+.L533:
+	mov	e4,d9,d8
+.L534:
+	mov	e6,d3,d2
+	call	__d_mul
+.L774:
+	mov	e8,d3,d2
+.L775:
+	j	.L89
+.L88:
+	movh.a	a15,#@his(.5.cnt)
+	lea	a15,[a15]@los(.5.cnt)
+	ld.d	e6,[a15]0
+.L535:
+	mov	e4,d9,d8
+.L536:
+	call	__d_mul
+.L776:
+	movh.a	a15,#@his(.4.cnt)
+	lea	a15,[a15]@los(.4.cnt)
+	ld.d	e6,[a15]0
+.L777:
+	mov	e4,d3,d2
+	call	__d_add
+.L537:
+	mov	e4,d9,d8
+.L538:
+	mov	e6,d3,d2
+	call	__d_mul
+.L778:
+	mov	e8,d3,d2
+.L89:
+	mov	d4,#0
+	mov	d5,#0
+.L539:
+	mov	e6,d9,d8
+.L540:
+	call	__d_fgt
+.L779:
+	jne	d2,#0,.L90
+.L780:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16368
+.L541:
+	mov	e4,d9,d8
+.L542:
+	call	__d_sub
+.L781:
+	movh.a	a15,#@his(.6.cnt)
+	lea	a15,[a15]@los(.6.cnt)
+	ld.d	e6,[a15]0
+.L782:
+	mov	e4,d3,d2
+	call	__d_mul
+.L783:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16368
+.L784:
+	mov	e4,d3,d2
+	call	__d_add
+.L543:
+	mov	e4,d9,d8
+.L544:
+	mov	e6,d3,d2
+	call	__d_mul
+.L785:
+	j	.L91
+.L90:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16368
+.L545:
+	mov	e4,d9,d8
+.L546:
+	call	__d_add
+.L786:
+	movh.a	a15,#@his(.7.cnt)
+	lea	a15,[a15]@los(.7.cnt)
+	ld.d	e6,[a15]0
+.L787:
+	mov	e4,d3,d2
+	call	__d_mul
+.L788:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16368
+.L789:
+	mov	e4,d3,d2
+	call	__d_add
+.L547:
+	mov	e4,d9,d8
+.L548:
+	mov	e6,d3,d2
+	call	__d_mul
+.L91:
+	j	.L92
+.L92:
+	ret
+.L290:
+	
+__mx_sin_function_end:
+	.size	mx_sin,__mx_sin_function_end-mx_sin
+.L202:
+	; End of function
+	
+	.sdecl	'.text.my_math.my_sin',code,cluster('my_sin')
+	.sect	'.text.my_math.my_sin'
+	.align	2
+	
+	.global	my_sin
+; Function my_sin
+.L126:
+my_sin:	.type	func
+	mov	e8,d5,d4
+.L794:
+	mov	d15,#1
+.L550:
+	movh.a	a15,#@his(.8.cnt)
+	lea	a15,[a15]@los(.8.cnt)
+	ld.d	e6,[a15]0
+.L551:
+	mov	e4,d9,d8
+.L549:
+	call	__d_fge
+.L795:
+	jeq	d2,#0,.L93
+.L796:
+	movh.a	a15,#@his(.8.cnt)
+	lea	a15,[a15]@los(.8.cnt)
+	ld.d	e6,[a15]0
+.L552:
+	mov	e4,d9,d8
+.L553:
+	call	__d_sub
+	mov	e8,d3,d2
+.L797:
+	mov	d15,#-1
+.L93:
+	mov	e4,d9,d8
+.L554:
+	call	mx_sin
+	mov	e8,d3,d2
+.L798:
+	mov	d4,d15
+.L555:
+	call	__d_itod
+.L556:
+	mov	e4,d9,d8
+	mov	e6,d3,d2
+	call	__d_mul
+.L799:
+	j	.L94
+.L94:
+	ret
+.L293:
+	
+__my_sin_function_end:
+	.size	my_sin,__my_sin_function_end-my_sin
+.L207:
+	; End of function
+	
+	.sdecl	'.text.my_math.my_cos',code,cluster('my_cos')
+	.sect	'.text.my_math.my_cos'
+	.align	2
+	
+	.global	my_cos
+; Function my_cos
+.L128:
+my_cos:	.type	func
+	mov	d15,#1
+.L558:
+	movh.a	a15,#@his(.9.cnt)
+	lea	a15,[a15]@los(.9.cnt)
+	ld.d	e6,[a15]0
+.L804:
+	call	__d_add
+.L557:
+	mov	e8,d3,d2
+.L805:
+	movh.a	a15,#@his(.8.cnt)
+	lea	a15,[a15]@los(.8.cnt)
+	ld.d	e6,[a15]0
+.L559:
+	mov	e4,d9,d8
+.L560:
+	call	__d_fge
+.L806:
+	jeq	d2,#0,.L95
+.L807:
+	mov	d15,#-1
+.L808:
+	movh.a	a15,#@his(.8.cnt)
+	lea	a15,[a15]@los(.8.cnt)
+	ld.d	e6,[a15]0
+.L561:
+	mov	e4,d9,d8
+.L562:
+	call	__d_sub
+	mov	e8,d3,d2
+.L95:
+	mov	e4,d9,d8
+.L563:
+	call	my_sin
+	mov	e8,d3,d2
+.L809:
+	mov	d4,d15
+.L564:
+	call	__d_itod
+.L565:
+	mov	e4,d9,d8
+	mov	e6,d3,d2
+	call	__d_mul
+	mov	e4,d3,d2
+	call	__d_dtof
+.L810:
+	j	.L96
+.L96:
+	ret
+.L297:
+	
+__my_cos_function_end:
+	.size	my_cos,__my_cos_function_end-my_cos
+.L212:
+	; End of function
+	
+	.sdecl	'.data.my_math.M_PI',data,cluster('M_PI')
+	.sect	'.data.my_math.M_PI'
+	.global	M_PI
+	.align	4
+M_PI:	.type	object
+	.size	M_PI,8
+	.word	1413754136,1074340347
+	.sdecl	'.data.my_math.fast_atan_table',data,cluster('fast_atan_table')
+	.sect	'.data.my_math.fast_atan_table'
+	.global	fast_atan_table
+	.align	2
+fast_atan_table:	.type	object
+	.size	fast_atan_table,1028
+	.space	4
+	.word	998277206,1006665683,1010876023,1015053775,1017158491,1019262886,1021366894,1023440311
+	.word	1024491829,1025543057,1026593963,1027644512,1028694674,1029744421,1030793713,1031820655
+	.word	1032344803,1032868679,1033392268,1033915551,1034438514,1034961143,1035483419,1036005330
+	.word	1036526860,1037047986,1037568710,1038089005,1038608857,1039128240,1039647166,1040165595
+	.word	1040435460,1040694165,1040952608,1041210775,1041468661,1041726265,1041983574,1042240574
+	.word	1042497272,1042753655,1043009716,1043265441,1043520837,1043775891,1044030589,1044284938
+	.word	1044538919,1044792536,1045045778,1045298631,1045551102,1045803183,1046054854,1046306123
+	.word	1046556983,1046807420,1047057434,1047307018,1047556167,1047804872,1048053128,1048300934
+	.word	1048548277,1048685582,1048808787,1048931758,1049054486,1049176973,1049299215,1049421209
+	.word	1049542955,1049664449,1049785684,1049906665,1050027387,1050147847,1050268043,1050387970
+	.word	1050507631,1050627021,1050746140,1050864983,1050983551,1051101837,1051219844,1051337570
+	.word	1051455011,1051572162,1051689029,1051805604,1051921890,1052037881,1052153577,1052268977
+	.word	1052384079,1052498882,1052613383,1052727582,1052841476,1052955068,1053068351,1053181326
+	.word	1053293988,1053406345,1053518387,1053630116,1053741530,1053852629,1053963412,1054073880
+	.word	1054184026,1054293856,1054403361,1054512547,1054621411,1054729953,1054838170,1054946061
+	.word	1055053626,1055160866,1055267781,1055374363,1055480623,1055586551,1055692150,1055797417
+	.word	1055902355,1056006965,1056111238,1056215183,1056318793,1056422073,1056525018,1056627631
+	.word	1056729912,1056831857,1056933466,1056999676,1057050147,1057100450,1057150587,1057200556
+	.word	1057250358,1057299991,1057349457,1057398755,1057447886,1057496850,1057545645,1057594274
+	.word	1057642735,1057691028,1057739155,1057787113,1057834906,1057882530,1057929987,1057977279
+	.word	1058024403,1058071361,1058118152,1058164778,1058211236,1058257529,1058303656,1058349619
+	.word	1058395416,1058441047,1058486513,1058531815,1058576952,1058621927,1058666735,1058711381
+	.word	1058755864,1058800183,1058844339,1058888334,1058932164,1058975834,1059019342,1059062689
+	.word	1059105874,1059148899,1059191763,1059234468,1059277013,1059319399,1059361626,1059403693
+	.word	1059445603,1059487354,1059528948,1059570386,1059611667,1059652791,1059693759,1059734572
+	.word	1059775230,1059815731,1059856081,1059896274,1059936316,1059976204,1060015939,1060055521
+	.word	1060094953,1060134233,1060173363,1060212341,1060251169,1060289849,1060328379,1060366761
+	.word	1060404994,1060443079,1060481017,1060518809,1060556454,1060593953,1060631307,1060668516
+	.word	1060705582,1060742501,1060779279,1060815914,1060852404,1060888755,1060924962,1060961030
+	.word	1060996957,1061032742,1061068391,1061103898,1061139268,1061174500,1061209593,1061244550
+	.word	1061279369,1061314054,1061348602,1061383015,1061417295,1061451440,1061485452,1061519330
+	.word	1061553076,1061586689,1061620171,1061653523,1061686743,1061719833,1061752797,1061752797
+	.calls	'func_pow','__d_mul'
+	.calls	'func_pow','__d_div'
+	.calls	'func_sqrt','__d_div'
+	.calls	'func_sqrt','__d_add'
+	.calls	'func_sqrt','__d_feq'
+	.calls	'func_cos','__d_fge'
+	.calls	'func_cos','__d_itod'
+	.calls	'func_cos','__d_mul'
+	.calls	'func_cos','__d_div'
+	.calls	'func_cos','__d_add'
+	.calls	'func_cos','__d_sub'
+	.calls	'func_sin','__d_fgt'
+	.calls	'func_sin','__d_fge'
+	.calls	'func_sin','__d_itod'
+	.calls	'func_sin','__d_mul'
+	.calls	'func_sin','__d_div'
+	.calls	'func_sin','__d_add'
+	.calls	'func_sin','__d_sub'
+	.calls	'power','__d_mul'
+	.calls	'my_sign','__d_fgt'
+	.calls	'my_atan2','__d_fgt'
+	.calls	'my_atan2','__d_div'
+	.calls	'my_atan2','__d_itod'
+	.calls	'my_atan2','__d_mul'
+	.calls	'my_atan2','__d_add'
+	.calls	'my_atan2','__d_sub'
+	.calls	'my_tan','__d_div'
+	.calls	'my_abs','__f_ftod'
+	.calls	'my_abs','__d_fge'
+	.calls	'fast_atan2','__f_ftod'
+	.calls	'fast_atan2','__d_fgt'
+	.calls	'fast_atan2','__d_sub'
+	.calls	'fast_atan2','__d_dtof'
+	.calls	'fast_atan2','__d_fge'
+	.calls	'mx_sin','__d_fgt'
+	.calls	'mx_sin','__d_mul'
+	.calls	'mx_sin','__d_sub'
+	.calls	'mx_sin','__d_add'
+	.calls	'my_sin','__d_fge'
+	.calls	'my_sin','__d_sub'
+	.calls	'my_sin','__d_itod'
+	.calls	'my_sin','__d_mul'
+	.calls	'my_cos','__d_add'
+	.calls	'my_cos','__d_fge'
+	.calls	'my_cos','__d_sub'
+	.calls	'my_cos','__d_itod'
+	.calls	'my_cos','__d_mul'
+	.calls	'my_cos','__d_dtof'
+	.calls	'func_pow','func_pow'
+	.calls	'func_cos','func_pow'
+	.calls	'func_sin','func_pow'
+	.calls	'my_atan2','power'
+	.calls	'my_atan2','my_sign'
+	.calls	'my_tan','func_sin'
+	.calls	'my_tan','func_cos'
+	.calls	'fast_atan2','my_abs'
+	.calls	'my_atan','fast_atan2'
+	.calls	'my_sin','mx_sin'
+	.calls	'my_cos','my_sin'
+	.calls	'func_pow','',0
+	.calls	'func_sqrt','',0
+	.calls	'func_cos','',24
+	.calls	'func_sin','',24
+	.calls	'power','',0
+	.calls	'my_sign','',0
+	.calls	'my_atan2','',24
+	.calls	'my_tan','',0
+	.calls	'my_abs','',0
+	.calls	'fast_atan2','',0
+	.calls	'my_atan','',0
+	.calls	'my_pow','',0
+	.calls	'my_sqrt','',0
+	.calls	'mx_sin','',0
+	.calls	'my_sin','',0
+	.extern	__d_mul
+	.extern	__d_div
+	.extern	__d_add
+	.extern	__d_feq
+	.extern	__d_fge
+	.extern	__d_itod
+	.extern	__d_sub
+	.extern	__d_fgt
+	.extern	__f_ftod
+	.extern	__d_dtof
+	.calls	'my_cos','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L130:
+	.word	758
+	.half	3
+	.word	.L131
+	.byte	4
+.L129:
+	.byte	1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L132
+.L217:
+	.byte	2
+	.byte	'double',0,8,4,3
+	.byte	'__fabs',0
+	.word	172
+	.byte	1,1,1,1,4
+	.byte	'd',0
+	.word	172
+	.byte	0
+.L220:
+	.byte	2
+	.byte	'int',0,4,5
+.L257:
+	.byte	2
+	.byte	'float',0,4,4
+.L284:
+	.byte	2
+	.byte	'long int',0,4,5
+.L288:
+	.byte	5
+	.word	213
+.L295:
+	.byte	2
+	.byte	'char',0,1,6,2
+	.byte	'short int',0,2,5,6
+	.byte	'__wchar_t',0,1,1,1
+	.word	247
+	.byte	2
+	.byte	'unsigned int',0,4,7,6
+	.byte	'__size_t',0,1,1,1
+	.word	278
+	.byte	6
+	.byte	'__ptrdiff_t',0,1,1,1
+	.word	206
+	.byte	7,1,8
+	.word	331
+	.byte	6
+	.byte	'__codeptr',0,1,1,1
+	.word	333
+	.byte	6
+	.byte	'__intptr_t',0,1,1,1
+	.word	206
+	.byte	6
+	.byte	'__uintptr_t',0,1,1,1
+	.word	278
+	.byte	2
+	.byte	'unsigned short int',0,2,7,6
+	.byte	'_iob_flag_t',0,2,82,25
+	.word	395
+	.byte	2
+	.byte	'unsigned char',0,1,8,6
+	.byte	'uint8',0,3,105,29
+	.word	437
+	.byte	6
+	.byte	'uint16',0,3,109,29
+	.word	395
+	.byte	2
+	.byte	'unsigned long int',0,4,7,6
+	.byte	'uint32',0,3,113,29
+	.word	483
+	.byte	2
+	.byte	'unsigned long long int',0,8,7,6
+	.byte	'uint64',0,3,118,29
+	.word	519
+	.byte	6
+	.byte	'sint16',0,3,126,29
+	.word	247
+	.byte	6
+	.byte	'sint32',0,3,131,1,29
+	.word	222
+	.byte	2
+	.byte	'long long int',0,8,5,6
+	.byte	'sint64',0,3,138,1,29
+	.word	591
+	.byte	6
+	.byte	'float32',0,3,167,1,29
+	.word	213
+	.byte	9
+	.byte	'void',0,8
+	.word	641
+	.byte	6
+	.byte	'pvoid',0,4,57,28
+	.word	647
+	.byte	6
+	.byte	'Ifx_TickTime',0,4,79,28
+	.word	591
+	.byte	2
+	.byte	'char',0,1,6,6
+	.byte	'int8',0,5,54,29
+	.word	687
+	.byte	6
+	.byte	'int16',0,5,55,29
+	.word	247
+	.byte	6
+	.byte	'int32',0,5,56,29
+	.word	206
+	.byte	6
+	.byte	'int64',0,5,57,29
+	.word	591
+.L300:
+	.byte	10,132,8
+	.word	213
+	.byte	11,128,2,0,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L131:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,4,5,0,3,8,73,19,0,0,5,38,0,73,19,0,0,6,22,0,3,8,58,15,59,15,57,15,73,19,0,0,7,21,0,54
+	.byte	15,0,0,8,15,0,73,19,0,0,9,59,0,3,8,0,0,10,1,1,11,15,73,19,0,0,11,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L132:
+	.word	.L567-.L566
+.L566:
+	.half	3
+	.word	.L569-.L568
+.L568:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'E:\\AURIX\\AURIX-Studio-1.10.2\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'C:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC37A\\\\Tricore\\\\Cpu\\\\Std',0
+	.byte	'C:\\\\Users\\\\WHY\\\\Desktop\\\\\326\307\304\334\263\265\\\\verison_7_6\\\\verison_7_6\\\\libraries\\\\zf_common',0
+	.byte	0
+	.byte	'../code/my_math.c',0,0,0,0
+	.byte	'stdio.h',0,1,0,0
+	.byte	'Platform_Types.h',0,2,0,0
+	.byte	'ifx_types.h',0,2,0,0
+	.byte	'zf_common_typedef.h',0,3,0,0,0
+.L569:
+.L567:
+	.sdecl	'.debug_info',debug,cluster('func_pow')
+	.sect	'.debug_info'
+.L133:
+	.word	248
+	.half	3
+	.word	.L134
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L136,.L135
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'func_pow',0,1,14,8
+	.word	.L217
+	.byte	1,1,1
+	.word	.L98,.L218,.L97
+	.byte	4
+	.byte	'x',0,1,14,24
+	.word	.L217,.L219
+	.byte	4
+	.byte	'k',0,1,14,30
+	.word	.L220,.L221
+	.byte	5
+	.word	.L98,.L218
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('func_pow')
+	.sect	'.debug_abbrev'
+.L134:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('func_pow')
+	.sect	'.debug_line'
+.L135:
+	.word	.L571-.L570
+.L570:
+	.half	3
+	.word	.L573-.L572
+.L572:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L573:
+	.byte	5,8,7,0,5,2
+	.word	.L98
+	.byte	3,13,1,5,5,9
+	.half	.L574-.L98
+	.byte	3,4,1,5,34,7,9
+	.half	.L575-.L574
+	.byte	3,2,1,5,18,9
+	.half	.L303-.L575
+	.byte	1,5,9,9
+	.half	.L576-.L303
+	.byte	1,5,10,9
+	.half	.L2-.L576
+	.byte	3,2,1,5,16,7,9
+	.half	.L577-.L2
+	.byte	3,2,1,5,9,9
+	.half	.L578-.L577
+	.byte	1,5,16,9
+	.half	.L4-.L578
+	.byte	3,4,1,5,34,9
+	.half	.L579-.L4
+	.byte	1,5,20,9
+	.half	.L305-.L579
+	.byte	1,5,9,9
+	.half	.L580-.L305
+	.byte	1,5,1,9
+	.half	.L3-.L580
+	.byte	3,2,1,7,9
+	.half	.L137-.L3
+	.byte	0,1,1
+.L571:
+	.sdecl	'.debug_ranges',debug,cluster('func_pow')
+	.sect	'.debug_ranges'
+.L136:
+	.word	-1,.L98,0,.L137-.L98,0,0
+	.sdecl	'.debug_info',debug,cluster('func_sqrt')
+	.sect	'.debug_info'
+.L138:
+	.word	264
+	.half	3
+	.word	.L139
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L141,.L140
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'func_sqrt',0,1,34,8
+	.word	.L217
+	.byte	1,1,1
+	.word	.L100,.L222,.L99
+	.byte	4
+	.byte	'x',0,1,34,25
+	.word	.L217,.L223
+	.byte	5
+	.word	.L100,.L222
+	.byte	6
+	.byte	'j',0,1,38,12
+	.word	.L217,.L224
+	.byte	6
+	.byte	'k',0,1,38,14
+	.word	.L217,.L225
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('func_sqrt')
+	.sect	'.debug_abbrev'
+.L139:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('func_sqrt')
+	.sect	'.debug_line'
+.L140:
+	.word	.L582-.L581
+.L581:
+	.half	3
+	.word	.L584-.L583
+.L583:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L584:
+	.byte	5,8,7,0,5,2
+	.word	.L100
+	.byte	3,33,1,5,7,9
+	.half	.L585-.L100
+	.byte	3,6,1,5,9,9
+	.half	.L309-.L585
+	.byte	3,2,1,5,8,9
+	.half	.L310-.L309
+	.byte	1,5,6,9
+	.half	.L586-.L310
+	.byte	1,5,15,9
+	.half	.L587-.L586
+	.byte	3,2,1,5,8,9
+	.half	.L8-.L587
+	.byte	3,4,1,5,13,9
+	.half	.L311-.L8
+	.byte	3,2,1,5,11,9
+	.half	.L314-.L311
+	.byte	1,5,17,9
+	.half	.L588-.L314
+	.byte	1,5,16,9
+	.half	.L589-.L588
+	.byte	1,5,8,9
+	.half	.L590-.L589
+	.byte	1,5,12,9
+	.half	.L7-.L590
+	.byte	3,122,1,5,15,9
+	.half	.L591-.L7
+	.byte	1,5,5,7,9
+	.half	.L318-.L591
+	.byte	3,10,1,5,2,9
+	.half	.L9-.L318
+	.byte	3,2,1,7,9
+	.half	.L142-.L9
+	.byte	0,1,1
+.L582:
+	.sdecl	'.debug_ranges',debug,cluster('func_sqrt')
+	.sect	'.debug_ranges'
+.L141:
+	.word	-1,.L100,0,.L142-.L100,0,0
+	.sdecl	'.debug_info',debug,cluster('func_cos')
+	.sect	'.debug_info'
+.L143:
+	.word	362
+	.half	3
+	.word	.L144
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L146,.L145
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'func_cos',0,1,60,8
+	.word	.L217
+	.byte	1,1,1
+	.word	.L102,.L226,.L101
+	.byte	4
+	.byte	'x',0,1,60,24
+	.word	.L217,.L227
+	.byte	5
+	.word	.L102,.L226
+	.byte	5
+	.word	.L11,.L226
+	.byte	6
+	.byte	't',0,1,68,9
+	.word	.L220,.L228
+	.byte	6
+	.byte	'q',0,1,68,11
+	.word	.L220,.L229
+	.byte	6
+	.byte	'term',0,1,70,12
+	.word	.L217,.L230
+	.byte	6
+	.byte	'factorial',0,1,70,17
+	.word	.L217,.L231
+	.byte	6
+	.byte	'sum2',0,1,70,31
+	.word	.L217,.L232
+	.byte	6
+	.byte	'sxm',0,1,70,38
+	.word	.L217,.L233
+	.byte	6
+	.byte	'sum1',0,1,70,42
+	.word	.L217,.L234
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('func_cos')
+	.sect	'.debug_abbrev'
+.L144:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('func_cos')
+	.sect	'.debug_line'
+.L145:
+	.word	.L593-.L592
+.L592:
+	.half	3
+	.word	.L595-.L594
+.L594:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L595:
+	.byte	5,8,7,0,5,2
+	.word	.L102
+	.byte	3,59,1,5,7,9
+	.half	.L596-.L102
+	.byte	3,4,1,5,12,9
+	.half	.L11-.L596
+	.byte	3,4,1,5,27,9
+	.half	.L325-.L11
+	.byte	3,2,1,5,36,9
+	.half	.L327-.L325
+	.byte	1,5,47,9
+	.half	.L597-.L327
+	.byte	1,5,10,9
+	.half	.L329-.L597
+	.byte	3,2,1,5,13,9
+	.half	.L330-.L329
+	.byte	1,5,29,9
+	.half	.L13-.L330
+	.byte	3,4,1,5,28,9
+	.half	.L598-.L13
+	.byte	1,5,14,9
+	.half	.L335-.L598
+	.byte	3,2,1,5,13,9
+	.half	.L599-.L335
+	.byte	1,5,9,9
+	.half	.L337-.L599
+	.byte	1,5,18,7,9
+	.half	.L338-.L337
+	.byte	3,4,1,5,17,9
+	.half	.L339-.L338
+	.byte	3,2,1,5,18,9
+	.half	.L342-.L339
+	.byte	3,2,1,5,22,9
+	.half	.L16-.L342
+	.byte	3,2,1,5,19,9
+	.half	.L600-.L16
+	.byte	3,2,1,5,20,9
+	.half	.L357-.L600
+	.byte	1,5,25,9
+	.half	.L359-.L357
+	.byte	1,5,12,9
+	.half	.L14-.L359
+	.byte	3,4,1,5,33,9
+	.half	.L18-.L14
+	.byte	1,5,31,9
+	.half	.L601-.L18
+	.byte	1,5,9,9
+	.half	.L602-.L601
+	.byte	1,7,9
+	.half	.L603-.L602
+	.byte	3,2,1,5,15,9
+	.half	.L19-.L603
+	.byte	3,104,1,5,13,9
+	.half	.L12-.L19
+	.byte	1,5,5,9
+	.half	.L20-.L12
+	.byte	3,28,1,5,2,9
+	.half	.L21-.L20
+	.byte	3,2,1,7,9
+	.half	.L147-.L21
+	.byte	0,1,1
+.L593:
+	.sdecl	'.debug_ranges',debug,cluster('func_cos')
+	.sect	'.debug_ranges'
+.L146:
+	.word	-1,.L102,0,.L147-.L102,0,0
+	.sdecl	'.debug_info',debug,cluster('func_sin')
+	.sect	'.debug_info'
+.L148:
+	.word	382
+	.half	3
+	.word	.L149
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L151,.L150
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'func_sin',0,1,106,8
+	.word	.L217
+	.byte	1,1,1
+	.word	.L104,.L235,.L103
+	.byte	4
+	.byte	'x',0,1,106,24
+	.word	.L217,.L236
+	.byte	5
+	.word	.L104,.L235
+	.byte	6
+	.byte	'counter',0,1,110,9
+	.word	.L220,.L237
+	.byte	5
+	.word	.L25,.L235
+	.byte	6
+	.byte	't',0,1,124,9
+	.word	.L220,.L238
+	.byte	6
+	.byte	'q',0,1,124,11
+	.word	.L220,.L239
+	.byte	6
+	.byte	'term',0,1,126,12
+	.word	.L217,.L240
+	.byte	6
+	.byte	'factorial',0,1,126,17
+	.word	.L217,.L241
+	.byte	6
+	.byte	'sum2',0,1,126,31
+	.word	.L217,.L242
+	.byte	6
+	.byte	'sxm',0,1,126,36
+	.word	.L217,.L243
+	.byte	6
+	.byte	'sum1',0,1,126,40
+	.word	.L217,.L244
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('func_sin')
+	.sect	'.debug_abbrev'
+.L149:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('func_sin')
+	.sect	'.debug_line'
+.L150:
+	.word	.L605-.L604
+.L604:
+	.half	3
+	.word	.L607-.L606
+.L606:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L607:
+	.byte	5,8,7,0,5,2
+	.word	.L104
+	.byte	3,233,0,1,5,10,9
+	.half	.L608-.L104
+	.byte	3,6,1,5,9,9
+	.half	.L372-.L608
+	.byte	1,5,5,9
+	.half	.L609-.L372
+	.byte	1,5,17,7,9
+	.half	.L610-.L609
+	.byte	3,6,1,5,20,9
+	.half	.L375-.L610
+	.byte	3,124,1,5,17,9
+	.half	.L22-.L375
+	.byte	1,5,7,9
+	.half	.L23-.L22
+	.byte	3,6,1,5,12,9
+	.half	.L25-.L23
+	.byte	3,4,1,5,27,9
+	.half	.L381-.L25
+	.byte	3,2,1,5,45,9
+	.half	.L383-.L381
+	.byte	1,5,9,9
+	.half	.L384-.L383
+	.byte	3,4,1,5,10,9
+	.half	.L385-.L384
+	.byte	3,2,1,5,13,9
+	.half	.L386-.L385
+	.byte	1,5,29,9
+	.half	.L27-.L386
+	.byte	3,4,1,5,28,9
+	.half	.L611-.L27
+	.byte	1,5,14,9
+	.half	.L391-.L611
+	.byte	3,2,1,5,13,9
+	.half	.L612-.L391
+	.byte	1,5,9,9
+	.half	.L393-.L612
+	.byte	1,5,17,7,9
+	.half	.L394-.L393
+	.byte	3,4,1,5,16,9
+	.half	.L395-.L394
+	.byte	3,2,1,5,17,9
+	.half	.L398-.L395
+	.byte	3,2,1,5,21,9
+	.half	.L30-.L398
+	.byte	3,2,1,5,18,9
+	.half	.L613-.L30
+	.byte	3,2,1,5,19,9
+	.half	.L413-.L613
+	.byte	1,5,24,9
+	.half	.L415-.L413
+	.byte	1,5,17,9
+	.half	.L614-.L415
+	.byte	1,5,12,9
+	.half	.L28-.L614
+	.byte	3,4,1,5,33,9
+	.half	.L32-.L28
+	.byte	1,5,31,9
+	.half	.L615-.L32
+	.byte	1,5,9,9
+	.half	.L616-.L615
+	.byte	1,5,13,7,9
+	.half	.L617-.L616
+	.byte	3,2,1,5,15,9
+	.half	.L33-.L617
+	.byte	3,104,1,5,13,9
+	.half	.L26-.L33
+	.byte	1,5,5,9
+	.half	.L34-.L26
+	.byte	3,30,1,5,14,9
+	.half	.L618-.L34
+	.byte	3,4,1,5,9,9
+	.half	.L426-.L618
+	.byte	3,2,1,9
+	.half	.L35-.L426
+	.byte	3,6,1,5,2,9
+	.half	.L36-.L35
+	.byte	3,2,1,7,9
+	.half	.L152-.L36
+	.byte	0,1,1
+.L605:
+	.sdecl	'.debug_ranges',debug,cluster('func_sin')
+	.sect	'.debug_ranges'
+.L151:
+	.word	-1,.L104,0,.L152-.L104,0,0
+	.sdecl	'.debug_info',debug,cluster('my_sign')
+	.sect	'.debug_info'
+.L153:
+	.word	235
+	.half	3
+	.word	.L154
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L156,.L155
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'my_sign',0,1,191,1,5
+	.word	.L220
+	.byte	1,1,1
+	.word	.L108,.L245,.L107
+	.byte	4
+	.byte	'x',0,1,191,1,20
+	.word	.L217,.L246
+	.byte	5
+	.word	.L108,.L245
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('my_sign')
+	.sect	'.debug_abbrev'
+.L154:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('my_sign')
+	.sect	'.debug_line'
+.L155:
+	.word	.L620-.L619
+.L619:
+	.half	3
+	.word	.L622-.L621
+.L621:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L622:
+	.byte	5,5,7,0,5,2
+	.word	.L108
+	.byte	3,190,1,1,5,13,9
+	.half	.L623-.L108
+	.byte	3,2,1,5,11,9
+	.half	.L435-.L623
+	.byte	1,5,5,9
+	.half	.L624-.L435
+	.byte	1,5,23,7,9
+	.half	.L625-.L624
+	.byte	1,5,16,9
+	.half	.L626-.L625
+	.byte	1,5,13,9
+	.half	.L41-.L626
+	.byte	3,1,1,5,11,9
+	.half	.L436-.L41
+	.byte	1,5,5,9
+	.half	.L627-.L436
+	.byte	1,5,23,7,9
+	.half	.L628-.L627
+	.byte	1,5,16,9
+	.half	.L629-.L628
+	.byte	1,5,12,9
+	.half	.L43-.L629
+	.byte	3,1,1,5,5,9
+	.half	.L630-.L43
+	.byte	1,5,1,9
+	.half	.L42-.L630
+	.byte	3,1,1,7,9
+	.half	.L157-.L42
+	.byte	0,1,1
+.L620:
+	.sdecl	'.debug_ranges',debug,cluster('my_sign')
+	.sect	'.debug_ranges'
+.L156:
+	.word	-1,.L108,0,.L157-.L108,0,0
+	.sdecl	'.debug_info',debug,cluster('my_atan2')
+	.sect	'.debug_info'
+.L158:
+	.word	348
+	.half	3
+	.word	.L159
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L161,.L160
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'my_atan2',0,1,200,1,8
+	.word	.L217
+	.byte	1,1,1
+	.word	.L110,.L247,.L109
+	.byte	4
+	.byte	'y',0,1,200,1,24
+	.word	.L217,.L248
+	.byte	4
+	.byte	'x',0,1,200,1,34
+	.word	.L217,.L249
+	.byte	5
+	.word	.L110,.L247
+	.byte	5
+	.word	.L49,.L247
+	.byte	6
+	.byte	't',0,1,209,1,12
+	.word	.L217,.L250
+	.byte	6
+	.byte	'result',0,1,210,1,12
+	.word	.L217,.L251
+	.byte	6
+	.byte	'term',0,1,212,1,12
+	.word	.L217,.L252
+	.byte	6
+	.byte	'sign',0,1,213,1,9
+	.word	.L220,.L253
+	.byte	6
+	.byte	'n',0,1,214,1,9
+	.word	.L220,.L254
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('my_atan2')
+	.sect	'.debug_abbrev'
+.L159:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('my_atan2')
+	.sect	'.debug_line'
+.L160:
+	.word	.L632-.L631
+.L631:
+	.half	3
+	.word	.L634-.L633
+.L633:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L634:
+	.byte	5,8,7,0,5,2
+	.word	.L110
+	.byte	3,199,1,1,5,11,9
+	.half	.L442-.L110
+	.byte	3,3,1,5,9,9
+	.half	.L635-.L442
+	.byte	1,5,21,7,9
+	.half	.L636-.L635
+	.byte	1,5,34,9
+	.half	.L637-.L636
+	.byte	1,5,27,9
+	.half	.L638-.L637
+	.byte	1,5,11,9
+	.half	.L46-.L638
+	.byte	3,1,1,5,5,9
+	.half	.L639-.L46
+	.byte	1,5,17,7,9
+	.half	.L640-.L639
+	.byte	3,1,1,5,15,9
+	.half	.L641-.L640
+	.byte	1,5,9,9
+	.half	.L446-.L641
+	.byte	1,5,27,7,9
+	.half	.L642-.L446
+	.byte	1,5,34,9
+	.half	.L643-.L642
+	.byte	1,5,32,9
+	.half	.L644-.L643
+	.byte	1,5,20,9
+	.half	.L645-.L644
+	.byte	1,5,22,9
+	.half	.L50-.L645
+	.byte	3,1,1,5,21,9
+	.half	.L646-.L50
+	.byte	1,5,29,9
+	.half	.L647-.L646
+	.byte	1,5,27,9
+	.half	.L648-.L647
+	.byte	1,5,14,9
+	.half	.L649-.L648
+	.byte	1,5,18,9
+	.half	.L49-.L649
+	.byte	3,3,1,5,14,9
+	.half	.L448-.L49
+	.byte	1,5,21,9
+	.half	.L450-.L448
+	.byte	3,1,1,5,17,9
+	.half	.L451-.L450
+	.byte	3,2,1,5,14,9
+	.half	.L452-.L451
+	.byte	3,1,1,5,11,9
+	.half	.L453-.L452
+	.byte	3,1,1,5,40,9
+	.half	.L454-.L453
+	.byte	3,1,1,5,19,9
+	.half	.L54-.L454
+	.byte	3,1,1,5,24,9
+	.half	.L457-.L54
+	.byte	1,5,16,9
+	.half	.L459-.L457
+	.byte	1,5,10,9
+	.half	.L650-.L459
+	.byte	3,1,1,5,28,9
+	.half	.L651-.L650
+	.byte	3,1,1,5,32,9
+	.half	.L652-.L651
+	.byte	1,5,16,9
+	.half	.L462-.L652
+	.byte	1,5,42,9
+	.half	.L653-.L462
+	.byte	1,5,46,9
+	.half	.L654-.L653
+	.byte	1,5,37,9
+	.half	.L655-.L654
+	.byte	1,5,14,9
+	.half	.L656-.L655
+	.byte	1,9
+	.half	.L657-.L656
+	.byte	3,1,1,5,12,9
+	.half	.L53-.L657
+	.byte	3,124,1,5,25,9
+	.half	.L658-.L53
+	.byte	1,5,23,9
+	.half	.L659-.L658
+	.byte	1,5,12,9
+	.half	.L660-.L659
+	.byte	1,5,38,7,9
+	.half	.L661-.L660
+	.byte	1,5,36,9
+	.half	.L662-.L661
+	.byte	1,5,13,7,9
+	.half	.L55-.L662
+	.byte	3,6,1,5,11,9
+	.half	.L663-.L55
+	.byte	1,5,5,9
+	.half	.L664-.L663
+	.byte	1,5,9,7,9
+	.half	.L465-.L664
+	.byte	3,2,1,5,25,9
+	.half	.L56-.L465
+	.byte	3,4,1,5,24,9
+	.half	.L665-.L56
+	.byte	1,5,30,9
+	.half	.L666-.L665
+	.byte	1,5,28,9
+	.half	.L667-.L666
+	.byte	1,5,35,9
+	.half	.L668-.L667
+	.byte	1,5,9,9
+	.half	.L669-.L668
+	.byte	1,5,1,9
+	.half	.L48-.L669
+	.byte	3,2,1,7,9
+	.half	.L162-.L48
+	.byte	0,1,1
+.L632:
+	.sdecl	'.debug_ranges',debug,cluster('my_atan2')
+	.sect	'.debug_ranges'
+.L161:
+	.word	-1,.L110,0,.L162-.L110,0,0
+	.sdecl	'.debug_info',debug,cluster('my_tan')
+	.sect	'.debug_info'
+.L163:
+	.word	234
+	.half	3
+	.word	.L164
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L166,.L165
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'my_tan',0,1,141,2,8
+	.word	.L217
+	.byte	1,1,1
+	.word	.L112,.L255,.L111
+	.byte	4
+	.byte	'y',0,1,141,2,22
+	.word	.L217,.L256
+	.byte	5
+	.word	.L112,.L255
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('my_tan')
+	.sect	'.debug_abbrev'
+.L164:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('my_tan')
+	.sect	'.debug_line'
+.L165:
+	.word	.L671-.L670
+.L670:
+	.half	3
+	.word	.L673-.L672
+.L672:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L673:
+	.byte	5,8,7,0,5,2
+	.word	.L112
+	.byte	3,140,2,1,5,21,9
+	.half	.L472-.L112
+	.byte	3,2,1,5,24,9
+	.half	.L674-.L472
+	.byte	1,5,35,9
+	.half	.L473-.L674
+	.byte	1,5,24,9
+	.half	.L675-.L473
+	.byte	1,5,5,9
+	.half	.L676-.L675
+	.byte	1,5,1,9
+	.half	.L59-.L676
+	.byte	3,1,1,7,9
+	.half	.L167-.L59
+	.byte	0,1,1
+.L671:
+	.sdecl	'.debug_ranges',debug,cluster('my_tan')
+	.sect	'.debug_ranges'
+.L166:
+	.word	-1,.L112,0,.L167-.L112,0,0
+	.sdecl	'.debug_info',debug,cluster('my_atan')
+	.sect	'.debug_info'
+.L168:
+	.word	250
+	.half	3
+	.word	.L169
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L171,.L170
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'my_atan',0,1,193,3,7
+	.word	.L257
+	.byte	1,1,1
+	.word	.L118,.L258,.L117
+	.byte	4
+	.byte	'x',0,1,193,3,21
+	.word	.L257,.L259
+	.byte	4
+	.byte	'y',0,1,193,3,30
+	.word	.L257,.L260
+	.byte	5
+	.word	.L118,.L258
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('my_atan')
+	.sect	'.debug_abbrev'
+.L169:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('my_atan')
+	.sect	'.debug_line'
+.L170:
+	.word	.L678-.L677
+.L677:
+	.half	3
+	.word	.L680-.L679
+.L679:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L680:
+	.byte	5,7,7,0,5,2
+	.word	.L118
+	.byte	3,192,3,1,5,26,9
+	.half	.L519-.L118
+	.byte	3,2,1,5,5,9
+	.half	.L520-.L519
+	.byte	1,5,1,9
+	.half	.L85-.L520
+	.byte	3,1,1,7,9
+	.half	.L172-.L85
+	.byte	0,1,1
+.L678:
+	.sdecl	'.debug_ranges',debug,cluster('my_atan')
+	.sect	'.debug_ranges'
+.L171:
+	.word	-1,.L118,0,.L172-.L118,0,0
+	.sdecl	'.debug_info',debug,cluster('my_abs')
+	.sect	'.debug_info'
+.L173:
+	.word	234
+	.half	3
+	.word	.L174
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L176,.L175
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'my_abs',0,1,238,2,7
+	.word	.L257
+	.byte	1,1,1
+	.word	.L114,.L261,.L113
+	.byte	4
+	.byte	'f',0,1,238,2,20
+	.word	.L257,.L262
+	.byte	5
+	.word	.L114,.L261
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('my_abs')
+	.sect	'.debug_abbrev'
+.L174:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('my_abs')
+	.sect	'.debug_line'
+.L175:
+	.word	.L682-.L681
+.L681:
+	.half	3
+	.word	.L684-.L683
+.L683:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L684:
+	.byte	5,7,7,0,5,2
+	.word	.L114
+	.byte	3,237,2,1,5,9,9
+	.half	.L476-.L114
+	.byte	3,2,1,5,14,9
+	.half	.L685-.L476
+	.byte	1,5,11,9
+	.half	.L686-.L685
+	.byte	1,5,5,9
+	.half	.L687-.L686
+	.byte	1,5,9,7,9
+	.half	.L688-.L687
+	.byte	3,2,1,5,12,9
+	.half	.L60-.L688
+	.byte	3,3,1,5,5,9
+	.half	.L689-.L60
+	.byte	1,5,1,9
+	.half	.L61-.L689
+	.byte	3,1,1,7,9
+	.half	.L177-.L61
+	.byte	0,1,1
+.L682:
+	.sdecl	'.debug_ranges',debug,cluster('my_abs')
+	.sect	'.debug_ranges'
+.L176:
+	.word	-1,.L114,0,.L177-.L114,0,0
+	.sdecl	'.debug_info',debug,cluster('fast_atan2')
+	.sect	'.debug_info'
+.L178:
+	.word	388
+	.half	3
+	.word	.L179
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L181,.L180
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'fast_atan2',0,1,248,2,7
+	.word	.L257
+	.byte	1,1,1
+	.word	.L116,.L263,.L115
+	.byte	4
+	.byte	'y',0,1,248,2,24
+	.word	.L257,.L264
+	.byte	4
+	.byte	'x',0,1,248,2,33
+	.word	.L257,.L265
+	.byte	5
+	.word	.L116,.L263
+	.byte	6
+	.byte	'x_abs',0,1,250,2,9
+	.word	.L257,.L266
+	.byte	6
+	.byte	'y_abs',0,1,250,2,16
+	.word	.L257,.L267
+	.byte	6
+	.byte	'z',0,1,250,2,23
+	.word	.L257,.L268
+	.byte	6
+	.byte	'alpha',0,1,251,2,9
+	.word	.L257,.L269
+	.byte	6
+	.byte	'angle',0,1,251,2,16
+	.word	.L257,.L270
+	.byte	6
+	.byte	'base_angle',0,1,251,2,23
+	.word	.L257,.L271
+	.byte	6
+	.byte	'index',0,1,252,2,7
+	.word	.L220,.L272
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('fast_atan2')
+	.sect	'.debug_abbrev'
+.L179:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('fast_atan2')
+	.sect	'.debug_line'
+.L180:
+	.word	.L691-.L690
+.L690:
+	.half	3
+	.word	.L693-.L692
+.L692:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L693:
+	.byte	5,7,7,0,5,2
+	.word	.L116
+	.byte	3,247,2,1,5,8,9
+	.half	.L480-.L116
+	.byte	3,7,1,5,10,9
+	.half	.L478-.L480
+	.byte	1,5,7,9
+	.half	.L694-.L478
+	.byte	1,5,22,7,9
+	.half	.L695-.L694
+	.byte	1,5,24,9
+	.half	.L482-.L695
+	.byte	1,5,11,9
+	.half	.L696-.L482
+	.byte	3,1,1,5,16,9
+	.half	.L483-.L696
+	.byte	1,5,20,9
+	.half	.L63-.L483
+	.byte	3,3,1,5,11,9
+	.half	.L485-.L63
+	.byte	1,5,20,9
+	.half	.L487-.L485
+	.byte	3,1,1,5,11,9
+	.half	.L486-.L487
+	.byte	1,5,5,9
+	.half	.L490-.L486
+	.byte	3,2,1,5,17,9
+	.half	.L697-.L490
+	.byte	3,3,1,5,24,9
+	.half	.L491-.L697
+	.byte	3,126,1,5,17,9
+	.half	.L66-.L491
+	.byte	1,5,9,9
+	.half	.L67-.L66
+	.byte	3,5,1,5,13,9
+	.half	.L698-.L67
+	.byte	1,5,11,9
+	.half	.L699-.L698
+	.byte	1,5,5,9
+	.half	.L700-.L699
+	.byte	1,5,19,7,9
+	.half	.L701-.L700
+	.byte	3,4,1,5,17,9
+	.half	.L702-.L701
+	.byte	1,5,42,9
+	.half	.L703-.L702
+	.byte	1,5,40,9
+	.half	.L704-.L703
+	.byte	1,5,15,9
+	.half	.L493-.L704
+	.byte	3,1,1,5,16,9
+	.half	.L494-.L493
+	.byte	3,1,1,5,13,9
+	.half	.L495-.L494
+	.byte	1,5,35,9
+	.half	.L496-.L495
+	.byte	3,3,1,5,20,9
+	.half	.L705-.L496
+	.byte	1,5,35,9
+	.half	.L706-.L705
+	.byte	1,5,32,9
+	.half	.L497-.L706
+	.byte	3,2,1,5,25,9
+	.half	.L707-.L497
+	.byte	1,5,10,9
+	.half	.L708-.L707
+	.byte	1,5,25,9
+	.half	.L709-.L708
+	.byte	1,5,54,9
+	.half	.L710-.L709
+	.byte	1,5,39,9
+	.half	.L711-.L710
+	.byte	1,5,54,9
+	.half	.L712-.L711
+	.byte	1,5,37,9
+	.half	.L713-.L712
+	.byte	1,5,18,9
+	.half	.L714-.L713
+	.byte	3,127,1,5,21,9
+	.half	.L715-.L714
+	.byte	3,119,1,5,15,9
+	.half	.L69-.L715
+	.byte	3,13,1,5,5,9
+	.half	.L716-.L69
+	.byte	1,5,11,7,9
+	.half	.L717-.L716
+	.byte	3,1,1,5,16,9
+	.half	.L718-.L717
+	.byte	1,5,13,9
+	.half	.L719-.L718
+	.byte	1,5,7,9
+	.half	.L720-.L719
+	.byte	1,5,13,7,9
+	.half	.L721-.L720
+	.byte	3,1,1,5,18,9
+	.half	.L722-.L721
+	.byte	1,5,15,9
+	.half	.L723-.L722
+	.byte	1,5,9,9
+	.half	.L724-.L723
+	.byte	1,5,19,7,9
+	.half	.L725-.L724
+	.byte	3,3,1,5,29,9
+	.half	.L502-.L725
+	.byte	3,126,1,5,17,9
+	.half	.L72-.L502
+	.byte	1,5,9,9
+	.half	.L73-.L72
+	.byte	3,1,1,5,17,9
+	.half	.L71-.L73
+	.byte	3,3,1,5,13,9
+	.half	.L726-.L71
+	.byte	3,1,1,5,18,9
+	.half	.L727-.L726
+	.byte	1,5,15,9
+	.half	.L728-.L727
+	.byte	1,5,9,9
+	.half	.L729-.L728
+	.byte	1,5,30,7,9
+	.half	.L730-.L729
+	.byte	3,3,1,9
+	.half	.L504-.L730
+	.byte	3,126,1,5,17,9
+	.half	.L75-.L504
+	.byte	1,5,9,9
+	.half	.L74-.L75
+	.byte	3,125,1,5,11,9
+	.half	.L70-.L74
+	.byte	3,8,1,5,16,9
+	.half	.L731-.L70
+	.byte	1,5,13,9
+	.half	.L732-.L731
+	.byte	1,5,7,9
+	.half	.L733-.L732
+	.byte	1,5,17,7,9
+	.half	.L734-.L733
+	.byte	3,1,1,5,13,9
+	.half	.L735-.L734
+	.byte	3,1,1,5,18,9
+	.half	.L736-.L735
+	.byte	1,5,15,9
+	.half	.L737-.L736
+	.byte	1,5,9,9
+	.half	.L738-.L737
+	.byte	1,5,17,7,9
+	.half	.L739-.L738
+	.byte	3,3,1,5,30,9
+	.half	.L510-.L739
+	.byte	3,126,1,5,17,9
+	.half	.L79-.L510
+	.byte	1,5,9,9
+	.half	.L80-.L79
+	.byte	3,1,1,5,17,9
+	.half	.L78-.L80
+	.byte	3,3,1,5,13,9
+	.half	.L740-.L78
+	.byte	3,1,1,5,18,9
+	.half	.L741-.L740
+	.byte	1,5,15,9
+	.half	.L742-.L741
+	.byte	1,5,9,9
+	.half	.L743-.L742
+	.byte	1,5,17,7,9
+	.half	.L744-.L743
+	.byte	3,3,1,5,30,9
+	.half	.L514-.L744
+	.byte	3,126,1,5,17,9
+	.half	.L82-.L514
+	.byte	1,5,3,9
+	.half	.L65-.L82
+	.byte	3,12,1,5,1,9
+	.half	.L84-.L65
+	.byte	3,2,1,7,9
+	.half	.L182-.L84
+	.byte	0,1,1
+.L691:
+	.sdecl	'.debug_ranges',debug,cluster('fast_atan2')
+	.sect	'.debug_ranges'
+.L181:
+	.word	-1,.L116,0,.L182-.L116,0,0
+	.sdecl	'.debug_info',debug,cluster('power')
+	.sect	'.debug_info'
+.L183:
+	.word	294
+	.half	3
+	.word	.L184
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L186,.L185
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'power',0,1,181,1,8
+	.word	.L217
+	.byte	1,1,1
+	.word	.L106,.L273,.L105
+	.byte	4
+	.byte	'x',0,1,181,1,21
+	.word	.L217,.L274
+	.byte	4
+	.byte	'n',0,1,181,1,28
+	.word	.L220,.L275
+	.byte	5
+	.word	.L106,.L273
+	.byte	6
+	.byte	'result',0,1,183,1,12
+	.word	.L217,.L276
+	.byte	5
+	.word	.L277,.L278
+	.byte	6
+	.byte	'i',0,1,184,1,14
+	.word	.L220,.L279
+	.byte	0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('power')
+	.sect	'.debug_abbrev'
+.L184:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('power')
+	.sect	'.debug_line'
+.L185:
+	.word	.L746-.L745
+.L745:
+	.half	3
+	.word	.L748-.L747
+.L747:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L748:
+	.byte	5,8,7,0,5,2
+	.word	.L106
+	.byte	3,180,1,1,5,21,9
+	.half	.L429-.L106
+	.byte	3,2,1,5,16,9
+	.half	.L277-.L429
+	.byte	3,1,1,5,26,9
+	.half	.L431-.L277
+	.byte	1,5,16,9
+	.half	.L39-.L431
+	.byte	3,1,1,5,29,9
+	.half	.L749-.L39
+	.byte	3,127,1,5,26,9
+	.half	.L38-.L749
+	.byte	1,5,5,7,9
+	.half	.L278-.L38
+	.byte	3,3,1,5,1,9
+	.half	.L40-.L278
+	.byte	3,1,1,7,9
+	.half	.L187-.L40
+	.byte	0,1,1
+.L746:
+	.sdecl	'.debug_ranges',debug,cluster('power')
+	.sect	'.debug_ranges'
+.L186:
+	.word	-1,.L106,0,.L187-.L106,0,0
+	.sdecl	'.debug_info',debug,cluster('my_pow')
+	.sect	'.debug_info'
+.L188:
+	.word	234
+	.half	3
+	.word	.L189
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L191,.L190
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'my_pow',0,1,198,3,7
+	.word	.L257
+	.byte	1,1,1
+	.word	.L120,.L280,.L119
+	.byte	4
+	.byte	'a',0,1,198,3,20
+	.word	.L257,.L281
+	.byte	5
+	.word	.L120,.L280
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('my_pow')
+	.sect	'.debug_abbrev'
+.L189:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('my_pow')
+	.sect	'.debug_line'
+.L190:
+	.word	.L751-.L750
+.L750:
+	.half	3
+	.word	.L753-.L752
+.L752:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L753:
+	.byte	5,13,7,0,5,2
+	.word	.L120
+	.byte	3,199,3,1,5,5,9
+	.half	.L754-.L120
+	.byte	1,5,1,9
+	.half	.L86-.L754
+	.byte	3,1,1,7,9
+	.half	.L192-.L86
+	.byte	0,1,1
+.L751:
+	.sdecl	'.debug_ranges',debug,cluster('my_pow')
+	.sect	'.debug_ranges'
+.L191:
+	.word	-1,.L120,0,.L192-.L120,0,0
+	.sdecl	'.debug_info',debug,cluster('my_sqrt')
+	.sect	'.debug_info'
+.L193:
+	.word	301
+	.half	3
+	.word	.L194
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L196,.L195
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'my_sqrt',0,1,203,3,7
+	.word	.L257
+	.byte	1,1,1
+	.word	.L122,.L282,.L121
+	.byte	4
+	.byte	'number',0,1,203,3,21
+	.word	.L257,.L283
+	.byte	5
+	.word	.L122,.L282
+	.byte	6
+	.byte	'i',0,1,205,3,10
+	.word	.L284,.L285
+	.byte	6
+	.byte	'x',0,1,206,3,11
+	.word	.L257,.L286
+	.byte	6
+	.byte	'y',0,1,206,3,14
+	.word	.L257,.L287
+	.byte	6
+	.byte	'f',0,1,207,3,17
+	.word	.L288,.L289
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('my_sqrt')
+	.sect	'.debug_abbrev'
+.L194:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('my_sqrt')
+	.sect	'.debug_line'
+.L195:
+	.word	.L756-.L755
+.L755:
+	.half	3
+	.word	.L758-.L757
+.L757:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L758:
+	.byte	5,21,7,0,5,2
+	.word	.L122
+	.byte	3,206,3,1,5,18,9
+	.half	.L521-.L122
+	.byte	3,1,1,5,16,9
+	.half	.L759-.L521
+	.byte	1,5,9,9
+	.half	.L523-.L759
+	.byte	3,3,1,5,26,9
+	.half	.L760-.L523
+	.byte	1,5,20,9
+	.half	.L525-.L760
+	.byte	1,5,23,9
+	.half	.L761-.L525
+	.byte	3,3,1,5,17,9
+	.half	.L762-.L761
+	.byte	1,5,11,9
+	.half	.L763-.L762
+	.byte	1,5,23,9
+	.half	.L526-.L763
+	.byte	3,1,1,5,17,9
+	.half	.L524-.L526
+	.byte	1,5,11,9
+	.half	.L522-.L524
+	.byte	1,5,19,9
+	.half	.L527-.L522
+	.byte	3,1,1,5,5,9
+	.half	.L764-.L527
+	.byte	1,5,1,9
+	.half	.L87-.L764
+	.byte	3,1,1,7,9
+	.half	.L197-.L87
+	.byte	0,1,1
+.L756:
+	.sdecl	'.debug_ranges',debug,cluster('my_sqrt')
+	.sect	'.debug_ranges'
+.L196:
+	.word	-1,.L122,0,.L197-.L122,0,0
+	.sdecl	'.debug_info',debug,cluster('mx_sin')
+	.sect	'.debug_info'
+.L198:
+	.word	255
+	.half	3
+	.word	.L199
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L201,.L200
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'mx_sin',0,1,223,3,8
+	.word	.L217
+	.byte	1,1,1
+	.word	.L124,.L290,.L123
+	.byte	4
+	.byte	'rad',0,1,223,3,22
+	.word	.L217,.L291
+	.byte	5
+	.word	.L124,.L290
+	.byte	6
+	.byte	'sine',0,1,225,3,12
+	.word	.L217,.L292
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mx_sin')
+	.sect	'.debug_abbrev'
+.L199:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mx_sin')
+	.sect	'.debug_line'
+.L200:
+	.word	.L766-.L765
+.L765:
+	.half	3
+	.word	.L768-.L767
+.L767:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L768:
+	.byte	5,8,7,0,5,2
+	.word	.L124
+	.byte	3,222,3,1,5,15,9
+	.half	.L769-.L124
+	.byte	3,3,1,5,13,9
+	.half	.L529-.L769
+	.byte	1,5,5,9
+	.half	.L770-.L529
+	.byte	1,5,23,7,9
+	.half	.L771-.L770
+	.byte	3,3,1,5,36,9
+	.half	.L772-.L771
+	.byte	1,5,48,9
+	.half	.L531-.L772
+	.byte	1,5,34,9
+	.half	.L773-.L531
+	.byte	1,5,20,9
+	.half	.L533-.L773
+	.byte	1,5,14,9
+	.half	.L774-.L533
+	.byte	1,5,52,9
+	.half	.L775-.L774
+	.byte	3,126,1,5,34,9
+	.half	.L88-.L775
+	.byte	1,5,46,9
+	.half	.L535-.L88
+	.byte	1,5,21,9
+	.half	.L776-.L535
+	.byte	1,5,32,9
+	.half	.L777-.L776
+	.byte	1,5,19,9
+	.half	.L537-.L777
+	.byte	1,5,14,9
+	.half	.L778-.L537
+	.byte	1,5,16,9
+	.half	.L89-.L778
+	.byte	3,3,1,5,14,9
+	.half	.L539-.L89
+	.byte	1,5,5,9
+	.half	.L779-.L539
+	.byte	1,5,40,7,9
+	.half	.L780-.L779
+	.byte	3,3,1,5,38,9
+	.half	.L541-.L780
+	.byte	1,5,24,9
+	.half	.L781-.L541
+	.byte	1,5,30,9
+	.half	.L782-.L781
+	.byte	1,5,45,9
+	.half	.L783-.L782
+	.byte	1,5,43,9
+	.half	.L784-.L783
+	.byte	1,5,21,9
+	.half	.L543-.L784
+	.byte	1,5,46,9
+	.half	.L785-.L543
+	.byte	3,126,1,5,39,9
+	.half	.L90-.L785
+	.byte	1,5,37,9
+	.half	.L545-.L90
+	.byte	1,5,22,9
+	.half	.L786-.L545
+	.byte	1,5,37,9
+	.half	.L787-.L786
+	.byte	1,5,44,9
+	.half	.L788-.L787
+	.byte	1,5,42,9
+	.half	.L789-.L788
+	.byte	1,5,20,9
+	.half	.L547-.L789
+	.byte	1,5,5,9
+	.half	.L91-.L547
+	.byte	3,3,1,5,1,9
+	.half	.L92-.L91
+	.byte	3,1,1,7,9
+	.half	.L202-.L92
+	.byte	0,1,1
+.L766:
+	.sdecl	'.debug_ranges',debug,cluster('mx_sin')
+	.sect	'.debug_ranges'
+.L201:
+	.word	-1,.L124,0,.L202-.L124,0,0
+	.sdecl	'.debug_info',debug,cluster('my_sin')
+	.sect	'.debug_info'
+.L203:
+	.word	255
+	.half	3
+	.word	.L204
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L206,.L205
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'my_sin',0,1,237,3,8
+	.word	.L217
+	.byte	1,1,1
+	.word	.L126,.L293,.L125
+	.byte	4
+	.byte	'rad',0,1,237,3,22
+	.word	.L217,.L294
+	.byte	5
+	.word	.L126,.L293
+	.byte	6
+	.byte	'flag',0,1,239,3,10
+	.word	.L295,.L296
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('my_sin')
+	.sect	'.debug_abbrev'
+.L204:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('my_sin')
+	.sect	'.debug_line'
+.L205:
+	.word	.L791-.L790
+.L790:
+	.half	3
+	.word	.L793-.L792
+.L792:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L793:
+	.byte	5,8,7,0,5,2
+	.word	.L126
+	.byte	3,236,3,1,5,15,9
+	.half	.L794-.L126
+	.byte	3,2,1,5,16,9
+	.half	.L550-.L794
+	.byte	3,1,1,5,13,9
+	.half	.L551-.L550
+	.byte	1,5,5,9
+	.half	.L795-.L551
+	.byte	1,5,16,7,9
+	.half	.L796-.L795
+	.byte	3,2,1,5,13,9
+	.half	.L552-.L796
+	.byte	1,5,14,9
+	.half	.L797-.L552
+	.byte	3,1,1,5,19,9
+	.half	.L93-.L797
+	.byte	3,2,1,5,26,9
+	.half	.L798-.L93
+	.byte	1,5,24,9
+	.half	.L556-.L798
+	.byte	1,5,5,9
+	.half	.L799-.L556
+	.byte	1,5,1,9
+	.half	.L94-.L799
+	.byte	3,1,1,7,9
+	.half	.L207-.L94
+	.byte	0,1,1
+.L791:
+	.sdecl	'.debug_ranges',debug,cluster('my_sin')
+	.sect	'.debug_ranges'
+.L206:
+	.word	-1,.L126,0,.L207-.L126,0,0
+	.sdecl	'.debug_info',debug,cluster('my_cos')
+	.sect	'.debug_info'
+.L208:
+	.word	255
+	.half	3
+	.word	.L209
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1
+	.word	.L211,.L210
+	.byte	2
+	.word	.L129
+	.byte	3
+	.byte	'my_cos',0,1,247,3,7
+	.word	.L257
+	.byte	1,1,1
+	.word	.L128,.L297,.L127
+	.byte	4
+	.byte	'rad',0,1,247,3,21
+	.word	.L217,.L298
+	.byte	5
+	.word	.L128,.L297
+	.byte	6
+	.byte	'flag',0,1,249,3,10
+	.word	.L295,.L299
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('my_cos')
+	.sect	'.debug_abbrev'
+.L209:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('my_cos')
+	.sect	'.debug_line'
+.L210:
+	.word	.L801-.L800
+.L800:
+	.half	3
+	.word	.L803-.L802
+.L802:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/my_math.c',0,0,0,0,0
+.L803:
+	.byte	5,15,7,0,5,2
+	.word	.L128
+	.byte	3,248,3,1,5,18,9
+	.half	.L558-.L128
+	.byte	3,1,1,5,9,9
+	.half	.L804-.L558
+	.byte	1,5,16,9
+	.half	.L805-.L804
+	.byte	3,2,1,5,13,9
+	.half	.L559-.L805
+	.byte	1,5,5,9
+	.half	.L806-.L559
+	.byte	1,5,14,7,9
+	.half	.L807-.L806
+	.byte	3,2,1,5,16,9
+	.half	.L808-.L807
+	.byte	3,1,1,5,13,9
+	.half	.L561-.L808
+	.byte	1,5,19,9
+	.half	.L95-.L561
+	.byte	3,3,1,5,24,9
+	.half	.L809-.L95
+	.byte	1,5,23,9
+	.half	.L565-.L809
+	.byte	1,5,5,9
+	.half	.L810-.L565
+	.byte	1,5,1,9
+	.half	.L96-.L810
+	.byte	3,1,1,7,9
+	.half	.L212-.L96
+	.byte	0,1,1
+.L801:
+	.sdecl	'.debug_ranges',debug,cluster('my_cos')
+	.sect	'.debug_ranges'
+.L211:
+	.word	-1,.L128,0,.L212-.L128,0,0
+	.sdecl	'.debug_info',debug,cluster('M_PI')
+	.sect	'.debug_info'
+.L213:
+	.word	190
+	.half	3
+	.word	.L214
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L129
+	.byte	3
+	.byte	'M_PI',0,1,13,8
+	.word	.L217
+	.byte	1,5,3
+	.word	M_PI
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('M_PI')
+	.sect	'.debug_abbrev'
+.L214:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('fast_atan_table')
+	.sect	'.debug_info'
+.L215:
+	.word	202
+	.half	3
+	.word	.L216
+	.byte	4,1
+	.byte	'../code/my_math.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\WHY\\Desktop\\\326\307\304\334\263\265\\verison_7_6\\verison_7_6\\Debug\\',0,12,1,2
+	.word	.L129
+	.byte	3
+	.byte	'fast_atan_table',0,1,170,2,7
+	.word	.L300
+	.byte	1,5,3
+	.word	fast_atan_table
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('fast_atan_table')
+	.sect	'.debug_abbrev'
+.L216:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_loc',debug,cluster('fast_atan2')
+	.sect	'.debug_loc'
+.L269:
+	.word	-1,.L116,.L493-.L116,.L494-.L116
+	.half	1
+	.byte	82
+	.word	.L495-.L116,.L496-.L116
+	.half	1
+	.byte	82
+	.word	.L496-.L116,.L69-.L116
+	.half	1
+	.byte	81
+	.word	0,0
+.L270:
+	.word	-1,.L116,.L483-.L116,.L63-.L116
+	.half	1
+	.byte	82
+	.word	.L502-.L116,.L72-.L116
+	.half	1
+	.byte	82
+	.word	.L73-.L116,.L71-.L116
+	.half	1
+	.byte	82
+	.word	.L503-.L116,.L504-.L116
+	.half	1
+	.byte	95
+	.word	.L504-.L116,.L75-.L116
+	.half	1
+	.byte	82
+	.word	.L75-.L116,.L74-.L116
+	.half	1
+	.byte	95
+	.word	.L74-.L116,.L70-.L116
+	.half	1
+	.byte	82
+	.word	.L509-.L116,.L510-.L116
+	.half	1
+	.byte	95
+	.word	.L510-.L116,.L79-.L116
+	.half	1
+	.byte	82
+	.word	.L79-.L116,.L80-.L116
+	.half	1
+	.byte	95
+	.word	.L80-.L116,.L78-.L116
+	.half	1
+	.byte	82
+	.word	.L513-.L116,.L514-.L116
+	.half	1
+	.byte	95
+	.word	.L514-.L116,.L82-.L116
+	.half	1
+	.byte	82
+	.word	.L82-.L116,.L65-.L116
+	.half	1
+	.byte	95
+	.word	.L65-.L116,.L263-.L116
+	.half	1
+	.byte	82
+	.word	0,0
+.L271:
+	.word	-1,.L116,.L497-.L116,.L69-.L116
+	.half	1
+	.byte	82
+	.word	0,0
+.L115:
+	.word	-1,.L116,0,.L263-.L116
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L272:
+	.word	-1,.L116,.L494-.L116,.L69-.L116
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L265:
+	.word	-1,.L116,0,.L478-.L116
+	.half	1
+	.byte	85
+	.word	.L480-.L116,.L263-.L116
+	.half	1
+	.byte	92
+	.word	.L481-.L116,.L482-.L116
+	.half	1
+	.byte	84
+	.word	.L488-.L116,.L486-.L116
+	.half	1
+	.byte	84
+	.word	.L498-.L116,.L499-.L116
+	.half	1
+	.byte	84
+	.word	.L511-.L116,.L512-.L116
+	.half	1
+	.byte	84
+	.word	.L515-.L116,.L516-.L116
+	.half	1
+	.byte	84
+	.word	0,0
+.L266:
+	.word	-1,.L116,.L486-.L116,.L489-.L116
+	.half	1
+	.byte	82
+	.word	.L490-.L116,.L65-.L116
+	.half	1
+	.byte	89
+	.word	0,0
+.L264:
+	.word	-1,.L116,0,.L478-.L116
+	.half	1
+	.byte	84
+	.word	.L479-.L116,.L263-.L116
+	.half	1
+	.byte	88
+	.word	.L484-.L116,.L485-.L116
+	.half	1
+	.byte	84
+	.word	.L500-.L116,.L501-.L116
+	.half	1
+	.byte	84
+	.word	.L505-.L116,.L506-.L116
+	.half	1
+	.byte	84
+	.word	.L507-.L116,.L508-.L116
+	.half	1
+	.byte	84
+	.word	0,0
+.L267:
+	.word	-1,.L116,.L485-.L116,.L486-.L116
+	.half	1
+	.byte	82
+	.word	.L487-.L116,.L65-.L116
+	.half	1
+	.byte	90
+	.word	0,0
+.L268:
+	.word	-1,.L116,.L491-.L116,.L66-.L116
+	.half	1
+	.byte	91
+	.word	.L67-.L116,.L65-.L116
+	.half	1
+	.byte	91
+	.word	.L492-.L116,.L489-.L116
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('func_cos')
+	.sect	'.debug_loc'
+.L231:
+	.word	-1,.L102,.L326-.L102,.L13-.L102
+	.half	2
+	.byte	144,32
+	.word	.L327-.L102,.L226-.L102
+	.half	2
+	.byte	145,112
+	.word	.L333-.L102,.L334-.L102
+	.half	2
+	.byte	144,34
+	.word	.L334-.L102,.L335-.L102
+	.half	2
+	.byte	144,33
+	.word	.L353-.L102,.L354-.L102
+	.half	2
+	.byte	144,35
+	.word	0,0
+.L101:
+	.word	-1,.L102,0,.L320-.L102
+	.half	2
+	.byte	138,0
+	.word	.L320-.L102,.L226-.L102
+	.half	2
+	.byte	138,24
+	.word	.L226-.L102,.L226-.L102
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L229:
+	.word	-1,.L102,.L323-.L102,.L324-.L102
+	.half	1
+	.byte	95
+	.word	.L325-.L102,.L226-.L102
+	.half	2
+	.byte	145,120
+	.word	.L340-.L102,.L341-.L102
+	.half	1
+	.byte	95
+	.word	.L355-.L102,.L356-.L102
+	.half	1
+	.byte	84
+	.word	0,0
+.L234:
+	.word	-1,.L102,.L329-.L102,.L13-.L102
+	.half	2
+	.byte	144,38
+	.word	.L361-.L102,.L362-.L102
+	.half	2
+	.byte	144,38
+	.word	.L364-.L102,.L365-.L102
+	.half	2
+	.byte	144,38
+	.word	.L366-.L102,.L367-.L102
+	.half	2
+	.byte	144,38
+	.word	0,0
+.L232:
+	.word	-1,.L102,.L328-.L102,.L13-.L102
+	.half	2
+	.byte	144,37
+	.word	.L338-.L102,.L339-.L102
+	.half	2
+	.byte	144,37
+	.word	.L359-.L102,.L360-.L102
+	.half	2
+	.byte	144,37
+	.word	.L14-.L102,.L361-.L102
+	.half	2
+	.byte	144,37
+	.word	.L363-.L102,.L364-.L102
+	.half	2
+	.byte	144,37
+	.word	.L17-.L102,.L366-.L102
+	.half	2
+	.byte	144,37
+	.word	.L20-.L102,.L369-.L102
+	.half	2
+	.byte	144,37
+	.word	0,0
+.L233:
+	.word	0,0
+.L228:
+	.word	-1,.L102,.L324-.L102,.L13-.L102
+	.half	1
+	.byte	95
+	.word	.L330-.L102,.L226-.L102
+	.half	2
+	.byte	145,104
+	.word	.L331-.L102,.L332-.L102
+	.half	1
+	.byte	84
+	.word	.L336-.L102,.L337-.L102
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L344-.L102,.L345-.L102
+	.half	1
+	.byte	86
+	.word	.L348-.L102,.L349-.L102
+	.half	1
+	.byte	86
+	.word	.L351-.L102,.L352-.L102
+	.half	1
+	.byte	86
+	.word	.L368-.L102,.L12-.L102
+	.half	1
+	.byte	95
+	.word	0,0
+.L230:
+	.word	-1,.L102,.L357-.L102,.L358-.L102
+	.half	2
+	.byte	144,39
+	.word	0,0
+.L227:
+	.word	-1,.L102,0,.L321-.L102
+	.half	2
+	.byte	144,34
+	.word	.L322-.L102,.L321-.L102
+	.half	2
+	.byte	144,36
+	.word	.L342-.L102,.L343-.L102
+	.half	2
+	.byte	144,36
+	.word	.L346-.L102,.L347-.L102
+	.half	2
+	.byte	144,36
+	.word	.L15-.L102,.L350-.L102
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('func_pow')
+	.sect	'.debug_loc'
+.L97:
+	.word	-1,.L98,0,.L218-.L98
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L221:
+	.word	-1,.L98,0,.L301-.L98
+	.half	1
+	.byte	86
+	.word	.L2-.L98,.L305-.L98
+	.half	1
+	.byte	86
+	.word	0,0
+.L219:
+	.word	-1,.L98,0,.L302-.L98
+	.half	2
+	.byte	144,34
+	.word	.L301-.L98,.L302-.L98
+	.half	2
+	.byte	144,36
+	.word	.L303-.L98,.L304-.L98
+	.half	2
+	.byte	144,36
+	.word	.L2-.L98,.L306-.L98
+	.half	2
+	.byte	144,34
+	.word	.L307-.L98,.L306-.L98
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('func_sin')
+	.sect	'.debug_loc'
+.L237:
+	.word	-1,.L104,.L374-.L104,.L22-.L104
+	.half	1
+	.byte	95
+	.word	.L375-.L104,.L22-.L104
+	.half	2
+	.byte	145,124
+	.word	.L376-.L104,.L23-.L104
+	.half	1
+	.byte	95
+	.word	.L23-.L104,.L235-.L104
+	.half	2
+	.byte	145,124
+	.word	.L425-.L104,.L235-.L104
+	.half	1
+	.byte	95
+	.word	0,0
+.L241:
+	.word	-1,.L104,.L382-.L104,.L27-.L104
+	.half	2
+	.byte	144,32
+	.word	.L383-.L104,.L235-.L104
+	.half	2
+	.byte	145,112
+	.word	.L389-.L104,.L390-.L104
+	.half	2
+	.byte	144,34
+	.word	.L390-.L104,.L391-.L104
+	.half	2
+	.byte	144,33
+	.word	.L409-.L104,.L410-.L104
+	.half	2
+	.byte	144,35
+	.word	0,0
+.L103:
+	.word	-1,.L104,0,.L370-.L104
+	.half	2
+	.byte	138,0
+	.word	.L370-.L104,.L235-.L104
+	.half	2
+	.byte	138,24
+	.word	.L235-.L104,.L235-.L104
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L239:
+	.word	-1,.L104,.L379-.L104,.L380-.L104
+	.half	1
+	.byte	95
+	.word	.L381-.L104,.L235-.L104
+	.half	2
+	.byte	145,120
+	.word	.L396-.L104,.L397-.L104
+	.half	1
+	.byte	95
+	.word	.L411-.L104,.L412-.L104
+	.half	1
+	.byte	84
+	.word	0,0
+.L244:
+	.word	-1,.L104,.L384-.L104,.L27-.L104
+	.half	2
+	.byte	144,37
+	.word	.L417-.L104,.L418-.L104
+	.half	2
+	.byte	144,37
+	.word	.L420-.L104,.L421-.L104
+	.half	2
+	.byte	144,37
+	.word	.L422-.L104,.L423-.L104
+	.half	2
+	.byte	144,37
+	.word	0,0
+.L242:
+	.word	-1,.L104,.L394-.L104,.L395-.L104
+	.half	2
+	.byte	144,38
+	.word	.L415-.L104,.L416-.L104
+	.half	2
+	.byte	144,38
+	.word	.L28-.L104,.L417-.L104
+	.half	2
+	.byte	144,38
+	.word	.L419-.L104,.L420-.L104
+	.half	2
+	.byte	144,38
+	.word	.L31-.L104,.L422-.L104
+	.half	2
+	.byte	144,38
+	.word	.L426-.L104,.L35-.L104
+	.half	2
+	.byte	144,33
+	.word	.L35-.L104,.L427-.L104
+	.half	2
+	.byte	144,38
+	.word	0,0
+.L243:
+	.word	0,0
+.L238:
+	.word	-1,.L104,.L380-.L104,.L27-.L104
+	.half	1
+	.byte	95
+	.word	.L386-.L104,.L235-.L104
+	.half	2
+	.byte	145,104
+	.word	.L387-.L104,.L388-.L104
+	.half	1
+	.byte	84
+	.word	.L392-.L104,.L393-.L104
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L400-.L104,.L401-.L104
+	.half	1
+	.byte	86
+	.word	.L404-.L104,.L405-.L104
+	.half	1
+	.byte	86
+	.word	.L407-.L104,.L408-.L104
+	.half	1
+	.byte	86
+	.word	.L424-.L104,.L26-.L104
+	.half	1
+	.byte	95
+	.word	0,0
+.L240:
+	.word	-1,.L104,.L413-.L104,.L414-.L104
+	.half	2
+	.byte	144,39
+	.word	0,0
+.L236:
+	.word	-1,.L104,0,.L371-.L104
+	.half	2
+	.byte	144,34
+	.word	.L372-.L104,.L373-.L104
+	.half	2
+	.byte	144,36
+	.word	.L377-.L104,.L378-.L104
+	.half	2
+	.byte	144,36
+	.word	.L384-.L104,.L385-.L104
+	.half	2
+	.byte	144,36
+	.word	.L398-.L104,.L399-.L104
+	.half	2
+	.byte	144,36
+	.word	.L402-.L104,.L403-.L104
+	.half	2
+	.byte	144,36
+	.word	.L29-.L104,.L406-.L104
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('func_sqrt')
+	.sect	'.debug_loc'
+.L99:
+	.word	-1,.L100,0,.L222-.L100
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L224:
+	.word	-1,.L100,.L309-.L100,.L8-.L100
+	.half	2
+	.byte	144,37
+	.word	.L7-.L100,.L316-.L100
+	.half	2
+	.byte	144,37
+	.word	.L318-.L100,.L319-.L100
+	.half	2
+	.byte	144,37
+	.word	0,0
+.L225:
+	.word	-1,.L100,.L8-.L100,.L311-.L100
+	.half	2
+	.byte	144,38
+	.word	.L312-.L100,.L313-.L100
+	.half	2
+	.byte	144,38
+	.word	.L314-.L100,.L315-.L100
+	.half	2
+	.byte	144,38
+	.word	.L316-.L100,.L317-.L100
+	.half	2
+	.byte	144,38
+	.word	0,0
+.L223:
+	.word	-1,.L100,0,.L308-.L100
+	.half	2
+	.byte	144,34
+	.word	.L310-.L100,.L308-.L100
+	.half	2
+	.byte	144,36
+	.word	.L311-.L100,.L312-.L100
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mx_sin')
+	.sect	'.debug_loc'
+.L123:
+	.word	-1,.L124,0,.L290-.L124
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L291:
+	.word	-1,.L124,0,.L528-.L124
+	.half	2
+	.byte	144,34
+	.word	.L529-.L124,.L530-.L124
+	.half	2
+	.byte	144,36
+	.word	.L531-.L124,.L532-.L124
+	.half	2
+	.byte	144,36
+	.word	.L533-.L124,.L534-.L124
+	.half	2
+	.byte	144,36
+	.word	.L535-.L124,.L536-.L124
+	.half	2
+	.byte	144,36
+	.word	.L537-.L124,.L538-.L124
+	.half	2
+	.byte	144,36
+	.word	0,0
+.L292:
+	.word	-1,.L124,.L539-.L124,.L540-.L124
+	.half	2
+	.byte	144,36
+	.word	.L541-.L124,.L542-.L124
+	.half	2
+	.byte	144,36
+	.word	.L543-.L124,.L544-.L124
+	.half	2
+	.byte	144,36
+	.word	.L545-.L124,.L546-.L124
+	.half	2
+	.byte	144,36
+	.word	.L547-.L124,.L548-.L124
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('my_abs')
+	.sect	'.debug_loc'
+.L262:
+	.word	-1,.L114,0,.L475-.L114
+	.half	1
+	.byte	84
+	.word	.L476-.L114,.L261-.L114
+	.half	1
+	.byte	95
+	.word	.L477-.L114,.L60-.L114
+	.half	1
+	.byte	82
+	.word	0,0
+.L113:
+	.word	-1,.L114,0,.L261-.L114
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('my_atan')
+	.sect	'.debug_loc'
+.L117:
+	.word	-1,.L118,0,.L258-.L118
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L259:
+	.word	-1,.L118,0,.L517-.L118
+	.half	1
+	.byte	84
+	.word	.L519-.L118,.L258-.L118
+	.half	1
+	.byte	95
+	.word	.L518-.L118,.L520-.L118
+	.half	1
+	.byte	85
+	.word	0,0
+.L260:
+	.word	-1,.L118,0,.L518-.L118
+	.half	1
+	.byte	85
+	.word	.L517-.L118,.L520-.L118
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('my_atan2')
+	.sect	'.debug_loc'
+.L109:
+	.word	-1,.L110,0,.L438-.L110
+	.half	2
+	.byte	138,0
+	.word	.L438-.L110,.L247-.L110
+	.half	2
+	.byte	138,24
+	.word	.L247-.L110,.L247-.L110
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L254:
+	.word	-1,.L110,.L454-.L110,.L48-.L110
+	.half	1
+	.byte	89
+	.word	0,0
+.L251:
+	.word	-1,.L110,.L451-.L110,.L54-.L110
+	.half	2
+	.byte	144,37
+	.word	.L459-.L110,.L460-.L110
+	.half	2
+	.byte	144,37
+	.word	.L465-.L110,.L466-.L110
+	.half	2
+	.byte	144,37
+	.word	.L469-.L110,.L470-.L110
+	.half	2
+	.byte	144,37
+	.word	0,0
+.L253:
+	.word	-1,.L110,.L453-.L110,.L48-.L110
+	.half	1
+	.byte	88
+	.word	.L455-.L110,.L456-.L110
+	.half	1
+	.byte	84
+	.word	0,0
+.L250:
+	.word	-1,.L110,.L448-.L110,.L450-.L110
+	.half	2
+	.byte	144,33
+	.word	.L450-.L110,.L48-.L110
+	.half	2
+	.byte	145,104
+	.word	.L451-.L110,.L452-.L110
+	.half	2
+	.byte	144,33
+	.word	.L461-.L110,.L462-.L110
+	.half	2
+	.byte	144,34
+	.word	0,0
+.L252:
+	.word	-1,.L110,.L457-.L110,.L458-.L110
+	.half	2
+	.byte	144,38
+	.word	0,0
+.L249:
+	.word	-1,.L110,0,.L439-.L110
+	.half	2
+	.byte	144,35
+	.word	.L442-.L110,.L439-.L110
+	.half	2
+	.byte	145,120
+	.word	.L439-.L110,.L444-.L110
+	.half	6
+	.byte	86,147,4,95,147,4
+	.word	.L449-.L110,.L448-.L110
+	.half	2
+	.byte	144,35
+	.word	.L463-.L110,.L464-.L110
+	.half	2
+	.byte	144,34
+	.word	0,0
+.L248:
+	.word	-1,.L110,0,.L440-.L110
+	.half	2
+	.byte	144,34
+	.word	.L441-.L110,.L440-.L110
+	.half	2
+	.byte	145,112
+	.word	.L440-.L110,.L443-.L110
+	.half	6
+	.byte	84,147,4,95,147,4
+	.word	.L445-.L110,.L446-.L110
+	.half	2
+	.byte	144,34
+	.word	.L447-.L110,.L448-.L110
+	.half	2
+	.byte	144,34
+	.word	.L467-.L110,.L468-.L110
+	.half	2
+	.byte	144,34
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('my_cos')
+	.sect	'.debug_loc'
+.L299:
+	.word	-1,.L128,.L558-.L128,.L297-.L128
+	.half	1
+	.byte	95
+	.word	.L564-.L128,.L565-.L128
+	.half	1
+	.byte	84
+	.word	0,0
+.L127:
+	.word	-1,.L128,0,.L297-.L128
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L298:
+	.word	-1,.L128,0,.L557-.L128
+	.half	2
+	.byte	144,34
+	.word	.L559-.L128,.L560-.L128
+	.half	2
+	.byte	144,36
+	.word	.L561-.L128,.L562-.L128
+	.half	2
+	.byte	144,36
+	.word	.L95-.L128,.L563-.L128
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('my_pow')
+	.sect	'.debug_loc'
+.L281:
+	.word	-1,.L120,0,.L280-.L120
+	.half	1
+	.byte	84
+	.word	0,0
+.L119:
+	.word	-1,.L120,0,.L280-.L120
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('my_sign')
+	.sect	'.debug_loc'
+.L107:
+	.word	-1,.L108,0,.L245-.L108
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L246:
+	.word	-1,.L108,0,.L434-.L108
+	.half	2
+	.byte	144,34
+	.word	.L435-.L108,.L434-.L108
+	.half	2
+	.byte	144,36
+	.word	.L436-.L108,.L437-.L108
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('my_sin')
+	.sect	'.debug_loc'
+.L296:
+	.word	-1,.L126,.L550-.L126,.L293-.L126
+	.half	1
+	.byte	95
+	.word	.L555-.L126,.L556-.L126
+	.half	1
+	.byte	84
+	.word	0,0
+.L125:
+	.word	-1,.L126,0,.L293-.L126
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L294:
+	.word	-1,.L126,0,.L549-.L126
+	.half	2
+	.byte	144,34
+	.word	.L551-.L126,.L549-.L126
+	.half	2
+	.byte	144,36
+	.word	.L552-.L126,.L553-.L126
+	.half	2
+	.byte	144,36
+	.word	.L93-.L126,.L554-.L126
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('my_sqrt')
+	.sect	'.debug_loc'
+.L289:
+	.word	-1,.L122,.L521-.L122,.L522-.L122
+	.half	1
+	.byte	95
+	.word	0,0
+.L285:
+	.word	-1,.L122,.L525-.L122,.L526-.L122
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L121:
+	.word	-1,.L122,0,.L282-.L122
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L283:
+	.word	-1,.L122,0,.L282-.L122
+	.half	1
+	.byte	84
+	.word	0,0
+.L286:
+	.word	-1,.L122,.L523-.L122,.L524-.L122
+	.half	1
+	.byte	81
+	.word	0,0
+.L287:
+	.word	-1,.L122,.L526-.L122,.L527-.L122
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L527-.L122,.L282-.L122
+	.half	1
+	.byte	95
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('my_tan')
+	.sect	'.debug_loc'
+.L111:
+	.word	-1,.L112,0,.L255-.L112
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L256:
+	.word	-1,.L112,0,.L471-.L112
+	.half	2
+	.byte	144,34
+	.word	.L472-.L112,.L471-.L112
+	.half	2
+	.byte	144,36
+	.word	.L473-.L112,.L474-.L112
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('power')
+	.sect	'.debug_loc'
+.L279:
+	.word	-1,.L106,.L431-.L106,.L273-.L106
+	.half	1
+	.byte	90
+	.word	0,0
+.L275:
+	.word	-1,.L106,0,.L39-.L106
+	.half	1
+	.byte	86
+	.word	.L429-.L106,.L273-.L106
+	.half	1
+	.byte	95
+	.word	0,0
+.L105:
+	.word	-1,.L106,0,.L273-.L106
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L276:
+	.word	-1,.L106,.L430-.L106,.L39-.L106
+	.half	2
+	.byte	144,34
+	.word	.L278-.L106,.L433-.L106
+	.half	2
+	.byte	144,34
+	.word	0,0
+.L274:
+	.word	-1,.L106,0,.L428-.L106
+	.half	2
+	.byte	144,34
+	.word	.L39-.L106,.L432-.L106
+	.half	2
+	.byte	144,36
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L811:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('func_pow')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L98,.L218-.L98
+	.sdecl	'.debug_frame',debug,cluster('func_sqrt')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L100,.L222-.L100
+	.sdecl	'.debug_frame',debug,cluster('func_cos')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L811,.L102,.L226-.L102
+	.byte	4
+	.word	(.L320-.L102)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L226-.L320)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('func_sin')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L811,.L104,.L235-.L104
+	.byte	4
+	.word	(.L370-.L104)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L235-.L370)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('power')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L106,.L273-.L106
+	.sdecl	'.debug_frame',debug,cluster('my_sign')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L108,.L245-.L108
+	.sdecl	'.debug_frame',debug,cluster('my_atan2')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L811,.L110,.L247-.L110
+	.byte	4
+	.word	(.L438-.L110)/2
+	.byte	19,24,22,26,3,19,138,24,4
+	.word	(.L247-.L438)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('my_tan')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L112,.L255-.L112
+	.sdecl	'.debug_frame',debug,cluster('my_abs')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L114,.L261-.L114
+	.sdecl	'.debug_frame',debug,cluster('fast_atan2')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L116,.L263-.L116
+	.sdecl	'.debug_frame',debug,cluster('my_atan')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L118,.L258-.L118
+	.sdecl	'.debug_frame',debug,cluster('my_pow')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L811,.L120,.L280-.L120
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('my_sqrt')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L811,.L122,.L282-.L122
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('mx_sin')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L124,.L290-.L124
+	.sdecl	'.debug_frame',debug,cluster('my_sin')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L126,.L293-.L126
+	.sdecl	'.debug_frame',debug,cluster('my_cos')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L811,.L128,.L297-.L128
+	; Module end

@@ -1,0 +1,22 @@
+LOADING	D:\Infineon\seekfree_assistant_parameter_debug_demo\Debug\seekfree_assistant_parameter_debug_demo.elf
+EMULATION	Probe - System; Root
+EMULATION	Initial debug frequency set
+EMULATION	Asserting reset
+EMULATION	Connected to SoC/core(s)
+EMULATION	Finished connecting to SoC
+EMULATION	Releasing reset
+EMULATION	Initialization script (if any) done
+No RAM which needs initialization found
+EMULATION	Final debug frequency set
+EMULATION	SoC ID match OK
+SoC	Detected device: TC260 series, rev. BB
+EMULATION	STARTED
+PROGRAMMING 	689933 bytes
+PROGRAMMING	Infineon TC26x_PFLASH_2MB5 (18 sectors)
+SoC	Detected device: TC260 series, rev. BB
+SoC	Detected device: TC260 series, rev. BB
+SoC	Detected device: TC260 series, rev. BB
+SoC	Detected device: TC260 series, rev. BB
+SoC	Detected device: TC100 series, rev. AA
+SoC	SMP requirements not satisfied. Check multi-core synchronization settings.
+EMULATION	END - Not attempting cleanup

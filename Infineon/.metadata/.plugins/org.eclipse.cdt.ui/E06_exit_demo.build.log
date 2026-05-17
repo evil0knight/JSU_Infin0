@@ -1,0 +1,13 @@
+21:59:54 **** Build of configuration Debug for project E06_exit_demo ****
+amk -j20 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "E06_exit_demo.elf"
+Total sizes:
+ROM: 0x647d (25725) = code: 0x5c00 (23552) + romdata: 0x87d (2173)
+RAM: 0x641d (25629) = data + bss
+Finished building: E06_exit_demo.siz
+ 
+
+21:59:55 Build Finished. 0 errors, 0 warnings. (took 731ms)
+

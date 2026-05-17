@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Seekfree_TC377_Opensource_Library&apos;" deleteContents="false" description="Delete resource &apos;Seekfree_TC377_Opensource_Library&apos;" element1="/Seekfree_TC377_Opensource_Library" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1752040954011"/>
+</session>

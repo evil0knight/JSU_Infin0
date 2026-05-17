@@ -1,0 +1,25 @@
+/*
+ * gyro.h
+ *
+ *  Created on: 2022ƒÍ11‘¬22»’
+ *      Author: 11150
+ */
+
+#ifndef CODE_GYRO_H_
+#define CODE_GYRO_H_
+void jiaodu(void);
+
+float Get_Gyro_Fy(void);
+float Get_Gyro_Fg(void);
+float Get_Gyro_Z(void);
+float Get_Attitude_Fy(void);
+float Get_Attitude_Fg(void);
+float Turn_loop_right(int Bias,int sped);//”“—πÕ‰
+float Turn_loop_left(int Bias,int sped);//◊Û—πÕ‰
+float bend(float Bias,float speed);//—πÕ‰
+
+
+void zero_get_init(void);
+void Get_Angle_Z(void);
+
+#endif /* CODE_GYRO_H_ */

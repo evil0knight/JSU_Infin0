@@ -1,0 +1,13 @@
+21:59:33 **** Build of configuration Debug for project E03_adc_demo ****
+amk -j20 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Invoking: Print Size
+elfsize  "E03_adc_demo.elf"
+Total sizes:
+ROM: 0x6c70 (27760) = code: 0x62f8 (25336) + romdata: 0x978 (2424)
+RAM: 0x65d5 (26069) = data + bss
+Finished building: E03_adc_demo.siz
+ 
+
+21:59:33 Build Finished. 0 errors, 0 warnings. (took 760ms)
+

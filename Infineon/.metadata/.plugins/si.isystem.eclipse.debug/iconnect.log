@@ -1,0 +1,93 @@
+100  INFO  [main] Log5J : ***  104.7456  ***  **********************************************************
+100  INFO  [main] Log5J : ***  105.1185  ***  Logger configuration successful. Configuration file used: 
+100  INFO  [main] Log5J : ***  105.1525  ***  E:\Infineon\AURIX-Studio-1.10.2\configuration\org.eclipse.osgi\361\0\.cp\lib\log4j.properties
+100  INFO  [main] Log5J : ***  105.1763  ***  **********************************************************
+100  INFO  [main] ISysPluginConfiguration : ***  106.167  ***  Loading debug plugin properties from 'E:\Infineon\AURIX-Studio-1.10.2\isys_debugger_configuration.json'
+498  INFO  [main] ISysPluginConfiguration : ***  502.7122  ***  Loaded plugin configuration:
+	 - Enable embedded: false
+	 - Enable portable false
+	 - Default selection: Custom
+	 - Default install path: '\winIDEA'
+498  INFO  [main] ISystemPreferences : ***  502.8888  ***  State location loaded at D:\Infineon\.metadata\.plugins\si.isystem.eclipse.debug
+500  INFO  [main] ISystemPreferences : ***  504.2748  ***  Preferences loaded: Install type: Custom, Custom path: '\winIDEA'
+502  INFO  [main] ISysDebugPlugin : ***  506.4183  ***  Starting Plugin si.isystem.eclipse.debug version 921.25900.179258.
+504  INFO  [main] ISysDebugPlugin : ***  508.6977  ***  Plugin si.isystem.eclipse.debug started.
+504  INFO  [main] ISysDebugPlugin : ***  508.7658  ***  winIDEA installation cancelled because embedded winIDEA is not allowed.
+504  INFO  [main] ISysDebugPlugin : ***  508.7906  ***  Plugin started: si.isystem.eclipse.debug
+7503 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  7507.1599  ***  ISysConnectionService initialization(super) started.
+7510 INFO  [si.isystem.eclipse.debug - 0] IConLaunchManager : ***  7514.3501  ***  
+Starting debug session using launch configuration paramenters: 
+ - Launch name = 'E09_14_mt9v03x_ips200_display_demo Debug'
+ - Project name = 'E09_14_mt9v03x_ips200_display_demo'
+ - Project path = 'D:/Infineon/E09_14_mt9v03x_ips200_display_demo'
+ - Output file = 'Debug\E09_14_mt9v03x_ips200_display_demo.elf'
+ - Stop on startup = 'true'
+ - Stop on startup location = 'core0_main'
+ - Verbose mode = false' - Invisible winIDEA = 'true'
+ - Bring winIDEA to top = 'true'
+ - Verify download = 'true'
+ - Analyze source files = 'false'
+ - Shutdown winIDEA at terminate session = 'true'
+ - Save winIDEA workspace = 'true'
+ - winIDEA workspace path = '.ads/winIDEAWorkspaces/Debug/ADS.xjrf'
+ - full winIDEA workspace path = 'D:\Infineon\E09_14_mt9v03x_ips200_display_demo\.ads\winIDEAWorkspaces\Debug\ADS.xjrf'
+ - Device = 'TC264D'
+ - Hardware = 'IFX_DAS'
+ - Communication = 'USB'
+ - Hardware debugger = ''
+ - Image check = 'Default'
+ - Create SMP = 'true'
+
+9383 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  9387.3151  ***  Connecting to winIDEA 'E:\Infineon\AURIX-Studio-1.10.2\winIDEA\' with workspace 'N/A', winIDEA-ID: 'com.tasking.winIDEA.instance.id-E09_14_mt9v03x_ips200_display_demo Debug', visible: false, CLI args: '/HideCrashDumpMessage /NOWSP'
+14203 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  14207.4735  ***  winIDEA workspace 'D:\Infineon\E09_14_mt9v03x_ips200_display_demo\.ads\winIDEAWorkspaces\Debug\ADS.xjrf' created.
+15078 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  15082.9099  ***  Setting configuration to HW='IFX_DAS', Comm='USB', ImgCheck='Default'.
+15318 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  15322.6256  ***  DAS Servers:
+15318 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  15322.89  ***  [i] = 'IFX_DAS: DAS JDS TriBoard TC2XX V2.0 TB99LYMN [USB]'
+15318 INFO  [si.isystem.eclipse.debug - 0] ISysConfigOptions : ***  15322.961  ***  Loading DAS Server list finished. [236ms]
+15336 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  15340.1164  ***  Connected to winIDEA and setup workspace.
+15336 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  15340.9631  ***  Version of isystem.connect for Java: 9.21.259.0
+15337 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  15341.1418  ***  Version of isystem.connect DLL: 9.21.259.0.0
+15337 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  15341.7144  ***  Version of winIDEA: 9.21.253
+15337 INFO  [si.isystem.eclipse.debug - 0] ISysSessionManager : ***  15341.7995  ***  Downloading ...
+18789 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  18793.0554  ***  Shutting down iConnect for cores: [0]
+18789 INFO  [si.isystem.eclipse.debug - 0] IConnectProxy : ***  18793.4132  ***  Disconnecting from and closing winIDEA on core 0.
+18835 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  18839.9068  ***  ISysConnectionService initialization(super) finished.
+18835 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  18840.0306  ***  ISysConnectionService initialization(main) started.
+18836 INFO  [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ***  18840.4154  ***  ISysConnectionService initialization(main) finished.
+18837 ERROR [si.isystem.eclipse.debug - 0] ISysAbstractDsfService : ISysConnectionService initialization(sub) failed: 'Failed to initialize connection service.'!
+java.io.IOException: ICONNECT_E_ERROR: Error occurred while performing the requested operation. / Unable to initialize: Cannot connect to target
+BBK Probe(IFXDAS) init failed. / isys::CSessionCtrl::begin_program() failed! winIDEA error:   [WrapperBase.cpp, 91]
+	at si.isystem.connect.connectJNI.CSessionCtrl_begin_program(Native Method)
+	at si.isystem.connect.CSessionCtrl.begin_program(CSessionCtrl.java:65)
+	at si.isystem.debug.core.proxy.SessionControllerProxy.beginProgram(Unknown Source)
+	at si.isystem.debug.core.proxy.ISysSessionManager.begin(Unknown Source)
+	at si.isystem.debug.core.winidea.IConLaunchManager.startDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSession(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.startWinIdeaDebugSessionWithProgressDialog(Unknown Source)
+	at si.isystem.dsf.services.ISysConnectionService.doInitialize(Unknown Source)
+	at si.isystem.dsf.ISysAbstractDsfService.initialize(Unknown Source)
+	at si.isystem.dsf.launch.ISysServiceInitializationSequence$1.execute(Unknown Source)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.executeStep(Sequence.java:475)
+	at org.eclipse.cdt.dsf.concurrent.Sequence.run(Sequence.java:380)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+18842 ERROR [Worker-9: Launching E09_14_mt9v03x_ips200_display_demo Debug] ISysLaunchDelegate : Launch failed.
+org.eclipse.debug.core.DebugException: TASKING winIDEA services initialization failed.
+	at si.isystem.dsf.launch.ISysLaunchDelegate.initializeServices(Unknown Source)
+	at si.isystem.dsf.launch.ISysLaunchDelegate.launch(Unknown Source)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:806)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:717)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.ExecutionException: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	... 7 more
+Caused by: org.eclipse.core.runtime.CoreException: Failed to initialize connection service.
+	... 8 more
+992469 INFO  [Framework stop - Equinox Container: 62d44825-3b70-4a61-a7aa-5f0b41e2bada] ISysDebugPlugin : ***  992473.6366  ***  Stopping Plugin si.isystem.eclipse.debug
+992471 INFO  [Framework stop - Equinox Container: 62d44825-3b70-4a61-a7aa-5f0b41e2bada] ISysDebugPlugin : ***  992476.1563  ***  Plugin si.isystem.eclipse.debug stopped.

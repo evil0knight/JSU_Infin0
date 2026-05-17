@@ -1,0 +1,5 @@
+AbstractTextEditor.Color.Background=192,192,192
+AbstractTextEditor.Color.Background.SystemDefault=false
+bookmarkIndication=true
+eclipse.preferences.version=1
+spellingIndication=false
